@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "weaponsplusmod:raw_hell_gem"
+    "layer0": "weaponsplusmod:item/raw_hell_gem"
   }
 }

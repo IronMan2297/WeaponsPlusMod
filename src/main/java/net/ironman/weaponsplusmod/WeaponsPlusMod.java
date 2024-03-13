@@ -2,6 +2,7 @@ package net.ironman.weaponsplusmod;
 
 import com.mojang.logging.LogUtils;
 import net.ironman.weaponsplusmod.block.ModBlocks;
+import net.ironman.weaponsplusmod.item.ModCreativeModeTabs;
 import net.ironman.weaponsplusmod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,6 +27,8 @@ public class WeaponsPlusMod {
 
     public WeaponsPlusMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
