@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "weaponsplusmod:block/hell_gem_block"
+  }
+}

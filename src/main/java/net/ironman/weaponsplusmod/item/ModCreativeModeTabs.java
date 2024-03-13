@@ -1,6 +1,7 @@
 package net.ironman.weaponsplusmod.item;
 
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
+import net.ironman.weaponsplusmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,9 @@ public class ModCreativeModeTabs {
                     .displayItems((Parameters, output) -> {
                         output.accept(ModItems.RAW_HELL_GEM.get());
                         output.accept(ModItems.HELL_GEM.get());
+
+                        output.accept(ModBlocks.HELL_GEM_BLOCK.get());
+                        output.accept(ModBlocks.NETHER_HELL_ORE.get());
 
                     }).build());
 
