@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "weaponsplusmod:empowered_hell_gem"
+    }
+  },
+  "pattern": [
+    "EE",
+    "EE"
+  ],
+  "result": {
+    "item": "weaponsplusmod:hell_core"
+  }
+}
