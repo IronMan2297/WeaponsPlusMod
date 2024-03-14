@@ -5,8 +5,23 @@
   "item.weaponsplusmod.empowered_hell_gem": "Empowered Hell Gem",
   "item.weaponsplusmod.hell_core": "Hell Core",
 
+  "item.weaponsplusmod.hell_sword": "Hell Sword",
+  "item.weaponsplusmod.hell_axe": "Hell Axe",
+  "item.weaponsplusmod.hell_pickaxe": "Hell Pickaxe",
+  "item.weaponsplusmod.hell_shovel": "Hell Shovel",
+  "item.weaponsplusmod.hell_hoe": "Hell Hoe",
+
+  "item.weaponsplusmod.hell_battle_axe": "Hell Battle Axe",
+  "item.weaponsplusmod.hell_double_axe": "Hell Double Axe",
+  "item.weaponsplusmod.hell_rapier": "Hell Rapier",
+  "item.weaponsplusmod.hell_cutlass": "Hell Cutlass",
+  "item.weaponsplusmod.hell_dagger": "Hell Dagger",
+  "item.weaponsplusmod.hell_katana": "Hell Katana",
+  "item.weaponsplusmod.hell_longsword": "Hell Longsword",
+
   "block.weaponsplusmod.hell_gem_block": "Hell Gem Block",
   "block.weaponsplusmod.nether_hell_ore": "Nether Hell Ore",
 
-  "creativetab.ores_tab": "Ores"
+  "creativetab.ores_tab": "Ores",
+  "creativetab.tools_tab": "Tools"
 }

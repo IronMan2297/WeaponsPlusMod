@@ -16,7 +16,7 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WeaponsPlusMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> COURSE_TAB = CREATIVE_MODE_TABS.register("ores_tab",
+    public static final RegistryObject<CreativeModeTab> ORES_TAB = CREATIVE_MODE_TABS.register("ores_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HELL_GEM.get()))
                     .title(Component.translatable("creativetab.ores_tab"))
                     .displayItems((Parameters, output) -> {
@@ -28,6 +28,25 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.HELL_GEM_BLOCK.get());
                         output.accept(ModBlocks.NETHER_HELL_ORE.get());
+
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> TOOLS_TAB = CREATIVE_MODE_TABS.register("tools_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HELL_SWORD.get()))
+                    .title(Component.translatable("creativetab.tools_tab"))
+                    .displayItems((Parameters, output) -> {
+                        output.accept(ModItems.HELL_SWORD.get());
+                        output.accept(ModItems.HELL_AXE.get());
+                        output.accept(ModItems.HELL_PICKAXE.get());
+                        output.accept(ModItems.HELL_SHOVEL.get());
+                        output.accept(ModItems.HELL_HOE.get());
+                        output.accept(ModItems.HELL_RAPIER.get());
+                        output.accept(ModItems.HELL_CUTLASS.get());
+                        output.accept(ModItems.HELL_KATANA.get());
+                        output.accept(ModItems.HELL_LONGSWORD.get());
+                        output.accept(ModItems.HELL_DAGGER.get());
+                        output.accept(ModItems.HELL_BATTLE_AXE.get());
+                        output.accept(ModItems.HELL_DOUBLE_AXE.get());
 
                     }).build());
 
