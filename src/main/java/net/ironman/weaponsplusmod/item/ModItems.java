@@ -23,6 +23,13 @@ public class ModItems {
                     .stacksTo(4)
                     .rarity(Rarity.create("ANCIENT", ChatFormatting.GOLD))));
 
+    public static final RegistryObject<Item> EMPOWERED_HELL_GEM = ITEMS.register("empowered_hell_gem",
+            () -> new Item(new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> HELL_CORE = ITEMS.register("hell_core",
+            () -> new Item(new Item.Properties().fireResistant().stacksTo(1)
+                    .rarity(Rarity.RARE)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

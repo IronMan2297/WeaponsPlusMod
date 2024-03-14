@@ -22,6 +22,9 @@ public class ModCreativeModeTabs {
                     .displayItems((Parameters, output) -> {
                         output.accept(ModItems.RAW_HELL_GEM.get());
                         output.accept(ModItems.HELL_GEM.get());
+                        output.accept(ModItems.EMPOWERED_HELL_GEM.get());
+                        output.accept(ModItems.HELL_CORE.get());
+                        output.accept(ModItems.PHOENIX_FEATHER.get());
 
                         output.accept(ModBlocks.HELL_GEM_BLOCK.get());
                         output.accept(ModBlocks.NETHER_HELL_ORE.get());
