@@ -1,7 +1,9 @@
 package net.ironman.weaponsplusmod.item;
 
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
+import net.minecraft.ChatFormatting;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,6 +17,11 @@ public class ModItems {
             () -> new Item(new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> HELL_GEM = ITEMS.register("hell_gem",
             () -> new Item(new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> PHOENIX_FEATHER = ITEMS.register("phoenix_feather",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(4)
+                    .rarity(Rarity.create("ANCIENT", ChatFormatting.GOLD))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
