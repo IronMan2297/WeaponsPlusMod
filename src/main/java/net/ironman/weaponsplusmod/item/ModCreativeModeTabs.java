@@ -47,6 +47,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HELL_DAGGER.get());
                         output.accept(ModItems.HELL_BATTLE_AXE.get());
                         output.accept(ModItems.HELL_DOUBLE_AXE.get());
+                        output.accept(ModItems.HELL_HELMET.get());
+                        output.accept(ModItems.HELL_CHESTPLATE.get());
+                        output.accept(ModItems.HELL_LEGGINGS.get());
+                        output.accept(ModItems.HELL_BOOTS.get());
 
                         output.accept(ModItems.HATTORI_HANZO_KATANA.get());
 

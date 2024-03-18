@@ -15,5 +15,5 @@ public class ModToolTiers {
     public static final Tier HELL = TierSortingRegistry.registerTier(
             new ForgeTier(5, 2300, 1.6f, 3f, 24,
                     ModTags.Blocks.NEEDS_HELL_TOOL, () -> Ingredient.of(ModItems.HELL_GEM.get())),
-            new ResourceLocation(WeaponsPlusMod.MOD_ID, "alexandrite"), List.of(Tiers.NETHERITE), List.of());
+            new ResourceLocation(WeaponsPlusMod.MOD_ID, "hell"), List.of(Tiers.NETHERITE), List.of());
 }

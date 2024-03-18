@@ -19,11 +19,16 @@
   "item.weaponsplusmod.hell_katana": "Hell Katana",
   "item.weaponsplusmod.hell_longsword": "Hell Longsword",
 
+  "item.weaponsplusmod.hell_helmet": "Hell Helmet",
+  "item.weaponsplusmod.hell_chestplate": "Hell Chestplate",
+  "item.weaponsplusmod.hell_leggings": "Hell Leggings",
+  "item.weaponsplusmod.hell_boots": "Hell Boots",
+
   "item.weaponsplusmod.hattori_hanzo_katana": "Hattori Hanzo Katana",
 
   "block.weaponsplusmod.hell_gem_block": "Hell Gem Block",
   "block.weaponsplusmod.nether_hell_ore": "Nether Hell Ore",
 
   "creativetab.ores_tab": "Ores",
-  "creativetab.tools_tab": "Tools"
+  "creativetab.tools_tab": "Tools & Armor"
 }
