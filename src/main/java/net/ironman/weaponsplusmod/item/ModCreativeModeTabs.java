@@ -48,6 +48,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HELL_BATTLE_AXE.get());
                         output.accept(ModItems.HELL_DOUBLE_AXE.get());
 
+                        output.accept(ModItems.HATTORI_HANZO_KATANA.get());
+
                     }).build());
 
     public static void register(IEventBus eventBus){

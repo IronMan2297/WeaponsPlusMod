@@ -1,6 +1,7 @@
 package net.ironman.weaponsplusmod.item;
 
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
+import net.ironman.weaponsplusmod.item.custom.HattoriHanzoKatanaItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -66,6 +67,11 @@ public class ModItems {
                     new Item.Properties().durability(256).fireResistant()));
     public static final RegistryObject<Item> HELL_LONGSWORD = ITEMS.register("hell_longsword",
             () -> new SwordItem(ModToolTiers.HELL, 8,-3.3f,
+                    new Item.Properties().durability(256).fireResistant()));
+
+    /* Hattori Hanzo Katana*/
+    public static final RegistryObject<Item> HATTORI_HANZO_KATANA = ITEMS.register("hattori_hanzo_katana",
+            () -> new HattoriHanzoKatanaItem(Tiers.NETHERITE, 6,-2.0f,
                     new Item.Properties().durability(256).fireResistant()));
 
     public static void register(IEventBus eventBus) {
