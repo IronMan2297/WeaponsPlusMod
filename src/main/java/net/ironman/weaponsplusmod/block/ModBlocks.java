@@ -2,6 +2,7 @@ package net.ironman.weaponsplusmod.block;
 
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
 import net.ironman.weaponsplusmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -27,7 +28,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> NETHER_HELL_ORE = registerBlock("nether_hell_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)
-                    .strength(5f).requiresCorrectToolForDrops()));
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
