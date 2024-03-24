@@ -8,6 +8,7 @@ import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorMaterials;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.EnumMap;
@@ -19,7 +20,17 @@ public enum ModArmorMaterials implements ArmorMaterial {
         p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
         p_266655_.put(ArmorItem.Type.HELMET, 5);
-    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.HELL_GEM.get()));
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.HELL_GEM.get())),
+
+    EMERALD("emerald", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_123456_) -> {
+        p_123456_.put(ArmorItem.Type.BOOTS, 3);
+        p_123456_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_123456_.put(ArmorItem.Type.CHESTPLATE, 6);
+        p_123456_.put(ArmorItem.Type.HELMET, 3);
+    }), 12, SoundEvents.ARMOR_EQUIP_GENERIC, 2F, 0.0F, () -> Ingredient.of(Items.EMERALD)); // replace ';' with ',' for more MAterials!
+
+
+
 
     public static final StringRepresentable.EnumCodec<ArmorMaterials> CODEC = StringRepresentable.fromEnum(ArmorMaterials::values);
     private static final EnumMap<ArmorItem.Type, Integer> HEALTH_FUNCTION_FOR_TYPE = Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266653_) -> {

@@ -25,11 +25,22 @@
   "item.weaponsplusmod.hell_leggings": "Hell Leggings",
   "item.weaponsplusmod.hell_boots": "Hell Boots",
 
+  "item.weaponsplusmod.emerald_sword": "Emerald Sword",
+  "item.weaponsplusmod.emerald_axe": "Emerald Axe",
+  "item.weaponsplusmod.emerald_pickaxe": "Emerald Pickaxe",
+  "item.weaponsplusmod.emerald_shovel": "Emerald Shovel",
+  "item.weaponsplusmod.emerald_hoe": "Emerald Hoe",
+
+  "item.weaponsplusmod.emerald_helmet": "Emerald Helmet",
+  "item.weaponsplusmod.emerald_chestplate": "Emerald Chestplate",
+  "item.weaponsplusmod.emerald_leggings": "Emerald Leggings",
+  "item.weaponsplusmod.emerald_boots": "Emerald Boots",
+
   "item.weaponsplusmod.hattori_hanzo_katana": "Hattori Hanzo Katana",
 
   "block.weaponsplusmod.hell_gem_block": "Hell Gem Block",
   "block.weaponsplusmod.nether_hell_ore": "Nether Hell Ore",
 
-  "creativetab.ores_tab": "Ores",
+  "creativetab.items_tab": "Items",
   "creativetab.tools_tab": "Tools & Armors"
 }

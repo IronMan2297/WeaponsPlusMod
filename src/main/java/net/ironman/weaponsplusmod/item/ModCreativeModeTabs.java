@@ -16,9 +16,9 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WeaponsPlusMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> ORES_TAB = CREATIVE_MODE_TABS.register("ores_tab",
+    public static final RegistryObject<CreativeModeTab> ORES_TAB = CREATIVE_MODE_TABS.register("items_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HELL_GEM.get()))
-                    .title(Component.translatable("creativetab.ores_tab"))
+                    .title(Component.translatable("creativetab.items_tab"))
                     .displayItems((Parameters, output) -> {
                         output.accept(ModItems.RAW_HELL_GEM.get());
                         output.accept(ModItems.HELL_GEM.get());

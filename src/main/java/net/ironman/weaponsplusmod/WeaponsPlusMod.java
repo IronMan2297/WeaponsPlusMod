@@ -5,6 +5,7 @@ import net.ironman.weaponsplusmod.block.ModBlocks;
 import net.ironman.weaponsplusmod.item.ModCreativeModeTabs;
 import net.ironman.weaponsplusmod.item.ModItems;
 import net.ironman.weaponsplusmod.loot.ModLootModifiers;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -48,7 +49,21 @@ public class WeaponsPlusMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.EMERALD_SHOVEL);
+            event.accept(ModItems.EMERALD_PICKAXE);
+            event.accept(ModItems.EMERALD_AXE);
+            event.accept(ModItems.EMERALD_HOE);
+        }
 
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+        event.accept(ModItems.EMERALD_SWORD);
+        event.accept(ModItems.EMERALD_AXE);
+        event.accept(ModItems.EMERALD_HELMET);
+        event.accept(ModItems.EMERALD_CHESTPLATE);
+        event.accept(ModItems.EMERALD_LEGGINGS);
+        event.accept(ModItems.EMERALD_BOOTS);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
