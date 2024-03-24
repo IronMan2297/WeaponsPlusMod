@@ -64,7 +64,7 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.HELL, 6,-2.8f,
                     new Item.Properties().durability(256).fireResistant()));
     public static final RegistryObject<Item> HELL_DAGGER = ITEMS.register("hell_dagger",
-            () -> new SwordItem(ModToolTiers.HELL, 3,-0.2f,
+            () -> new SwordItem(ModToolTiers.HELL,2,-0.2f,
                     new Item.Properties().durability(256).fireResistant()));
     public static final RegistryObject<Item> HELL_KATANA = ITEMS.register("hell_katana",
             () -> new SwordItem(ModToolTiers.HELL, 5,-2.0f,

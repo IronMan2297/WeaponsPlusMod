@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "weaponsplusmod:hell_axe"
+    }
+  },
+  "pattern": [
+    "  ",
+    "AA"
+  ],
+  "result": {
+    "item": "weaponsplusmod:hell_double_axe"
+  }
+}

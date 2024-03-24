@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "H H",
+    "HHH",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "weaponsplusmod:hell_gem"
+    }
+  },
+  "result": {
+    "item": "weaponsplusmod:hell_chestplate"
+  }
+}
