@@ -2,6 +2,7 @@ package net.ironman.weaponsplusmod.item;
 
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
 import net.ironman.weaponsplusmod.item.custom.HattoriHanzoKatanaItem;
+import net.ironman.weaponsplusmod.item.custom.ModArmorItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -71,13 +72,13 @@ public class ModItems {
 
     /* Hell Armor */
     public static final RegistryObject<Item> HELL_HELMET = ITEMS.register("hell_helmet",
-            () -> new ArmorItem(ModArmorMaterials.HELL, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.HELL, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> HELL_CHESTPLATE = ITEMS.register("hell_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.HELL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.HELL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> HELL_LEGGINGS = ITEMS.register("hell_leggings",
-            () -> new ArmorItem(ModArmorMaterials.HELL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.HELL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> HELL_BOOTS = ITEMS.register("hell_boots",
-            () -> new ArmorItem(ModArmorMaterials.HELL, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.HELL, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     /* Hattori Hanzo Katana*/
     public static final RegistryObject<Item> HATTORI_HANZO_KATANA = ITEMS.register("hattori_hanzo_katana",
