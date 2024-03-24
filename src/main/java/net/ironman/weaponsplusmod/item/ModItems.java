@@ -30,6 +30,9 @@ public class ModItems {
     public static final RegistryObject<Item> HELL_CORE = ITEMS.register("hell_core",
             () -> new Item(new Item.Properties().fireResistant().rarity(Rarity.RARE)));
 
+    public static final RegistryObject<Item> IRON_ROD = ITEMS.register("iron_rod",
+            () -> new Item(new Item.Properties()));
+
     /* Standart Hell Weapons and Tools */
     public static final RegistryObject<Item> HELL_SWORD = ITEMS.register("hell_sword",
             () -> new SwordItem(ModToolTiers.HELL, 4,-2.4f,
