@@ -1,6 +1,7 @@
 package net.ironman.weaponsplusmod.item;
 
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
+import net.ironman.weaponsplusmod.item.custom.BurningSwordItem;
 import net.ironman.weaponsplusmod.item.custom.HattoriHanzoKatanaItem;
 import net.ironman.weaponsplusmod.item.custom.ModArmorItem;
 import net.minecraft.ChatFormatting;
@@ -73,6 +74,10 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.HELL, 8,-3.3f,
                     new Item.Properties().durability(256).fireResistant()));
 
+    public static final RegistryObject<Item> BURNING_SWORD = ITEMS.register("burning_sword",
+            () -> new BurningSwordItem(ModToolTiers.HELL, 4,-2.4f,
+                    new Item.Properties().durability(256).fireResistant()));
+
     /* Hell Armor */
     public static final RegistryObject<Item> HELL_HELMET = ITEMS.register("hell_helmet",
             () -> new ModArmorItem(ModArmorMaterials.HELL, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -82,6 +87,7 @@ public class ModItems {
             () -> new ModArmorItem(ModArmorMaterials.HELL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> HELL_BOOTS = ITEMS.register("hell_boots",
             () -> new ModArmorItem(ModArmorMaterials.HELL, ArmorItem.Type.BOOTS, new Item.Properties()));
+
 
     /* Emerald Weapons and Tools */
     public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword",
