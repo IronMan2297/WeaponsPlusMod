@@ -23,4 +23,9 @@ public class ModToolTiers {
             new ForgeTier(3, 1234, 1.6f, 3f, 19,
                     Tags.Blocks.NEEDS_NETHERITE_TOOL, () -> Ingredient.of(Items.EMERALD)),
             new ResourceLocation(WeaponsPlusMod.MOD_ID, "emerald"), List.of(Tiers.NETHERITE), List.of());
+
+    public static final Tier IRON = TierSortingRegistry.registerTier(
+            new ForgeTier(3, 256, 1.6f, 3f, 19,
+                    Tags.Blocks.NEEDS_WOOD_TOOL, () -> Ingredient.of(Items.IRON_INGOT)),
+            new ResourceLocation(WeaponsPlusMod.MOD_ID, "iron"), List.of(Tiers.IRON), List.of());
 }

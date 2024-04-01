@@ -2,6 +2,7 @@ package net.ironman.weaponsplusmod.item;
 
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
 import net.ironman.weaponsplusmod.item.custom.BurningSwordItem;
+import net.ironman.weaponsplusmod.item.custom.HammerItem;
 import net.ironman.weaponsplusmod.item.custom.HattoriHanzoKatanaItem;
 import net.ironman.weaponsplusmod.item.custom.ModArmorItem;
 import net.minecraft.ChatFormatting;
@@ -41,6 +42,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()
                     .stacksTo(16)
                     .rarity(Rarity.create("UNDERWATER", ChatFormatting.AQUA))));
+
+    public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer",
+            () -> new HammerItem(ModToolTiers.IRON, 2, -3.4f, new Item.Properties().durability(256)));
 
     /* Standart Hell Weapons and Tools */
     public static final RegistryObject<Item> HELL_SWORD = ITEMS.register("hell_sword",

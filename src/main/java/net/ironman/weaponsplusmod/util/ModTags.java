@@ -21,6 +21,7 @@ public class ModTags {
 
     public static class Blocks {
         public static final TagKey<Block> NEEDS_HELL_TOOL = tag("needs_hell_tool");
+        public static final TagKey<Block> PAXEL_MINEABLE = tag("mineable/paxel");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(WeaponsPlusMod.MOD_ID, name));

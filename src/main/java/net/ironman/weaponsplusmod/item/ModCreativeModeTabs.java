@@ -62,6 +62,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HELL_BOOTS.get());
 
                         output.accept(ModItems.HATTORI_HANZO_KATANA.get());
+                        output.accept(ModItems.HAMMER.get());
 
                     }).build());
 
