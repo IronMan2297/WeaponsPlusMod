@@ -61,8 +61,22 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HELL_LEGGINGS.get());
                         output.accept(ModItems.HELL_BOOTS.get());
 
-                        output.accept(ModItems.HATTORI_HANZO_KATANA.get());
+                        output.accept(ModItems.AQUA_SWORD.get());
+                        output.accept(ModItems.AQUA_AXE.get());
+                        output.accept(ModItems.AQUA_PICKAXE.get());
+                        output.accept(ModItems.AQUA_SHOVEL.get());
+                        output.accept(ModItems.AQUA_HOE.get());
+                        output.accept(ModItems.AQUA_RAPIER.get());
+                        output.accept(ModItems.AQUA_CUTLASS.get());
+                        output.accept(ModItems.AQUA_KATANA.get());
+                        output.accept(ModItems.AQUA_LONGSWORD.get());
+                        output.accept(ModItems.AQUA_DAGGER.get());
+                        output.accept(ModItems.AQUA_BATTLE_AXE.get());
+                        output.accept(ModItems.AQUA_DOUBLE_AXE.get());
+
+
                         output.accept(ModItems.HAMMER.get());
+                        output.accept(ModItems.HATTORI_HANZO_KATANA.get());
 
                     }).build());
 

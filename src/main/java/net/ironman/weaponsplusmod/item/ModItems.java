@@ -128,6 +128,46 @@ public class ModItems {
     public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots",
             () -> new ModArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    /* Standart Aqua Weapons and Tools */
+    public static final RegistryObject<Item> AQUA_SWORD = ITEMS.register("aqua_sword",
+            () -> new SwordItem(ModToolTiers.AQUA, 4,-2.4f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AQUA_AXE = ITEMS.register("aqua_axe",
+            () -> new AxeItem(ModToolTiers.AQUA, 6,-3f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AQUA_PICKAXE = ITEMS.register("aqua_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.AQUA, 2,-2.8f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AQUA_SHOVEL = ITEMS.register("aqua_shovel",
+            () -> new ShovelItem(ModToolTiers.AQUA, 3,-3f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AQUA_HOE = ITEMS.register("aqua_hoe",
+            () -> new HoeItem(ModToolTiers.AQUA, -3,0,
+                    new Item.Properties().durability(256)));
+
+    /* Special Aqua Weapons */
+    public static final RegistryObject<Item> AQUA_BATTLE_AXE = ITEMS.register("aqua_battle_axe",
+            () -> new AxeItem(ModToolTiers.AQUA, 7,-3.2f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AQUA_DOUBLE_AXE = ITEMS.register("aqua_double_axe",
+            () -> new AxeItem(ModToolTiers.AQUA, 9,-3.4f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AQUA_RAPIER = ITEMS.register("aqua_rapier",
+            () -> new SwordItem(ModToolTiers.AQUA, 3,-1.4f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AQUA_CUTLASS = ITEMS.register("aqua_cutlass",
+            () -> new SwordItem(ModToolTiers.AQUA, 6,-2.8f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AQUA_DAGGER = ITEMS.register("aqua_dagger",
+            () -> new SwordItem(ModToolTiers.AQUA,2,-0.2f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AQUA_KATANA = ITEMS.register("aqua_katana",
+            () -> new SwordItem(ModToolTiers.AQUA, 5,-2.0f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AQUA_LONGSWORD = ITEMS.register("aqua_longsword",
+            () -> new SwordItem(ModToolTiers.AQUA, 8,-3.3f,
+                    new Item.Properties().durability(256)));
+
     /* Hattori Hanzo Katana*/
     public static final RegistryObject<Item> HATTORI_HANZO_KATANA = ITEMS.register("hattori_hanzo_katana",
             () -> new HattoriHanzoKatanaItem(Tiers.NETHERITE, 6,-2.0f,
