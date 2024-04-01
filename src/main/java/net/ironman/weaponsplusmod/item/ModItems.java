@@ -34,6 +34,14 @@ public class ModItems {
     public static final RegistryObject<Item> IRON_ROD = ITEMS.register("iron_rod",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> AQUA_PEARL = ITEMS.register("aqua_pearl",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SHARD_OF_THE_OCEAN = ITEMS.register("shard_of_the_ocean",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(16)
+                    .rarity(Rarity.create("UNDERWATER", ChatFormatting.AQUA))));
+
     /* Standart Hell Weapons and Tools */
     public static final RegistryObject<Item> HELL_SWORD = ITEMS.register("hell_sword",
             () -> new SwordItem(ModToolTiers.HELL, 4,-2.4f,

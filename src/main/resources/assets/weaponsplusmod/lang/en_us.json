@@ -6,6 +6,9 @@
   "item.weaponsplusmod.hell_core": "Hell Core",
   "item.weaponsplusmod.iron_rod": "Iron Rod",
 
+  "item.weaponsplusmod.aqua_pearl": "Aqua Pearl",
+  "item.weaponsplusmod.shard_of_the_ocean": "Shard of the Ocean",
+
   "item.weaponsplusmod.hell_sword": "Hell Sword",
   "item.weaponsplusmod.hell_axe": "Hell Axe",
   "item.weaponsplusmod.hell_pickaxe": "Hell Pickaxe",
@@ -42,6 +45,10 @@
 
   "block.weaponsplusmod.hell_gem_block": "Hell Gem Block",
   "block.weaponsplusmod.nether_hell_ore": "Nether Hell Ore",
+
+  "block.weaponsplusmod.aqua_block": "Aqua Block",
+  "block.weaponsplusmod.aqua_ore": "Aqua Ore",
+  "block.weaponsplusmod.deepslate_aqua_ore": "Deepslate Aqua Ore",
 
   "creativetab.items_tab": "Items",
   "creativetab.tools_tab": "Tools & Armors"

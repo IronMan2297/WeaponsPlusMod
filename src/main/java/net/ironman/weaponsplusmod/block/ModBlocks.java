@@ -30,6 +30,18 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
+    public static final RegistryObject<Block> AQUA_BLOCK = registerBlock("aqua_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops()
+                    .mapColor(MapColor.COLOR_BLUE)));
+
+    public static final RegistryObject<Block> AQUA_ORE = registerBlock("aqua_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
+    public static final RegistryObject<Block> DEEPSLATE_AQUA_ORE = registerBlock("deepslate_aqua_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
