@@ -168,6 +168,16 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.AQUA, 8,-3.3f,
                     new Item.Properties().durability(256)));
 
+    /* Aqua Armor */
+    public static final RegistryObject<Item> AQUA_HELMET = ITEMS.register("aqua_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> AQUA_CHESTPLATE = ITEMS.register("aqua_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> AQUA_LEGGINGS = ITEMS.register("aqua_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> AQUA_BOOTS = ITEMS.register("aqua_boots",
+            () -> new ModArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.BOOTS, new Item.Properties()));
+
     /* Hattori Hanzo Katana*/
     public static final RegistryObject<Item> HATTORI_HANZO_KATANA = ITEMS.register("hattori_hanzo_katana",
             () -> new HattoriHanzoKatanaItem(Tiers.NETHERITE, 6,-2.0f,

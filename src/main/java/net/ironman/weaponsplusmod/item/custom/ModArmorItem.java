@@ -17,6 +17,7 @@ public class ModArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
                     .put(ModArmorMaterials.HELL, new MobEffectInstance(MobEffects.DAMAGE_BOOST,200,1))
+                    .put(ModArmorMaterials.AQUA, new MobEffectInstance(MobEffects.CONDUIT_POWER, 2000, 1))
                     //.put(...) for multiple Effects!
                     .build();
 

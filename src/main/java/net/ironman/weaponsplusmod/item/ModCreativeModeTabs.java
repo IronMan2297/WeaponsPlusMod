@@ -74,6 +74,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AQUA_BATTLE_AXE.get());
                         output.accept(ModItems.AQUA_DOUBLE_AXE.get());
 
+                        output.accept(ModItems.AQUA_HELMET.get());
+                        output.accept(ModItems.AQUA_CHESTPLATE.get());
+                        output.accept(ModItems.AQUA_LEGGINGS.get());
+                        output.accept(ModItems.AQUA_BOOTS.get());
+
 
                         output.accept(ModItems.HAMMER.get());
                         output.accept(ModItems.HATTORI_HANZO_KATANA.get());

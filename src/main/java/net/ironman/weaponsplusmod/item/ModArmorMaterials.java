@@ -22,6 +22,13 @@ public enum ModArmorMaterials implements ArmorMaterial {
         p_266655_.put(ArmorItem.Type.HELMET, 5);
     }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.HELL_GEM.get())),
 
+    AQUA("aqua", 19, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_266655_.put(ArmorItem.Type.HELMET, 5);
+    }), 15, SoundEvents.ARMOR_EQUIP_TURTLE, 2.5F, 0.0F, () -> Ingredient.of(ModItems.AQUA_PEARL.get())),
+
     EMERALD("emerald", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_123456_) -> {
         p_123456_.put(ArmorItem.Type.BOOTS, 3);
         p_123456_.put(ArmorItem.Type.LEGGINGS, 5);
