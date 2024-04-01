@@ -1,10 +1,7 @@
 package net.ironman.weaponsplusmod.item;
 
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
-import net.ironman.weaponsplusmod.item.custom.BurningSwordItem;
-import net.ironman.weaponsplusmod.item.custom.HammerItem;
-import net.ironman.weaponsplusmod.item.custom.HattoriHanzoKatanaItem;
-import net.ironman.weaponsplusmod.item.custom.ModArmorItem;
+import net.ironman.weaponsplusmod.item.custom.*;
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -44,7 +41,21 @@ public class ModItems {
                     .rarity(Rarity.create("UNDERWATER", ChatFormatting.AQUA))));
 
     public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer",
-            () -> new HammerItem(ModToolTiers.IRON, 2, -3.4f, new Item.Properties().durability(256)));
+            () -> new HammerItem(Tiers.IRON, 2, -3.4f, new Item.Properties().durability(256)));
+
+    /* Multitools */
+    public static final RegistryObject<Item> WOODEN_MULTITOOL = ITEMS.register("wooden_multitool",
+            () -> new PaxelItem(Tiers.WOOD, 2, 3, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> STONE_MULTITOOL = ITEMS.register("stone_multitool",
+            () -> new PaxelItem(Tiers.STONE, 2, 3, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> IRON_MULTITOOL = ITEMS.register("iron_multitool",
+            () -> new PaxelItem(Tiers.IRON, 2, 3, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> GOLDEN_MULTITOOL = ITEMS.register("golden_multitool",
+            () -> new PaxelItem(Tiers.GOLD, 2, 3, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> DIAMOND_MULTITOOL = ITEMS.register("diamond_multitool",
+            () -> new PaxelItem(Tiers.DIAMOND, 2, 3, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> NETHERITE_MULTITOOL = ITEMS.register("netherite_multitool",
+            () -> new PaxelItem(Tiers.NETHERITE, 2, 3, new Item.Properties().durability(256)));
 
     /* Standart Hell Weapons and Tools */
     public static final RegistryObject<Item> HELL_SWORD = ITEMS.register("hell_sword",
@@ -63,7 +74,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.HELL, -3,0,
                     new Item.Properties().durability(256).fireResistant()));
 
-    /* Special Hell Weapons */
+    /* Special Hell Weapons and Tools */
     public static final RegistryObject<Item> HELL_BATTLE_AXE = ITEMS.register("hell_battle_axe",
             () -> new AxeItem(ModToolTiers.HELL, 7,-3.2f,
                     new Item.Properties().durability(256).fireResistant()));
@@ -89,6 +100,9 @@ public class ModItems {
     public static final RegistryObject<Item> BURNING_SWORD = ITEMS.register("burning_sword",
             () -> new BurningSwordItem(ModToolTiers.HELL, 4,-2.4f,
                     new Item.Properties().durability(256).fireResistant()));
+
+    public static final RegistryObject<Item> HELL_MULTITOOL = ITEMS.register("hell_multitool",
+            () -> new PaxelItem(ModToolTiers.HELL, 2, 3, new Item.Properties().durability(256)));
 
     /* Hell Armor */
     public static final RegistryObject<Item> HELL_HELMET = ITEMS.register("hell_helmet",
@@ -118,6 +132,9 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.EMERALD, -3,-0.5f,
                     new Item.Properties().durability(256)));
 
+    public static final RegistryObject<Item> EMERALD_MULTITOOL = ITEMS.register("emerald_multitool",
+            () -> new PaxelItem(ModToolTiers.EMERALD, 2, 3, new Item.Properties().durability(256)));
+
     /* Emerald Armor */
     public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet",
             () -> new ModArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -127,6 +144,7 @@ public class ModItems {
             () -> new ModArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots",
             () -> new ModArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.BOOTS, new Item.Properties()));
+
 
     /* Standart Aqua Weapons and Tools */
     public static final RegistryObject<Item> AQUA_SWORD = ITEMS.register("aqua_sword",
@@ -145,7 +163,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.AQUA, -3,0,
                     new Item.Properties().durability(256)));
 
-    /* Special Aqua Weapons */
+    /* Special Aqua Weapons and Tools */
     public static final RegistryObject<Item> AQUA_BATTLE_AXE = ITEMS.register("aqua_battle_axe",
             () -> new AxeItem(ModToolTiers.AQUA, 7,-3.2f,
                     new Item.Properties().durability(256)));
@@ -167,6 +185,9 @@ public class ModItems {
     public static final RegistryObject<Item> AQUA_LONGSWORD = ITEMS.register("aqua_longsword",
             () -> new SwordItem(ModToolTiers.AQUA, 8,-3.3f,
                     new Item.Properties().durability(256)));
+
+    public static final RegistryObject<Item> AQUA_MULTITOOL = ITEMS.register("aqua_multitool",
+            () -> new PaxelItem(ModToolTiers.AQUA, 2, 3, new Item.Properties().durability(256)));
 
     /* Aqua Armor */
     public static final RegistryObject<Item> AQUA_HELMET = ITEMS.register("aqua_helmet",

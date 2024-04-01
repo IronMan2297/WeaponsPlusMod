@@ -50,10 +50,17 @@ public class WeaponsPlusMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.WOODEN_MULTITOOL);
+            event.accept(ModItems.STONE_MULTITOOL);
+            event.accept(ModItems.IRON_MULTITOOL);
+            event.accept(ModItems.GOLDEN_MULTITOOL);
+            event.accept(ModItems.DIAMOND_MULTITOOL);
+            event.accept(ModItems.NETHERITE_MULTITOOL);
             event.accept(ModItems.EMERALD_SHOVEL);
             event.accept(ModItems.EMERALD_PICKAXE);
             event.accept(ModItems.EMERALD_AXE);
             event.accept(ModItems.EMERALD_HOE);
+            event.accept(ModItems.EMERALD_MULTITOOL);
         }
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {

@@ -7,6 +7,13 @@
   "item.weaponsplusmod.iron_rod": "Iron Rod",
   "item.weaponsplusmod.hammer": "Hammer",
 
+  "item.weaponsplusmod.wooden_multitool": "Wooden Multitool",
+  "item.weaponsplusmod.stone_multitool": "Stone Multitool",
+  "item.weaponsplusmod.iron_multitool": "Iron Multitool",
+  "item.weaponsplusmod.golden_multitool": "Golden Multitool",
+  "item.weaponsplusmod.diamond_multitool": "Diamond Multitool",
+  "item.weaponsplusmod.netherite_multitool": "Netherite Multitool",
+
   "item.weaponsplusmod.aqua_pearl": "Aqua Pearl",
   "item.weaponsplusmod.shard_of_the_ocean": "Shard of the Ocean",
 
@@ -25,6 +32,7 @@
   "item.weaponsplusmod.hell_longsword": "Hell Longsword",
 
   "item.weaponsplusmod.burning_sword": "Burning Sword",
+  "item.weaponsplusmod.hell_multitool": "Hell Multitool",
 
   "item.weaponsplusmod.hell_helmet": "Hell Helmet",
   "item.weaponsplusmod.hell_chestplate": "Hell Chestplate",
@@ -36,6 +44,8 @@
   "item.weaponsplusmod.emerald_pickaxe": "Emerald Pickaxe",
   "item.weaponsplusmod.emerald_shovel": "Emerald Shovel",
   "item.weaponsplusmod.emerald_hoe": "Emerald Hoe",
+
+  "item.weaponsplusmod.emerald_multitool": "Emerald Multitool",
 
   "item.weaponsplusmod.emerald_helmet": "Emerald Helmet",
   "item.weaponsplusmod.emerald_chestplate": "Emerald Chestplate",
@@ -55,6 +65,8 @@
   "item.weaponsplusmod.aqua_dagger": "Aqua Dagger",
   "item.weaponsplusmod.aqua_katana": "Aqua Katana",
   "item.weaponsplusmod.aqua_longsword": "Aqua Longsword",
+
+  "item.weaponsplusmod.aqua_multitool": "Aqua Multitool",
 
   "item.weaponsplusmod.aqua_helmet": "Aqua Helmet",
   "item.weaponsplusmod.aqua_chestplate": "Aqua Chestplate",
