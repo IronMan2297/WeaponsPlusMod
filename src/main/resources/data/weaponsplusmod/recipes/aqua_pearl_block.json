@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HHH",
+    "HHH",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "weaponsplusmod:aqua_pearl"
+    }
+  },
+  "result": {
+    "item": "weaponsplusmod:aqua_pearl_block"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "weaponsplusmod:aqua_axe"
+    }
+  },
+  "pattern": [
+    "  ",
+    "AA"
+  ],
+  "result": {
+    "item": "weaponsplusmod:aqua_double_axe"
+  }
+}
