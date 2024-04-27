@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "PHP",
+    "S S",
+    "   "
+  ],
+  "key": {
+    "P": {
+      "item": "weaponsplusmod:aqua_pearl"
+    },
+    "S": {
+      "item": "weaponsplusmod:shard_of_the_ocean"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "weaponsplusmod:aqua_helmet"
+  }
+}

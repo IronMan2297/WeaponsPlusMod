@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "weaponsplusmod:aqua_pearl_block"
+    }
+  ],
+  "result": {
+    "item": "weaponsplusmod:aqua_pearl",
+    "count": 9
+  }
+}

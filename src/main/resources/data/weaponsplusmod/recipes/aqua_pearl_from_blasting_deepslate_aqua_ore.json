@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "weaponsplusmod:aqua_pearl",
+  "ingredient": {
+    "item": "weaponsplusmod:deepslate_aqua_ore"
+  },
+  "result": "weaponsplusmod:aqua_pearl"
+}

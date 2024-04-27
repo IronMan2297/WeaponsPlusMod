@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "IHI",
+    "AIP",
+    "ISI"
+  ],
+  "key": {
+    "S": {
+      "item": "weaponsplusmod:aqua_sword"
+    },
+    "A": {
+      "item": "weaponsplusmod:aqua_axe"
+    },
+    "P": {
+      "item": "weaponsplusmod:aqua_pickaxe"
+    },
+    "H": {
+      "item": "weaponsplusmod:aqua_shovel"
+    },
+    "I": {
+      "item": "weaponsplusmod:aqua_pearl"
+    }
+  },
+  "result": {
+    "item": "weaponsplusmod:aqua_multitool"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "IHI",
+    "AIP",
+    "ISI"
+  ],
+  "key": {
+    "S": {
+      "item": "weaponsplusmod:emerald_sword"
+    },
+    "A": {
+      "item": "weaponsplusmod:emerald_axe"
+    },
+    "P": {
+      "item": "weaponsplusmod:emerald_pickaxe"
+    },
+    "H": {
+      "item": "weaponsplusmod:emerald_shovel"
+    },
+    "I": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "weaponsplusmod:emerald_multitool"
+  }
+}
