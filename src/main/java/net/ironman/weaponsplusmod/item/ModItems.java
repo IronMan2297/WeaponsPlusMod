@@ -40,6 +40,9 @@ public class ModItems {
                     .stacksTo(16)
                     .rarity(Rarity.create("UNDERWATER", ChatFormatting.AQUA))));
 
+    public static final RegistryObject<Item> ENDERITE_INGOT = ITEMS.register("enderite_ingot",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer",
             () -> new HammerItem(Tiers.IRON, 2, -3.4f, new Item.Properties().durability(256)));
 
@@ -198,6 +201,59 @@ public class ModItems {
             () -> new ModArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> AQUA_BOOTS = ITEMS.register("aqua_boots",
             () -> new ModArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    /* Standart ENDERITE Weapons and Tools */
+    public static final RegistryObject<Item> ENDERITE_SWORD = ITEMS.register("enderite_sword",
+            () -> new SwordItem(ModToolTiers.ENDERITE, 4,-2.4f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ENDERITE_AXE = ITEMS.register("enderite_axe",
+            () -> new AxeItem(ModToolTiers.ENDERITE, 6,-3f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ENDERITE_PICKAXE = ITEMS.register("enderite_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ENDERITE, 2,-2.8f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ENDERITE_SHOVEL = ITEMS.register("enderite_shovel",
+            () -> new ShovelItem(ModToolTiers.ENDERITE, 3,-3f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ENDERITE_HOE = ITEMS.register("enderite_hoe",
+            () -> new HoeItem(ModToolTiers.ENDERITE, -3,0,
+                    new Item.Properties().durability(256).fireResistant()));
+
+    /* Special Enderite Weapons and Tools */
+    public static final RegistryObject<Item> ENDERITE_BATTLE_AXE = ITEMS.register("enderite_battle_axe",
+            () -> new AxeItem(ModToolTiers.ENDERITE, 7,-3.2f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ENDERITE_DOUBLE_AXE = ITEMS.register("enderite_double_axe",
+            () -> new AxeItem(ModToolTiers.ENDERITE, 9,-3.4f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ENDERITE_RAPIER = ITEMS.register("enderite_rapier",
+            () -> new SwordItem(ModToolTiers.ENDERITE, 3,-1.4f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ENDERITE_CUTLASS = ITEMS.register("enderite_cutlass",
+            () -> new SwordItem(ModToolTiers.ENDERITE, 6,-2.8f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ENDERITE_DAGGER = ITEMS.register("enderite_dagger",
+            () -> new SwordItem(ModToolTiers.ENDERITE,2,-0.2f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ENDERITE_KATANA = ITEMS.register("enderite_katana",
+            () -> new SwordItem(ModToolTiers.ENDERITE, 5,-2.0f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ENDERITE_LONGSWORD = ITEMS.register("enderite_longsword",
+            () -> new SwordItem(ModToolTiers.ENDERITE, 8,-3.3f,
+                    new Item.Properties().durability(256).fireResistant()));
+
+    public static final RegistryObject<Item> ENDERITE_MULTITOOL = ITEMS.register("enderite_multitool",
+            () -> new PaxelItem(ModToolTiers.ENDERITE, 2, 3, new Item.Properties().durability(256)));
+
+    /* Enderite Armor */
+    public static final RegistryObject<Item> ENDERITE_HELMET = ITEMS.register("enderite_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> ENDERITE_CHESTPLATE = ITEMS.register("enderite_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> ENDERITE_LEGGINGS = ITEMS.register("enderite_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> ENDERITE_BOOTS = ITEMS.register("enderite_boots",
+            () -> new ModArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     /* Hattori Hanzo Katana*/
     public static final RegistryObject<Item> HATTORI_HANZO_KATANA = ITEMS.register("hattori_hanzo_katana",

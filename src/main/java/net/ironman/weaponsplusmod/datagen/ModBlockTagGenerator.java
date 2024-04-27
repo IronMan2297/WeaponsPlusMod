@@ -28,7 +28,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.NETHER_HELL_ORE.get(),
                         ModBlocks.AQUA_BLOCK.get(),
                         ModBlocks.AQUA_ORE.get(),
-                        ModBlocks.DEEPSLATE_AQUA_ORE.get());
+                        ModBlocks.DEEPSLATE_AQUA_ORE.get(),
+                        ModBlocks.ENDERITE_BLOCK.get(),
+                        ModBlocks.ENDERITE_ORE.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.AQUA_ORE.get(),
@@ -37,7 +39,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.HELL_GEM_BLOCK.get(),
-                        ModBlocks.NETHER_HELL_ORE.get());
+                        ModBlocks.NETHER_HELL_ORE.get(),
+                        ModBlocks.ENDERITE_BLOCK.get(),
+                        ModBlocks.ENDERITE_ORE.get());
     }
 
     @Override

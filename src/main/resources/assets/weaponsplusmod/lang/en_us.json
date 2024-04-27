@@ -1,6 +1,9 @@
 {
   "item.weaponsplusmod.raw_hell_gem": "Raw Hell Gem",
   "item.weaponsplusmod.hell_gem": "Hell Gem",
+  "item.weaponsplusmod.aqua_pearl": "Aqua Pearl",
+  "item.weaponsplusmod.enderite_ingot": "Enderite Ingot",
+  "item.weaponsplusmod.shard_of_the_ocean": "Shard of the Ocean",
   "item.weaponsplusmod.phoenix_feather": "Phoenix Feather",
   "item.weaponsplusmod.empowered_hell_gem": "Empowered Hell Gem",
   "item.weaponsplusmod.hell_core": "Hell Core",
@@ -13,9 +16,6 @@
   "item.weaponsplusmod.golden_multitool": "Golden Multitool",
   "item.weaponsplusmod.diamond_multitool": "Diamond Multitool",
   "item.weaponsplusmod.netherite_multitool": "Netherite Multitool",
-
-  "item.weaponsplusmod.aqua_pearl": "Aqua Pearl",
-  "item.weaponsplusmod.shard_of_the_ocean": "Shard of the Ocean",
 
   "item.weaponsplusmod.hell_sword": "Hell Sword",
   "item.weaponsplusmod.hell_axe": "Hell Axe",
@@ -73,6 +73,27 @@
   "item.weaponsplusmod.aqua_leggings": "Aqua Leggings",
   "item.weaponsplusmod.aqua_boots": "Aqua Boots",
 
+  "item.weaponsplusmod.enderite_sword": "Enderite Sword",
+  "item.weaponsplusmod.enderite_axe": "Enderite Axe",
+  "item.weaponsplusmod.enderite_pickaxe": "Enderite Pickaxe",
+  "item.weaponsplusmod.enderite_shovel": "Enderite Shovel",
+  "item.weaponsplusmod.enderite_hoe": "Enderite Hoe",
+
+  "item.weaponsplusmod.enderite_battle_axe": "Enderite Battle Axe",
+  "item.weaponsplusmod.enderite_double_axe": "Enderite Double Axe",
+  "item.weaponsplusmod.enderite_rapier": "Enderite Rapier",
+  "item.weaponsplusmod.enderite_cutlass": "Enderite Cutlass",
+  "item.weaponsplusmod.enderite_dagger": "Enderite Dagger",
+  "item.weaponsplusmod.enderite_katana": "Enderite Katana",
+  "item.weaponsplusmod.enderite_longsword": "Enderite Longsword",
+
+  "item.weaponsplusmod.enderite_multitool": "Enderite Multitool",
+
+  "item.weaponsplusmod.enderite_helmet": "Enderite Helmet",
+  "item.weaponsplusmod.enderite_chestplate": "Enderite Chestplate",
+  "item.weaponsplusmod.enderite_leggings": "Enderite Leggings",
+  "item.weaponsplusmod.enderite_boots": "Enderite Boots",
+
   "item.weaponsplusmod.hattori_hanzo_katana": "Hattori Hanzo Katana",
 
   "block.weaponsplusmod.hell_gem_block": "Hell Gem Block",
@@ -81,6 +102,9 @@
   "block.weaponsplusmod.aqua_block": "Aqua Block",
   "block.weaponsplusmod.aqua_ore": "Aqua Ore",
   "block.weaponsplusmod.deepslate_aqua_ore": "Deepslate Aqua Ore",
+
+  "block.weaponsplusmod.enderite_block": "Enderite Block",
+  "block.weaponsplusmod.enderite_ore": "Enderite Ore",
 
   "creativetab.items_tab": "Items",
   "creativetab.tools_tab": "Tools & Armors"

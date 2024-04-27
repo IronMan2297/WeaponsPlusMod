@@ -25,41 +25,41 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.IRON_ROD);
         simpleItem(ModItems.AQUA_PEARL);
         simpleItem(ModItems.SHARD_OF_THE_OCEAN);
-        simpleItem(ModItems.HAMMER);
+        simpleItem(ModItems.ENDERITE_INGOT);
 
-        simpleItem(ModItems.WOODEN_MULTITOOL);
-        simpleItem(ModItems.STONE_MULTITOOL);
-        simpleItem(ModItems.IRON_MULTITOOL);
-        simpleItem(ModItems.GOLDEN_MULTITOOL);
-        simpleItem(ModItems.DIAMOND_MULTITOOL);
-        simpleItem(ModItems.NETHERITE_MULTITOOL);
+       handheldItem(ModItems.WOODEN_MULTITOOL);
+       handheldItem(ModItems.STONE_MULTITOOL);
+       handheldItem(ModItems.IRON_MULTITOOL);
+       handheldItem(ModItems.GOLDEN_MULTITOOL);
+       handheldItem(ModItems.DIAMOND_MULTITOOL);
+       handheldItem(ModItems.NETHERITE_MULTITOOL);
 
-        simpleItem(ModItems.HELL_SWORD);
-        simpleItem(ModItems.HELL_AXE);
-        simpleItem(ModItems.HELL_PICKAXE);
-        simpleItem(ModItems.HELL_SHOVEL);
-        simpleItem(ModItems.HELL_HOE);
+       handheldItem(ModItems.HELL_SWORD);
+       handheldItem(ModItems.HELL_AXE);
+       handheldItem(ModItems.HELL_PICKAXE);
+       handheldItem(ModItems.HELL_SHOVEL);
+       handheldItem(ModItems.HELL_HOE);
 
-        simpleItem(ModItems.HELL_BATTLE_AXE);
-        simpleItem(ModItems.HELL_DOUBLE_AXE);
-        simpleItem(ModItems.HELL_RAPIER);
-        simpleItem(ModItems.HELL_CUTLASS);
-        simpleItem(ModItems.HELL_DAGGER);
-        simpleItem(ModItems.HELL_KATANA);
-        simpleItem(ModItems.HELL_LONGSWORD);
-        simpleItem(ModItems.BURNING_SWORD);
-        simpleItem(ModItems.HELL_MULTITOOL);
+       handheldItem(ModItems.HELL_BATTLE_AXE);
+       handheldItem(ModItems.HELL_DOUBLE_AXE);
+       handheldItem(ModItems.HELL_RAPIER);
+       handheldItem(ModItems.HELL_CUTLASS);
+       handheldItem(ModItems.HELL_DAGGER);
+       handheldItem(ModItems.HELL_KATANA);
+       handheldItem(ModItems.HELL_LONGSWORD);
+       handheldItem(ModItems.BURNING_SWORD);
+       handheldItem(ModItems.HELL_MULTITOOL);
 
         simpleItem(ModItems.HELL_HELMET);
         simpleItem(ModItems.HELL_CHESTPLATE);
         simpleItem(ModItems.HELL_LEGGINGS);
         simpleItem(ModItems.HELL_BOOTS);
 
-        simpleItem(ModItems.EMERALD_SWORD);
-        simpleItem(ModItems.EMERALD_AXE);
-        simpleItem(ModItems.EMERALD_PICKAXE);
-        simpleItem(ModItems.EMERALD_SHOVEL);
-        simpleItem(ModItems.EMERALD_HOE);
+        handheldItem(ModItems.EMERALD_SWORD);
+        handheldItem(ModItems.EMERALD_AXE);
+        handheldItem(ModItems.EMERALD_PICKAXE);
+        handheldItem(ModItems.EMERALD_SHOVEL);
+        handheldItem(ModItems.EMERALD_HOE);
 
         simpleItem(ModItems.EMERALD_MULTITOOL);
 
@@ -68,27 +68,45 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.EMERALD_LEGGINGS);
         simpleItem(ModItems.EMERALD_BOOTS);
 
-        simpleItem(ModItems.AQUA_SWORD);
-        simpleItem(ModItems.AQUA_AXE);
-        simpleItem(ModItems.AQUA_PICKAXE);
-        simpleItem(ModItems.AQUA_SHOVEL);
-        simpleItem(ModItems.AQUA_HOE);
+        handheldItem(ModItems.AQUA_SWORD);
+        handheldItem(ModItems.AQUA_AXE);
+        handheldItem(ModItems.AQUA_PICKAXE);
+        handheldItem(ModItems.AQUA_SHOVEL);
+        handheldItem(ModItems.AQUA_HOE);
 
-        simpleItem(ModItems.AQUA_BATTLE_AXE);
-        simpleItem(ModItems.AQUA_DOUBLE_AXE);
-        simpleItem(ModItems.AQUA_RAPIER);
-        simpleItem(ModItems.AQUA_CUTLASS);
-        simpleItem(ModItems.AQUA_DAGGER);
-        simpleItem(ModItems.AQUA_KATANA);
-        simpleItem(ModItems.AQUA_LONGSWORD);
-        simpleItem(ModItems.AQUA_MULTITOOL);
+        handheldItem(ModItems.AQUA_BATTLE_AXE);
+        handheldItem(ModItems.AQUA_DOUBLE_AXE);
+        handheldItem(ModItems.AQUA_RAPIER);
+        handheldItem(ModItems.AQUA_CUTLASS);
+        handheldItem(ModItems.AQUA_DAGGER);
+        handheldItem(ModItems.AQUA_KATANA);
+        handheldItem(ModItems.AQUA_LONGSWORD);
+        handheldItem(ModItems.AQUA_MULTITOOL);
 
         simpleItem(ModItems.AQUA_HELMET);
         simpleItem(ModItems.AQUA_CHESTPLATE);
         simpleItem(ModItems.AQUA_LEGGINGS);
         simpleItem(ModItems.AQUA_BOOTS);
 
+        handheldItem(ModItems.ENDERITE_SWORD);
+        handheldItem(ModItems.ENDERITE_AXE);
+        handheldItem(ModItems.ENDERITE_PICKAXE);
+        handheldItem(ModItems.ENDERITE_SHOVEL);
+        handheldItem(ModItems.ENDERITE_HOE);
 
+        handheldItem(ModItems.ENDERITE_BATTLE_AXE);
+        handheldItem(ModItems.ENDERITE_DOUBLE_AXE);
+        handheldItem(ModItems.ENDERITE_RAPIER);
+        handheldItem(ModItems.ENDERITE_CUTLASS);
+        handheldItem(ModItems.ENDERITE_DAGGER);
+        handheldItem(ModItems.ENDERITE_KATANA);
+        handheldItem(ModItems.ENDERITE_LONGSWORD);
+        handheldItem(ModItems.ENDERITE_MULTITOOL);
+
+        simpleItem(ModItems.ENDERITE_HELMET);
+        simpleItem(ModItems.ENDERITE_CHESTPLATE);
+        simpleItem(ModItems.ENDERITE_LEGGINGS);
+        simpleItem(ModItems.ENDERITE_BOOTS);
 
     }
 

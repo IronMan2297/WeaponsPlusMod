@@ -21,6 +21,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.AQUA_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_AQUA_ORE);
         blockWithItem(ModBlocks.AQUA_BLOCK);
+
+        blockWithItem(ModBlocks.ENDERITE_ORE);
+        blockWithItem(ModBlocks.ENDERITE_BLOCK);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

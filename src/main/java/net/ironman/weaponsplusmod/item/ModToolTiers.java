@@ -25,6 +25,11 @@ public class ModToolTiers {
                     ModTags.Blocks.NEEDS_AQUA_TOOL, () -> Ingredient.of(ModItems.AQUA_PEARL.get())),
             new ResourceLocation(WeaponsPlusMod.MOD_ID, "aqua"), List.of(Tiers.NETHERITE), List.of());
 
+    public static final Tier ENDERITE = TierSortingRegistry.registerTier(
+            new ForgeTier(5, 4444, 1.6f, 3f, 44,
+                    ModTags.Blocks.NEEDS_ENDERITE_TOOL, () -> Ingredient.of(ModItems.ENDERITE_INGOT.get())),
+            new ResourceLocation(WeaponsPlusMod.MOD_ID, "enderite"), List.of(Tiers.NETHERITE), List.of());
+
     public static final Tier EMERALD = TierSortingRegistry.registerTier(
             new ForgeTier(3, 1234, 1.6f, 3f, 19,
                     Tags.Blocks.NEEDS_NETHERITE_TOOL, () -> Ingredient.of(Items.EMERALD)),

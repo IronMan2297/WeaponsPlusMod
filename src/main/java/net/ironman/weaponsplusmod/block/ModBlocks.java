@@ -42,6 +42,14 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
+    public static final RegistryObject<Block> ENDERITE_BLOCK = registerBlock("enderite_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops()
+                    .mapColor(MapColor.COLOR_PURPLE)));
+
+    public static final RegistryObject<Block> ENDERITE_ORE = registerBlock("enderite_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
     /* Movie Blocks */
 
 

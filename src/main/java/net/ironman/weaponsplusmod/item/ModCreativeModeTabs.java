@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PHOENIX_FEATHER.get());
                         output.accept(ModItems.AQUA_PEARL.get());
                         output.accept(ModItems.SHARD_OF_THE_OCEAN.get());
+                        output.accept(ModItems.ENDERITE_INGOT.get());
 
                         output.accept(ModItems.IRON_ROD.get());
 
@@ -35,6 +36,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AQUA_BLOCK.get());
                         output.accept(ModBlocks.AQUA_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_AQUA_ORE.get());
+                        output.accept(ModBlocks.ENDERITE_ORE.get());
+                        output.accept(ModBlocks.ENDERITE_BLOCK.get());
 
                     }).build());
 
@@ -80,6 +83,25 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AQUA_CHESTPLATE.get());
                         output.accept(ModItems.AQUA_LEGGINGS.get());
                         output.accept(ModItems.AQUA_BOOTS.get());
+
+                        output.accept(ModItems.ENDERITE_SWORD.get());
+                        output.accept(ModItems.ENDERITE_AXE.get());
+                        output.accept(ModItems.ENDERITE_PICKAXE.get());
+                        output.accept(ModItems.ENDERITE_SHOVEL.get());
+                        output.accept(ModItems.ENDERITE_HOE.get());
+                        output.accept(ModItems.ENDERITE_RAPIER.get());
+                        output.accept(ModItems.ENDERITE_CUTLASS.get());
+                        output.accept(ModItems.ENDERITE_KATANA.get());
+                        output.accept(ModItems.ENDERITE_LONGSWORD.get());
+                        output.accept(ModItems.ENDERITE_DAGGER.get());
+                        output.accept(ModItems.ENDERITE_BATTLE_AXE.get());
+                        output.accept(ModItems.ENDERITE_DOUBLE_AXE.get());
+                        output.accept(ModItems.ENDERITE_MULTITOOL.get());
+
+                        output.accept(ModItems.ENDERITE_HELMET.get());
+                        output.accept(ModItems.ENDERITE_CHESTPLATE.get());
+                        output.accept(ModItems.ENDERITE_LEGGINGS.get());
+                        output.accept(ModItems.ENDERITE_BOOTS.get());
 
 
                         output.accept(ModItems.HAMMER.get());
