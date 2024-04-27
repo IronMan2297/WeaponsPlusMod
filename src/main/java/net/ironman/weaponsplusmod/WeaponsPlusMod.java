@@ -4,7 +4,6 @@ import com.mojang.logging.LogUtils;
 import net.ironman.weaponsplusmod.block.ModBlocks;
 import net.ironman.weaponsplusmod.item.ModCreativeModeTabs;
 import net.ironman.weaponsplusmod.item.ModItems;
-import net.ironman.weaponsplusmod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,8 +33,6 @@ public class WeaponsPlusMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
-        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

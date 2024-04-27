@@ -88,7 +88,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.AQUA_LEGGINGS);
         simpleItem(ModItems.AQUA_BOOTS);
 
-        simpleItem(ModItems.HATTORI_HANZO_KATANA);
 
 
     }
