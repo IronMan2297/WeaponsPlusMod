@@ -1,0 +1,5 @@
+// 1.20.1	2024-04-28T20:44:35.2579223	Global Loot Modifiers : weaponsplusmod
+80d29097bb765a61e38d4c2b8837d75f751dec18 data/forge/loot_modifiers/global_loot_modifiers.json
+cb3a4e269c36d3a797992139f6d95c4f3c0214e7 data/weaponsplusmod/loot_modifiers/phoenix_feather_from_suspicious_sand.json
+f81664421c13329023d98070762fa2366d5c7499 data/weaponsplusmod/loot_modifiers/shard_of_the_ocean_from_ocean_ruin_warm.json
+e89d7b253f1ae489df1a5684d1df3e16bf72f567 data/weaponsplusmod/loot_modifiers/shard_of_the_ocean_from_suspicious_sand.json
