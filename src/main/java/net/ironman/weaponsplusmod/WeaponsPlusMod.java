@@ -5,6 +5,7 @@ import net.ironman.weaponsplusmod.block.ModBlocks;
 import net.ironman.weaponsplusmod.item.ModCreativeModeTabs;
 import net.ironman.weaponsplusmod.item.ModItems;
 import net.ironman.weaponsplusmod.loot.ModLootModifiers;
+import net.ironman.weaponsplusmod.villager.ModVillagers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,6 +35,8 @@ public class WeaponsPlusMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
 

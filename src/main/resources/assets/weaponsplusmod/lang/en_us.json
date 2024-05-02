@@ -107,5 +107,7 @@
   "block.weaponsplusmod.enderite_ore": "Enderite Ore",
 
   "creativetab.items_tab": "Items",
-  "creativetab.tools_tab": "Tools & Armors"
+  "creativetab.tools_tab": "Tools & Armors",
+
+  "entity.minecraft.villager.weaponsplusmod.blacksmith": "Blacksmith"
 }
