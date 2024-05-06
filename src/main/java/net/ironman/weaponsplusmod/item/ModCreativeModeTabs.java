@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AQUA_PEARL.get());
                         output.accept(ModItems.SHARD_OF_THE_OCEAN.get());
                         output.accept(ModItems.ENDERITE_INGOT.get());
+                        output.accept(ModItems.AMBER_CRYSTAL.get());
 
                         output.accept(ModItems.IRON_ROD.get());
 
@@ -38,6 +39,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEEPSLATE_AQUA_ORE.get());
                         output.accept(ModBlocks.ENDERITE_ORE.get());
                         output.accept(ModBlocks.ENDERITE_BLOCK.get());
+                        output.accept(ModBlocks.AMBER_BLOCK.get());
 
                     }).build());
 
@@ -102,6 +104,25 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERITE_CHESTPLATE.get());
                         output.accept(ModItems.ENDERITE_LEGGINGS.get());
                         output.accept(ModItems.ENDERITE_BOOTS.get());
+
+                        output.accept(ModItems.AMBER_SWORD.get());
+                        output.accept(ModItems.AMBER_AXE.get());
+                        output.accept(ModItems.AMBER_PICKAXE.get());
+                        output.accept(ModItems.AMBER_SHOVEL.get());
+                        output.accept(ModItems.AMBER_HOE.get());
+                        output.accept(ModItems.AMBER_RAPIER.get());
+                        output.accept(ModItems.AMBER_CUTLASS.get());
+                        output.accept(ModItems.AMBER_KATANA.get());
+                        output.accept(ModItems.AMBER_LONGSWORD.get());
+                        output.accept(ModItems.AMBER_DAGGER.get());
+                        output.accept(ModItems.AMBER_BATTLE_AXE.get());
+                        output.accept(ModItems.AMBER_DOUBLE_AXE.get());
+                        output.accept(ModItems.AMBER_MULTITOOL.get());
+
+                        output.accept(ModItems.AMBER_HELMET.get());
+                        output.accept(ModItems.AMBER_CHESTPLATE.get());
+                        output.accept(ModItems.AMBER_LEGGINGS.get());
+                        output.accept(ModItems.AMBER_BOOTS.get());
 
 
                         output.accept(ModItems.HAMMER.get());

@@ -23,6 +23,7 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_HELL_TOOL = tag("needs_hell_tool");
         public static final TagKey<Block> NEEDS_AQUA_TOOL = tag("needs_aqua_tool");
         public static final TagKey<Block> NEEDS_ENDERITE_TOOL = tag("needs_enderite_tool");
+        public static final TagKey<Block> NEEDS_AMBER_TOOL = tag("needs_amber_tool");
         public static final TagKey<Block> PAXEL_MINEABLE = tag("mineable/paxel");
 
         private static TagKey<Block> tag(String name) {

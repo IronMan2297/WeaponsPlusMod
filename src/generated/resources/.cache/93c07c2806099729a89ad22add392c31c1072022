@@ -1,5 +1,22 @@
-// 1.20.1	2024-05-04T23:45:08.8564282	Item Models: weaponsplusmod
+// 1.20.1	2024-05-06T23:46:59.5265682	Item Models: weaponsplusmod
+7aabd7075b47a713b1f78e63d57e61117bb185af assets/weaponsplusmod/models/item/amber_axe.json
+941ed8b8ec947f65d634fab3d5ba508897514208 assets/weaponsplusmod/models/item/amber_battle_axe.json
+1f41dd7cf28ddafef103b6ab8ffcc54d209bc2ad assets/weaponsplusmod/models/item/amber_boots.json
+2a6c501ac191a082cdd16c5f5ba53016b6bdc5c2 assets/weaponsplusmod/models/item/amber_chestplate.json
 57e4ccbb14351d21e1e1912a874a609eefa8e12f assets/weaponsplusmod/models/item/amber_crystal.json
+6025525ce37637077bd63efc440f36fd35443ec5 assets/weaponsplusmod/models/item/amber_cutlass.json
+9f72f88d3a5045d5a3dfd5aef73879e4d8baa409 assets/weaponsplusmod/models/item/amber_dagger.json
+ed169a8214163217c3385ae2a367e96996895a0b assets/weaponsplusmod/models/item/amber_double_axe.json
+8a445010278a495bba153ba1522b7a59e79499df assets/weaponsplusmod/models/item/amber_helmet.json
+d2f47ca0cd6816cff1a261bf4b5a1f6b82d1756f assets/weaponsplusmod/models/item/amber_hoe.json
+ffbe5fd1fcf379b2dc1405477747d29f5e70feae assets/weaponsplusmod/models/item/amber_katana.json
+67bc8de013993aa2542fb0bc3b5804815e262b7e assets/weaponsplusmod/models/item/amber_leggings.json
+88432b73f47c1cb6b249eb41fd1cb57b811e7819 assets/weaponsplusmod/models/item/amber_longsword.json
+8030f2596589b26cd6bdae6a51dc8385a76f63b0 assets/weaponsplusmod/models/item/amber_multitool.json
+2b42ed15c1316d18daa927d791175d92298f14b8 assets/weaponsplusmod/models/item/amber_pickaxe.json
+3a422e61736f764a1f16c3f3e445c86aaaa4bed4 assets/weaponsplusmod/models/item/amber_rapier.json
+0d9f9347b1f1da961145a9fa4765a1aaacc77623 assets/weaponsplusmod/models/item/amber_shovel.json
+4e1c5bd9fe3cf01e1ac11e0ee73f0df205430fb1 assets/weaponsplusmod/models/item/amber_sword.json
 1d957e935e6e80adea4aa909546159e112c30893 assets/weaponsplusmod/models/item/aqua_axe.json
 b7f2ee2bd6f022c7a9593037418ea40fbc12f796 assets/weaponsplusmod/models/item/aqua_battle_axe.json
 22da7785265441627e6f8805a0b8b8890cc44052 assets/weaponsplusmod/models/item/aqua_boots.json

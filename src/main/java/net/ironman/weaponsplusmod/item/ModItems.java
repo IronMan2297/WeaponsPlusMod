@@ -258,6 +258,59 @@ public class ModItems {
     public static final RegistryObject<Item> ENDERITE_BOOTS = ITEMS.register("enderite_boots",
             () -> new ModArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    /* Standart Amber Weapons and Tools */
+    public static final RegistryObject<Item> AMBER_SWORD = ITEMS.register("amber_sword",
+            () -> new SwordItem(ModToolTiers.AMBER, 4,-2.4f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AMBER_AXE = ITEMS.register("amber_axe",
+            () -> new AxeItem(ModToolTiers.AMBER, 6,-3f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AMBER_PICKAXE = ITEMS.register("amber_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.AMBER, 2,-2.8f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AMBER_SHOVEL = ITEMS.register("amber_shovel",
+            () -> new ShovelItem(ModToolTiers.AMBER, 3,-3f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AMBER_HOE = ITEMS.register("amber_hoe",
+            () -> new HoeItem(ModToolTiers.AMBER, -3,0,
+                    new Item.Properties().durability(256)));
+
+    /* Special Amber Weapons and Tools */
+    public static final RegistryObject<Item> AMBER_BATTLE_AXE = ITEMS.register("amber_battle_axe",
+            () -> new AxeItem(ModToolTiers.AMBER, 7,-3.2f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AMBER_DOUBLE_AXE = ITEMS.register("amber_double_axe",
+            () -> new AxeItem(ModToolTiers.AMBER, 9,-3.4f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AMBER_RAPIER = ITEMS.register("amber_rapier",
+            () -> new SwordItem(ModToolTiers.AMBER, 3,-1.4f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AMBER_CUTLASS = ITEMS.register("amber_cutlass",
+            () -> new SwordItem(ModToolTiers.AMBER, 6,-2.8f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AMBER_DAGGER = ITEMS.register("amber_dagger",
+            () -> new SwordItem(ModToolTiers.AMBER,2,-0.2f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AMBER_KATANA = ITEMS.register("amber_katana",
+            () -> new SwordItem(ModToolTiers.AMBER, 5,-2.0f,
+                    new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> AMBER_LONGSWORD = ITEMS.register("amber_longsword",
+            () -> new SwordItem(ModToolTiers.AMBER, 8,-3.3f,
+                    new Item.Properties().durability(256)));
+
+    public static final RegistryObject<Item> AMBER_MULTITOOL = ITEMS.register("amber_multitool",
+            () -> new PaxelItem(ModToolTiers.AMBER, 2, 3, new Item.Properties().durability(256)));
+
+    /* Amber Armor */
+    public static final RegistryObject<Item> AMBER_HELMET = ITEMS.register("amber_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.AMBER, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> AMBER_CHESTPLATE = ITEMS.register("amber_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.AMBER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> AMBER_LEGGINGS = ITEMS.register("amber_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.AMBER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> AMBER_BOOTS = ITEMS.register("amber_boots",
+            () -> new ModArmorItem(ModArmorMaterials.AMBER, ArmorItem.Type.BOOTS, new Item.Properties()));
+
     /* Hattori Hanzo Katana*/
     public static final RegistryObject<Item> HATTORI_HANZO_KATANA = ITEMS.register("hattori_hanzo_katana",
             () -> new HattoriHanzoKatanaItem(Tiers.NETHERITE, 6,-2.0f,

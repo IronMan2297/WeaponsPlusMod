@@ -109,6 +109,26 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ENDERITE_LEGGINGS);
         simpleItem(ModItems.ENDERITE_BOOTS);
 
+        handheldItem(ModItems.AMBER_SWORD);
+        handheldItem(ModItems.AMBER_AXE);
+        handheldItem(ModItems.AMBER_PICKAXE);
+        handheldItem(ModItems.AMBER_SHOVEL);
+        handheldItem(ModItems.AMBER_HOE);
+
+        handheldItem(ModItems.AMBER_BATTLE_AXE);
+        handheldItem(ModItems.AMBER_DOUBLE_AXE);
+        handheldItem(ModItems.AMBER_RAPIER);
+        handheldItem(ModItems.AMBER_CUTLASS);
+        handheldItem(ModItems.AMBER_DAGGER);
+        handheldItem(ModItems.AMBER_KATANA);
+        handheldItem(ModItems.AMBER_LONGSWORD);
+        handheldItem(ModItems.AMBER_MULTITOOL);
+
+        simpleItem(ModItems.AMBER_HELMET);
+        simpleItem(ModItems.AMBER_CHESTPLATE);
+        simpleItem(ModItems.AMBER_LEGGINGS);
+        simpleItem(ModItems.AMBER_BOOTS);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
