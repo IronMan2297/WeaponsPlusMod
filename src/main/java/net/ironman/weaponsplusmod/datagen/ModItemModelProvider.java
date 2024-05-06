@@ -26,6 +26,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.AQUA_PEARL);
         simpleItem(ModItems.SHARD_OF_THE_OCEAN);
         simpleItem(ModItems.ENDERITE_INGOT);
+        simpleItem(ModItems.AMBER_CRYSTAL);
 
        handheldItem(ModItems.WOODEN_MULTITOOL);
        handheldItem(ModItems.STONE_MULTITOOL);

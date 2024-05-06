@@ -1,31 +1,31 @@
-[02Mai2024 19:54:03.462] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\liamw\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.0.19, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, weaponsplusmod, --all, --output, D:\WeaponsPlusMod\src\generated\resources, --existing, D:\WeaponsPlusMod\src\main\resources]
-[02Mai2024 19:54:03.471] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[02Mai2024 19:54:03.781] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[02Mai2024 19:54:03.856] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/liamw/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[02Mai2024 19:54:04.261] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liamw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.0.19\11325ab7cc62ad123c202b63216724c0a9af1a21\javafmllanguage-1.20.1-47.0.19.jar is missing mods.toml file
-[02Mai2024 19:54:04.265] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liamw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.0.19\43bcf9e8002338c09b0f793771f6471e5fb74dd7\lowcodelanguage-1.20.1-47.0.19.jar is missing mods.toml file
-[02Mai2024 19:54:04.270] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liamw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.0.19\9ad401a1888591fa336b5685d1572aa4387cf31d\mclanguage-1.20.1-47.0.19.jar is missing mods.toml file
-[02Mai2024 19:54:04.275] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liamw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.0.19\fb98a8fe718272b2822fb1798215d25e97ce84e6\fmlcore-1.20.1-47.0.19.jar is missing mods.toml file
-[02Mai2024 19:54:04.404] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[02Mai2024 19:54:06.298] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\liamw\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, weaponsplusmod, --all, --output, D:\WeaponsPlusMod\src\generated\resources, --existing, D:\WeaponsPlusMod\src\main\resources]
-[02Mai2024 19:54:07.228] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [weaponsplusmod]
-[02Mai2024 19:54:13.043] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.0.19, for MC 1.20.1 with MCP 20230612.114412
-[02Mai2024 19:54:13.048] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.0.19 Initialized
-[02Mai2024 19:54:13.917] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/liamw/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.0.19_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.0.19_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[02Mai2024 19:54:13.918] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/liamw/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.0.19_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.0.19_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[02Mai2024 19:54:14.382] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[02Mai2024 19:54:14.510] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 125 ms
-[02Mai2024 19:54:14.627] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
-[02Mai2024 19:54:14.644] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 17 ms
-[02Mai2024 19:54:14.644] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: weaponsplusmod
-[02Mai2024 19:54:14.746] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: weaponsplusmod finished after 101 ms
-[02Mai2024 19:54:14.746] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: weaponsplusmod
-[02Mai2024 19:54:14.897] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: weaponsplusmod finished after 150 ms
-[02Mai2024 19:54:14.897] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : weaponsplusmod
-[02Mai2024 19:54:14.904] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : weaponsplusmod finished after 6 ms
-[02Mai2024 19:54:14.905] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[02Mai2024 19:54:14.923] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 18 ms
-[02Mai2024 19:54:14.923] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id weaponsplusmod
-[02Mai2024 19:54:15.071] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id weaponsplusmod finished after 147 ms
-[02Mai2024 19:54:15.071] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 690 ms
-[02Mai2024 19:54:15.089] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 123, old count: 122, new count: 124, removed stale: 0, written: 1
+[04Mai2024 23:44:58.020] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\liamw\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.0.19, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, weaponsplusmod, --all, --output, D:\WeaponsPlusMod\src\generated\resources, --existing, D:\WeaponsPlusMod\src\main\resources]
+[04Mai2024 23:44:58.053] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[04Mai2024 23:44:58.264] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[04Mai2024 23:44:58.360] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/liamw/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[04Mai2024 23:44:58.755] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liamw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.0.19\11325ab7cc62ad123c202b63216724c0a9af1a21\javafmllanguage-1.20.1-47.0.19.jar is missing mods.toml file
+[04Mai2024 23:44:58.761] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liamw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.0.19\43bcf9e8002338c09b0f793771f6471e5fb74dd7\lowcodelanguage-1.20.1-47.0.19.jar is missing mods.toml file
+[04Mai2024 23:44:58.768] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liamw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.0.19\9ad401a1888591fa336b5685d1572aa4387cf31d\mclanguage-1.20.1-47.0.19.jar is missing mods.toml file
+[04Mai2024 23:44:58.773] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\liamw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.0.19\fb98a8fe718272b2822fb1798215d25e97ce84e6\fmlcore-1.20.1-47.0.19.jar is missing mods.toml file
+[04Mai2024 23:44:58.900] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[04Mai2024 23:45:00.666] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\liamw\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, weaponsplusmod, --all, --output, D:\WeaponsPlusMod\src\generated\resources, --existing, D:\WeaponsPlusMod\src\main\resources]
+[04Mai2024 23:45:01.405] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [weaponsplusmod]
+[04Mai2024 23:45:07.163] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.0.19, for MC 1.20.1 with MCP 20230612.114412
+[04Mai2024 23:45:07.168] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.0.19 Initialized
+[04Mai2024 23:45:07.927] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/liamw/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.0.19_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.0.19_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[04Mai2024 23:45:07.928] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/liamw/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.0.19_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.0.19_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[04Mai2024 23:45:08.270] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[04Mai2024 23:45:08.607] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 336 ms
+[04Mai2024 23:45:08.607] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[04Mai2024 23:45:08.622] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 13 ms
+[04Mai2024 23:45:08.622] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: weaponsplusmod
+[04Mai2024 23:45:08.679] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: weaponsplusmod finished after 56 ms
+[04Mai2024 23:45:08.679] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: weaponsplusmod
+[04Mai2024 23:45:08.831] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: weaponsplusmod finished after 151 ms
+[04Mai2024 23:45:08.832] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : weaponsplusmod
+[04Mai2024 23:45:08.839] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : weaponsplusmod finished after 6 ms
+[04Mai2024 23:45:08.839] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[04Mai2024 23:45:08.850] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 11 ms
+[04Mai2024 23:45:08.850] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id weaponsplusmod
+[04Mai2024 23:45:08.852] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id weaponsplusmod finished after 1 ms
+[04Mai2024 23:45:08.852] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 583 ms
+[04Mai2024 23:45:08.871] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 128, old count: 123, new count: 129, removed stale: 0, written: 5

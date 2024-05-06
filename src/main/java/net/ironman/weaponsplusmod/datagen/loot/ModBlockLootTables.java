@@ -19,6 +19,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.HELL_GEM_BLOCK.get());
         this.dropSelf(ModBlocks.AQUA_BLOCK.get());
         this.dropSelf(ModBlocks.ENDERITE_BLOCK.get());
+        this.dropSelf(ModBlocks.AMBER_BLOCK.get());
 
         this.add(ModBlocks.NETHER_HELL_ORE.get(),
                 block -> createOreDrop(ModBlocks.NETHER_HELL_ORE.get(), ModItems.HELL_GEM.get()));

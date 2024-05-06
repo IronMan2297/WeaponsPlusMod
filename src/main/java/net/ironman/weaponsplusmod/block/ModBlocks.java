@@ -50,7 +50,9 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
-    /* Movie Blocks */
+    public static final RegistryObject<Block> AMBER_BLOCK = registerBlock("amber_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)
+                    .strength(5f).requiresCorrectToolForDrops().mapColor(MapColor.COLOR_ORANGE)));
 
 
 

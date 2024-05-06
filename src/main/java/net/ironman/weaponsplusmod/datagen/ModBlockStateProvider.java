@@ -24,6 +24,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(ModBlocks.ENDERITE_ORE);
         blockWithItem(ModBlocks.ENDERITE_BLOCK);
+
+        blockWithItem(ModBlocks.AMBER_BLOCK);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

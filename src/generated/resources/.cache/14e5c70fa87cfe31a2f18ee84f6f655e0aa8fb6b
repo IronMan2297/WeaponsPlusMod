@@ -1,4 +1,5 @@
-// 1.20.1	2024-04-27T23:59:57.0487829	Block States: weaponsplusmod
+// 1.20.1	2024-05-04T23:45:08.8534313	Block States: weaponsplusmod
+3f5f9a7af4a13589a19bd17a0826048d0aebf535 assets/weaponsplusmod/blockstates/amber_block.json
 9960253e0963ef98cfa88e5c427178267259271c assets/weaponsplusmod/blockstates/aqua_block.json
 2d42faec888ea3eed2dde761cc07843c47b5e2c9 assets/weaponsplusmod/blockstates/aqua_ore.json
 2aededd336995e87ff001c30bc6b4957fdf9d637 assets/weaponsplusmod/blockstates/deepslate_aqua_ore.json
@@ -6,6 +7,7 @@
 be88cf00871b14cb52512b10b8630e6d7d73f0a0 assets/weaponsplusmod/blockstates/enderite_ore.json
 f44f78b25b0e21240d56a0f5086e2deab1a8446d assets/weaponsplusmod/blockstates/hell_gem_block.json
 a041633f3b7333b6e2ed82ec620363bc043ad4a5 assets/weaponsplusmod/blockstates/nether_hell_ore.json
+2b9489147e46c52e2bcf356975ea0c81f7a26c3d assets/weaponsplusmod/models/block/amber_block.json
 7a125d3a4cfd222acf2d93716096efb77972b46b assets/weaponsplusmod/models/block/aqua_block.json
 01380f13ec3a9d1f6fb76ead9672572b38371c72 assets/weaponsplusmod/models/block/aqua_ore.json
 0676f514a4f4c73cc81c041ea47064ad9d93ed6b assets/weaponsplusmod/models/block/deepslate_aqua_ore.json
@@ -13,6 +15,7 @@ a041633f3b7333b6e2ed82ec620363bc043ad4a5 assets/weaponsplusmod/blockstates/nethe
 05afbddfa4baa389fcc900ab74609a428101a657 assets/weaponsplusmod/models/block/enderite_ore.json
 85e4067a0eb412578dbfe5caee41d47c452e14ae assets/weaponsplusmod/models/block/hell_gem_block.json
 7f17635a698747bb41ff92389a41b57b916bdb5c assets/weaponsplusmod/models/block/nether_hell_ore.json
+703eedc27a67379e74760ae6141837e814682770 assets/weaponsplusmod/models/item/amber_block.json
 ee66a7d8ddd6839dde7dcd00c5c2846c4c398f28 assets/weaponsplusmod/models/item/aqua_block.json
 48a6dfe0feb47c5c38b9507118959a1e8b8c76e3 assets/weaponsplusmod/models/item/aqua_ore.json
 14d750618ed84eef0a7471a9c4089e08f27495da assets/weaponsplusmod/models/item/deepslate_aqua_ore.json
