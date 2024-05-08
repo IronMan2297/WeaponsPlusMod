@@ -17,6 +17,7 @@ public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_AQUA_ORE = registerKey("add_aqua_ore");
     public static final ResourceKey<BiomeModifier> ADD_NETHER_HELL_ORE = registerKey("add_nether_hell_ore");
     public static final ResourceKey<BiomeModifier> ADD_END_ENDERITE_ORE = registerKey("add_end_enderite_ore");
+    public static final ResourceKey<BiomeModifier> ADD_END_ENDERIUM_ORE = registerKey("add_end_enderium_ore");
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
@@ -30,6 +31,11 @@ public class ModBiomeModifiers {
         context.register(ADD_NETHER_HELL_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_HELL_ORE_PLACED_KEY)),
+                GenerationStep.Decoration.UNDERGROUND_ORES));
+
+        context.register(ADD_END_ENDERIUM_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(BiomeTags.IS_END),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.END_ENDERIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         context.register(ADD_END_ENDERITE_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(

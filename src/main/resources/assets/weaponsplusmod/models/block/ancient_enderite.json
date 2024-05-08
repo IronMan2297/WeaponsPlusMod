@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "weaponsplusmod:block/ancient_enderite_top",
+    "side": "weaponsplusmod:block/ancient_enderite_side"
+  }
+}

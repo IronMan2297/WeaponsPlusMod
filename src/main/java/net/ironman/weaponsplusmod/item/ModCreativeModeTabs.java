@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PHOENIX_FEATHER.get());
                         output.accept(ModItems.AQUA_PEARL.get());
                         output.accept(ModItems.SHARD_OF_THE_OCEAN.get());
+                        output.accept(ModItems.ENDERITE_SCRAP.get());
                         output.accept(ModItems.ENDERITE_INGOT.get());
                         output.accept(ModItems.AMBER_CRYSTAL.get());
 
@@ -37,7 +38,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AQUA_BLOCK.get());
                         output.accept(ModBlocks.AQUA_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_AQUA_ORE.get());
-                        output.accept(ModBlocks.ENDERITE_ORE.get());
+                        output.accept(ModBlocks.ANCIENT_ENDERITE.get());
                         output.accept(ModBlocks.ENDERITE_BLOCK.get());
                         output.accept(ModBlocks.AMBER_BLOCK.get());
 
@@ -104,6 +105,25 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERITE_CHESTPLATE.get());
                         output.accept(ModItems.ENDERITE_LEGGINGS.get());
                         output.accept(ModItems.ENDERITE_BOOTS.get());
+
+                        output.accept(ModItems.ENDERIUM_SWORD.get());
+                        output.accept(ModItems.ENDERIUM_AXE.get());
+                        output.accept(ModItems.ENDERIUM_PICKAXE.get());
+                        output.accept(ModItems.ENDERIUM_SHOVEL.get());
+                        output.accept(ModItems.ENDERIUM_HOE.get());
+                        output.accept(ModItems.ENDERIUM_RAPIER.get());
+                        output.accept(ModItems.ENDERIUM_CUTLASS.get());
+                        output.accept(ModItems.ENDERIUM_KATANA.get());
+                        output.accept(ModItems.ENDERIUM_LONGSWORD.get());
+                        output.accept(ModItems.ENDERIUM_DAGGER.get());
+                        output.accept(ModItems.ENDERIUM_BATTLE_AXE.get());
+                        output.accept(ModItems.ENDERIUM_DOUBLE_AXE.get());
+                        output.accept(ModItems.ENDERIUM_MULTITOOL.get());
+
+                        output.accept(ModItems.ENDERIUM_HELMET.get());
+                        output.accept(ModItems.ENDERIUM_CHESTPLATE.get());
+                        output.accept(ModItems.ENDERIUM_LEGGINGS.get());
+                        output.accept(ModItems.ENDERIUM_BOOTS.get());
 
                         output.accept(ModItems.AMBER_SWORD.get());
                         output.accept(ModItems.AMBER_AXE.get());

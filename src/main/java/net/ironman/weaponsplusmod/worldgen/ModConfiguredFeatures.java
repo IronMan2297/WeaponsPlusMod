@@ -29,6 +29,7 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_AQUA_ORE_KEY = registerKey("aqua_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_HELL_ORE_KEY = registerKey("nether_hell_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_ENDERITE_ORE_KEY = registerKey("end_enderite_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> END_ENDERIUM_ORE_KEY = registerKey("end_enderium_ore");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceabeles = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -44,7 +45,9 @@ public class ModConfiguredFeatures {
         register(context, NETHER_HELL_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceabeles,
                 ModBlocks.NETHER_HELL_ORE.get().defaultBlockState(), 9));
         register(context, END_ENDERITE_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceabeles,
-                ModBlocks.ENDERITE_ORE.get().defaultBlockState(), 9));
+                ModBlocks.ANCIENT_ENDERITE.get().defaultBlockState(), 7));
+        register(context, END_ENDERIUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceabeles,
+                ModBlocks.ENDERIUM_ORE.get().defaultBlockState(), 9));
 
 
     }

@@ -1,9 +1,11 @@
-// 1.20.1	2024-05-04T23:45:08.8609537	Loot Tables
+// 1.20.1	2024-05-08T22:06:33.5351645	Loot Tables
 deb422b32ae0777f9f61a6b781507b328f6b6d56 data/weaponsplusmod/loot_tables/blocks/amber_block.json
+dc1a4e83ac03ff842dda494c305d0ef93e2f6c76 data/weaponsplusmod/loot_tables/blocks/ancient_enderite.json
 a55ea9152b35044f36673ddd497544145f26c709 data/weaponsplusmod/loot_tables/blocks/aqua_block.json
 46f8d762d35fb21c69d44d9b5c8ad6e8cd219120 data/weaponsplusmod/loot_tables/blocks/aqua_ore.json
 2fdd5c154cfc0a552b4bb38d7913f58e736527c5 data/weaponsplusmod/loot_tables/blocks/deepslate_aqua_ore.json
 1f645ef84dceddceea64488f25307df3dc6c8ef3 data/weaponsplusmod/loot_tables/blocks/enderite_block.json
-6945053613eb736617f47efdc33341a57965f46d data/weaponsplusmod/loot_tables/blocks/enderite_ore.json
+5444fff82f1916e3d751daf14e6aa365c6cc7668 data/weaponsplusmod/loot_tables/blocks/enderium_block.json
+bae52f520deb104486593337d4a6c26483dfafc0 data/weaponsplusmod/loot_tables/blocks/enderium_ore.json
 6d8cd49eaac0c8fb6cc40ce85eb60634df60a891 data/weaponsplusmod/loot_tables/blocks/hell_gem_block.json
 2219c58ec32594f595b29b8a2070c9b73a7bdfb5 data/weaponsplusmod/loot_tables/blocks/nether_hell_ore.json

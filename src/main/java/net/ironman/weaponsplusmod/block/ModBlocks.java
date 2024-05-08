@@ -46,13 +46,21 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops()
                     .mapColor(MapColor.COLOR_PURPLE)));
 
-    public static final RegistryObject<Block> ENDERITE_ORE = registerBlock("enderite_ore",
+    public static final RegistryObject<Block> ANCIENT_ENDERITE = registerBlock("ancient_enderite",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
     public static final RegistryObject<Block> AMBER_BLOCK = registerBlock("amber_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)
                     .strength(5f).requiresCorrectToolForDrops().mapColor(MapColor.COLOR_ORANGE)));
+
+    public static final RegistryObject<Block> ENDERIUM_BLOCK = registerBlock("enderium_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops()
+                    .mapColor(MapColor.COLOR_PURPLE)));
+
+    public static final RegistryObject<Block> ENDERIUM_ORE = registerBlock("enderium_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
 
 

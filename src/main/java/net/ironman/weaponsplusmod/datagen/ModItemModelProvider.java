@@ -26,6 +26,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.AQUA_PEARL);
         simpleItem(ModItems.SHARD_OF_THE_OCEAN);
         simpleItem(ModItems.ENDERITE_INGOT);
+        simpleItem(ModItems.ENDERITE_SCRAP);
+        simpleItem(ModItems.ENDERIUM_INGOT);
         simpleItem(ModItems.AMBER_CRYSTAL);
 
        handheldItem(ModItems.WOODEN_MULTITOOL);
@@ -128,6 +130,26 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.AMBER_CHESTPLATE);
         simpleItem(ModItems.AMBER_LEGGINGS);
         simpleItem(ModItems.AMBER_BOOTS);
+
+        handheldItem(ModItems.ENDERIUM_SWORD);
+        handheldItem(ModItems.ENDERIUM_AXE);
+        handheldItem(ModItems.ENDERIUM_PICKAXE);
+        handheldItem(ModItems.ENDERIUM_SHOVEL);
+        handheldItem(ModItems.ENDERIUM_HOE);
+
+        handheldItem(ModItems.ENDERIUM_BATTLE_AXE);
+        handheldItem(ModItems.ENDERIUM_DOUBLE_AXE);
+        handheldItem(ModItems.ENDERIUM_RAPIER);
+        handheldItem(ModItems.ENDERIUM_CUTLASS);
+        handheldItem(ModItems.ENDERIUM_DAGGER);
+        handheldItem(ModItems.ENDERIUM_KATANA);
+        handheldItem(ModItems.ENDERIUM_LONGSWORD);
+        handheldItem(ModItems.ENDERIUM_MULTITOOL);
+
+        simpleItem(ModItems.ENDERIUM_HELMET);
+        simpleItem(ModItems.ENDERIUM_CHESTPLATE);
+        simpleItem(ModItems.ENDERIUM_LEGGINGS);
+        simpleItem(ModItems.ENDERIUM_BOOTS);
 
     }
 

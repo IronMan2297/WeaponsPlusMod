@@ -3,6 +3,8 @@
   "item.weaponsplusmod.hell_gem": "Hell Gem",
   "item.weaponsplusmod.aqua_pearl": "Aqua Pearl",
   "item.weaponsplusmod.enderite_ingot": "Enderite Ingot",
+  "item.weaponsplusmod.enderite_scrap": "Enderite Scrap",
+  "item.weaponsplusmod.enderium_ingot": "Enderium Ingot",
   "item.weaponsplusmod.amber_crystal": "Amber Crystal",
   "item.weaponsplusmod.shard_of_the_ocean": "Shard of the Ocean",
   "item.weaponsplusmod.phoenix_feather": "Phoenix Feather",
@@ -116,6 +118,27 @@
   "item.weaponsplusmod.amber_leggings": "Amber Leggings",
   "item.weaponsplusmod.amber_boots": "Amber Boots",
 
+  "item.weaponsplusmod.enderium_sword": "Enderium Sword",
+  "item.weaponsplusmod.enderium_axe": "Enderium Axe",
+  "item.weaponsplusmod.enderium_pickaxe": "Enderium Pickaxe",
+  "item.weaponsplusmod.enderium_shovel": "Enderium Shovel",
+  "item.weaponsplusmod.enderium_hoe": "Enderium Hoe",
+
+  "item.weaponsplusmod.enderium_battle_axe": "Enderium Battle Axe",
+  "item.weaponsplusmod.enderium_double_axe": "Enderium Double Axe",
+  "item.weaponsplusmod.enderium_rapier": "Enderium Rapier",
+  "item.weaponsplusmod.enderium_cutlass": "Enderium Cutlass",
+  "item.weaponsplusmod.enderium_dagger": "Enderium Dagger",
+  "item.weaponsplusmod.enderium_katana": "Enderium Katana",
+  "item.weaponsplusmod.enderium_longsword": "Enderium Longsword",
+
+  "item.weaponsplusmod.enderium_multitool": "Enderium Multitool",
+
+  "item.weaponsplusmod.enderium_helmet": "Enderium Helmet",
+  "item.weaponsplusmod.enderium_chestplate": "Enderium Chestplate",
+  "item.weaponsplusmod.enderium_leggings": "Enderium Leggings",
+  "item.weaponsplusmod.enderium_boots": "Enderium Boots",
+
   "item.weaponsplusmod.hattori_hanzo_katana": "Hattori Hanzo Katana",
 
   "block.weaponsplusmod.hell_gem_block": "Hell Gem Block",
@@ -125,8 +148,13 @@
   "block.weaponsplusmod.aqua_ore": "Aqua Ore",
   "block.weaponsplusmod.deepslate_aqua_ore": "Deepslate Aqua Ore",
 
-  "block.weaponsplusmod.enderite_block": "Enderite Block",
-  "block.weaponsplusmod.enderite_ore": "Enderite Ore",
+  "block.weaponsplusmod.amber_block": "Amber Block",
+
+  "block.weaponsplusmod.enderium_block": "Enderium Block",
+  "block.weaponsplusmod.enderium_ore": "Enderium Ore",
+
+  "block.weaponsplusmod.enderite_block": "Enderium Block",
+  "block.weaponsplusmod.ancient_enderite": "Ancient Enderite",
 
   "creativetab.items_tab": "Items",
   "creativetab.tools_tab": "Tools & Armors",
