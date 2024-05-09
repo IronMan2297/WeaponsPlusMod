@@ -29,6 +29,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ENDERITE_SCRAP);
         simpleItem(ModItems.ENDERIUM_INGOT);
         simpleItem(ModItems.AMBER_CRYSTAL);
+        simpleItem(ModItems.RUBY);
 
        handheldItem(ModItems.WOODEN_MULTITOOL);
        handheldItem(ModItems.STONE_MULTITOOL);
@@ -150,6 +151,26 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ENDERIUM_CHESTPLATE);
         simpleItem(ModItems.ENDERIUM_LEGGINGS);
         simpleItem(ModItems.ENDERIUM_BOOTS);
+
+        handheldItem(ModItems.RUBY_SWORD);
+        handheldItem(ModItems.RUBY_AXE);
+        handheldItem(ModItems.RUBY_PICKAXE);
+        handheldItem(ModItems.RUBY_SHOVEL);
+        handheldItem(ModItems.RUBY_HOE);
+
+        handheldItem(ModItems.RUBY_BATTLE_AXE);
+        handheldItem(ModItems.RUBY_DOUBLE_AXE);
+        handheldItem(ModItems.RUBY_RAPIER);
+        handheldItem(ModItems.RUBY_CUTLASS);
+        handheldItem(ModItems.RUBY_DAGGER);
+        handheldItem(ModItems.RUBY_KATANA);
+        handheldItem(ModItems.RUBY_LONGSWORD);
+        handheldItem(ModItems.RUBY_MULTITOOL);
+
+        simpleItem(ModItems.RUBY_HELMET);
+        simpleItem(ModItems.RUBY_CHESTPLATE);
+        simpleItem(ModItems.RUBY_LEGGINGS);
+        simpleItem(ModItems.RUBY_BOOTS);
 
     }
 

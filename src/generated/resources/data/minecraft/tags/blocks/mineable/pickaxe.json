@@ -8,6 +8,9 @@
     "weaponsplusmod:enderite_block",
     "weaponsplusmod:ancient_enderite",
     "weaponsplusmod:enderium_ore",
-    "weaponsplusmod:enderium_block"
+    "weaponsplusmod:enderium_block",
+    "weaponsplusmod:ruby_block",
+    "weaponsplusmod:ruby_ore",
+    "weaponsplusmod:deepslate_ruby_ore"
   ]
 }

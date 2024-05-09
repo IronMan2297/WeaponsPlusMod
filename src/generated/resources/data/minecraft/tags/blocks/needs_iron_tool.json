@@ -2,6 +2,9 @@
   "values": [
     "weaponsplusmod:aqua_ore",
     "weaponsplusmod:aqua_block",
-    "weaponsplusmod:deepslate_aqua_ore"
+    "weaponsplusmod:deepslate_aqua_ore",
+    "weaponsplusmod:ruby_block",
+    "weaponsplusmod:ruby_ore",
+    "weaponsplusmod:deepslate_ruby_ore"
   ]
 }

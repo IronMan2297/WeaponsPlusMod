@@ -6,6 +6,7 @@
   "item.weaponsplusmod.enderite_scrap": "Enderite Scrap",
   "item.weaponsplusmod.enderium_ingot": "Enderium Ingot",
   "item.weaponsplusmod.amber_crystal": "Amber Crystal",
+  "item.weaponsplusmod.ruby": "Ruby",
   "item.weaponsplusmod.shard_of_the_ocean": "Shard of the Ocean",
   "item.weaponsplusmod.phoenix_feather": "Phoenix Feather",
   "item.weaponsplusmod.empowered_hell_gem": "Empowered Hell Gem",
@@ -139,6 +140,27 @@
   "item.weaponsplusmod.enderium_leggings": "Enderium Leggings",
   "item.weaponsplusmod.enderium_boots": "Enderium Boots",
 
+  "item.weaponsplusmod.ruby_sword": "Ruby Sword",
+  "item.weaponsplusmod.ruby_axe": "Ruby Axe",
+  "item.weaponsplusmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.weaponsplusmod.ruby_shovel": "Ruby Shovel",
+  "item.weaponsplusmod.ruby_hoe": "Ruby Hoe",
+
+  "item.weaponsplusmod.ruby_battle_axe": "Ruby Battle Axe",
+  "item.weaponsplusmod.ruby_double_axe": "Ruby Double Axe",
+  "item.weaponsplusmod.ruby_rapier": "Ruby Rapier",
+  "item.weaponsplusmod.ruby_cutlass": "Ruby Cutlass",
+  "item.weaponsplusmod.ruby_dagger": "Ruby Dagger",
+  "item.weaponsplusmod.ruby_katana": "Ruby Katana",
+  "item.weaponsplusmod.ruby_longsword": "Ruby Longsword",
+
+  "item.weaponsplusmod.ruby_multitool": "Ruby Multitool",
+
+  "item.weaponsplusmod.ruby_helmet": "Ruby Helmet",
+  "item.weaponsplusmod.ruby_chestplate": "Ruby Chestplate",
+  "item.weaponsplusmod.ruby_leggings": "Ruby Leggings",
+  "item.weaponsplusmod.ruby_boots": "Ruby Boots",
+
   "item.weaponsplusmod.hattori_hanzo_katana": "Hattori Hanzo Katana",
 
   "block.weaponsplusmod.hell_gem_block": "Hell Gem Block",
@@ -155,6 +177,10 @@
 
   "block.weaponsplusmod.enderite_block": "Enderium Block",
   "block.weaponsplusmod.ancient_enderite": "Ancient Enderite",
+
+  "block.weaponsplusmod.ruby_block": "Ruby Block",
+  "block.weaponsplusmod.ruby_ore": "Ruby Ore",
+  "block.weaponsplusmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
   "creativetab.items_tab": "Items",
   "creativetab.tools_tab": "Tools & Armors",

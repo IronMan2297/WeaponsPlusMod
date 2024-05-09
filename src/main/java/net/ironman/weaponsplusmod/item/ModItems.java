@@ -52,6 +52,9 @@ public class ModItems {
     public static final RegistryObject<Item> AMBER_CRYSTAL = ITEMS.register("amber_crystal",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer",
             () -> new HammerItem(Tiers.IRON, 2, -3.4f, new Item.Properties().durability(256)));
 
@@ -334,7 +337,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.ENDERIUM, -3,0,
                     new Item.Properties().durability(256).fireResistant()));
 
-    /* Special Enderite Weapons and Tools */
+    /* Special Enderium Weapons and Tools */
     public static final RegistryObject<Item> ENDERIUM_BATTLE_AXE = ITEMS.register("enderium_battle_axe",
             () -> new AxeItem(ModToolTiers.ENDERIUM, 7,-3.2f,
                     new Item.Properties().durability(256).fireResistant()));
@@ -360,7 +363,7 @@ public class ModItems {
     public static final RegistryObject<Item> ENDERIUM_MULTITOOL = ITEMS.register("enderium_multitool",
             () -> new PaxelItem(ModToolTiers.ENDERIUM, 2, 3, new Item.Properties().durability(256)));
 
-    /* Enderite Armor */
+    /* Enderium Armor */
     public static final RegistryObject<Item> ENDERIUM_HELMET = ITEMS.register("enderium_helmet",
             () -> new ModArmorItem(ModArmorMaterials.ENDERIUM, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> ENDERIUM_CHESTPLATE = ITEMS.register("enderium_chestplate",
@@ -369,6 +372,59 @@ public class ModItems {
             () -> new ModArmorItem(ModArmorMaterials.ENDERIUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> ENDERIUM_BOOTS = ITEMS.register("enderium_boots",
             () -> new ModArmorItem(ModArmorMaterials.ENDERIUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    /* Standart Ruby Weapons and Tools */
+    public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
+            () -> new SwordItem(ModToolTiers.RUBY, 4,-2.4f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe",
+            () -> new AxeItem(ModToolTiers.RUBY, 6,-3f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.RUBY, 2,-2.8f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
+            () -> new ShovelItem(ModToolTiers.RUBY, 3,-3f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe",
+            () -> new HoeItem(ModToolTiers.RUBY, -3,0,
+                    new Item.Properties().durability(256).fireResistant()));
+
+    /* Special Ruby Weapons and Tools */
+    public static final RegistryObject<Item> RUBY_BATTLE_AXE = ITEMS.register("ruby_battle_axe",
+            () -> new AxeItem(ModToolTiers.RUBY, 7,-3.2f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> RUBY_DOUBLE_AXE = ITEMS.register("ruby_double_axe",
+            () -> new AxeItem(ModToolTiers.RUBY, 9,-3.4f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> RUBY_RAPIER = ITEMS.register("ruby_rapier",
+            () -> new SwordItem(ModToolTiers.RUBY, 3,-1.4f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> RUBY_CUTLASS = ITEMS.register("ruby_cutlass",
+            () -> new SwordItem(ModToolTiers.RUBY, 6,-2.8f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> RUBY_DAGGER = ITEMS.register("ruby_dagger",
+            () -> new SwordItem(ModToolTiers.RUBY,2,-0.2f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> RUBY_KATANA = ITEMS.register("ruby_katana",
+            () -> new SwordItem(ModToolTiers.RUBY, 5,-2.0f,
+                    new Item.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> RUBY_LONGSWORD = ITEMS.register("ruby_longsword",
+            () -> new SwordItem(ModToolTiers.RUBY, 8,-3.3f,
+                    new Item.Properties().durability(256).fireResistant()));
+
+    public static final RegistryObject<Item> RUBY_MULTITOOL = ITEMS.register("ruby_multitool",
+            () -> new PaxelItem(ModToolTiers.RUBY, 2, 3, new Item.Properties().durability(256)));
+
+    /* Ruby Armor */
+    public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
+            () -> new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     /* Hattori Hanzo Katana*/
     public static final RegistryObject<Item> HATTORI_HANZO_KATANA = ITEMS.register("hattori_hanzo_katana",

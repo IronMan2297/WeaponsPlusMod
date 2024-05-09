@@ -30,8 +30,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERITE_SCRAP.get());
                         output.accept(ModItems.ENDERITE_INGOT.get());
                         output.accept(ModItems.AMBER_CRYSTAL.get());
+                        output.accept(ModItems.RUBY.get());
+                        output.accept(ItemStack.EMPTY);
 
-                        output.accept(ModItems.IRON_ROD.get());
+                        // output.accept(ModItems.IRON_ROD.get());
 
                         output.accept(ModBlocks.HELL_GEM_BLOCK.get());
                         output.accept(ModBlocks.NETHER_HELL_ORE.get());
@@ -41,6 +43,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ANCIENT_ENDERITE.get());
                         output.accept(ModBlocks.ENDERITE_BLOCK.get());
                         output.accept(ModBlocks.AMBER_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
 
                     }).build());
 
@@ -143,6 +148,25 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AMBER_CHESTPLATE.get());
                         output.accept(ModItems.AMBER_LEGGINGS.get());
                         output.accept(ModItems.AMBER_BOOTS.get());
+
+                        output.accept(ModItems.RUBY_SWORD.get());
+                        output.accept(ModItems.RUBY_AXE.get());
+                        output.accept(ModItems.RUBY_PICKAXE.get());
+                        output.accept(ModItems.RUBY_SHOVEL.get());
+                        output.accept(ModItems.RUBY_HOE.get());
+                        output.accept(ModItems.RUBY_RAPIER.get());
+                        output.accept(ModItems.RUBY_CUTLASS.get());
+                        output.accept(ModItems.RUBY_KATANA.get());
+                        output.accept(ModItems.RUBY_LONGSWORD.get());
+                        output.accept(ModItems.RUBY_DAGGER.get());
+                        output.accept(ModItems.RUBY_BATTLE_AXE.get());
+                        output.accept(ModItems.RUBY_DOUBLE_AXE.get());
+                        output.accept(ModItems.RUBY_MULTITOOL.get());
+
+                        output.accept(ModItems.RUBY_HELMET.get());
+                        output.accept(ModItems.RUBY_CHESTPLATE.get());
+                        output.accept(ModItems.RUBY_LEGGINGS.get());
+                        output.accept(ModItems.RUBY_BOOTS.get());
 
 
                         output.accept(ModItems.HAMMER.get());

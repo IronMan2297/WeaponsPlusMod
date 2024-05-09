@@ -21,6 +21,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ENDERITE_BLOCK.get());
         this.dropSelf(ModBlocks.ENDERIUM_BLOCK.get());
         this.dropSelf(ModBlocks.AMBER_BLOCK.get());
+        this.dropSelf(ModBlocks.RUBY_BLOCK.get());
 
         this.add(ModBlocks.NETHER_HELL_ORE.get(),
                 block -> createOreDrop(ModBlocks.NETHER_HELL_ORE.get(), ModItems.HELL_GEM.get()));
@@ -32,6 +33,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                  block -> createOreDrop(ModBlocks.ANCIENT_ENDERITE.get(), ModItems.ENDERITE_SCRAP.get()));
          this.add(ModBlocks.ENDERIUM_ORE.get(),
                  block -> createOreDrop(ModBlocks.ENDERIUM_ORE.get(), ModItems.ENDERIUM_INGOT.get()));
+        this.add(ModBlocks.RUBY_ORE.get(),
+                block -> createOreDrop(ModBlocks.RUBY_ORE.get(), ModItems.RUBY.get()));
+        this.add(ModBlocks.DEEPSLATE_RUBY_ORE.get(),
+                block -> createOreDrop(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RUBY.get()));
 
     }
 

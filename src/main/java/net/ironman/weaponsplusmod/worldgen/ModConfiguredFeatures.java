@@ -27,6 +27,7 @@ import java.util.List;
 public class ModConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_AQUA_ORE_KEY = registerKey("aqua_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_RUBY_ORE_KEY = registerKey("ruby_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_HELL_ORE_KEY = registerKey("nether_hell_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_ENDERITE_ORE_KEY = registerKey("end_enderite_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_ENDERIUM_ORE_KEY = registerKey("end_enderium_ore");
@@ -37,11 +38,16 @@ public class ModConfiguredFeatures {
         RuleTest netherrackReplaceabeles = new BlockMatchTest(Blocks.NETHERRACK);
         RuleTest endReplaceabeles = new BlockMatchTest(Blocks.END_STONE);
 
-        List<OreConfiguration.TargetBlockState> overworldAlexandriteOres = List.of(OreConfiguration.target(stoneReplaceabeles,
+        List<OreConfiguration.TargetBlockState> overworldAquaOres = List.of(OreConfiguration.target(stoneReplaceabeles,
                         ModBlocks.AQUA_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceabeles, ModBlocks.DEEPSLATE_AQUA_ORE.get().defaultBlockState()));
 
-        register(context, OVERWORLD_AQUA_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAlexandriteOres, 9));
+        List<OreConfiguration.TargetBlockState> overworldRubyOres = List.of(OreConfiguration.target(stoneReplaceabeles,
+                        ModBlocks.RUBY_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceabeles, ModBlocks.DEEPSLATE_RUBY_ORE.get().defaultBlockState()));
+
+        register(context, OVERWORLD_AQUA_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAquaOres, 9));
+        register(context, OVERWORLD_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(overworldRubyOres, 9));
         register(context, NETHER_HELL_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceabeles,
                 ModBlocks.NETHER_HELL_ORE.get().defaultBlockState(), 9));
         register(context, END_ENDERITE_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceabeles,

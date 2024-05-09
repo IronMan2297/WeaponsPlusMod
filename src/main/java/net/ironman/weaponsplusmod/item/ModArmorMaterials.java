@@ -55,7 +55,14 @@ public enum ModArmorMaterials implements ArmorMaterial {
         p_123456_.put(ArmorItem.Type.LEGGINGS, 5);
         p_123456_.put(ArmorItem.Type.CHESTPLATE, 6);
         p_123456_.put(ArmorItem.Type.HELMET, 3);
-    }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 1F, 0.0F, () -> Ingredient.of(ModItems.AMBER_CRYSTAL.get())); // replace ';' with ',' for more MAterials!
+    }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 1F, 0.0F, () -> Ingredient.of(ModItems.AMBER_CRYSTAL.get())),
+
+    RUBY("ruby", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_123456_) -> {
+        p_123456_.put(ArmorItem.Type.BOOTS, 3);
+        p_123456_.put(ArmorItem.Type.LEGGINGS, 5);
+        p_123456_.put(ArmorItem.Type.CHESTPLATE, 6);
+        p_123456_.put(ArmorItem.Type.HELMET, 3);
+    }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 1F, 0.0F, () -> Ingredient.of(ModItems.RUBY.get())); // replace ';' with ',' for more MAterials!
 
 
 
