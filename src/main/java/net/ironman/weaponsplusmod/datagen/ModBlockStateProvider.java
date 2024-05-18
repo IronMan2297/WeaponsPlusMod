@@ -32,6 +32,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RUBY_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_RUBY_ORE);
         blockWithItem(ModBlocks.RUBY_BLOCK);
+
+        blockWithItem(ModBlocks.ELECTRUM_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_ELECTRUM_ORE);
+        blockWithItem(ModBlocks.ELECTRUM_BLOCK);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

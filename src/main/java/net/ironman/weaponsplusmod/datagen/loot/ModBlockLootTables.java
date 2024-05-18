@@ -22,6 +22,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ENDERIUM_BLOCK.get());
         this.dropSelf(ModBlocks.AMBER_BLOCK.get());
         this.dropSelf(ModBlocks.RUBY_BLOCK.get());
+        this.dropSelf(ModBlocks.ELECTRUM_BLOCK.get());
 
         this.add(ModBlocks.NETHER_HELL_ORE.get(),
                 block -> createOreDrop(ModBlocks.NETHER_HELL_ORE.get(), ModItems.HELL_GEM.get()));
@@ -36,6 +37,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.RUBY_ORE.get(),
                 block -> createOreDrop(ModBlocks.RUBY_ORE.get(), ModItems.RUBY.get()));
         this.add(ModBlocks.DEEPSLATE_RUBY_ORE.get(),
+                block -> createOreDrop(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RUBY.get()));
+        this.add(ModBlocks.ELECTRUM_ORE.get(),
+                block -> createOreDrop(ModBlocks.RUBY_ORE.get(), ModItems.RUBY.get()));
+        this.add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get(),
                 block -> createOreDrop(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RUBY.get()));
 
     }

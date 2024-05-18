@@ -5,6 +5,9 @@
     "weaponsplusmod:deepslate_aqua_ore",
     "weaponsplusmod:ruby_block",
     "weaponsplusmod:ruby_ore",
-    "weaponsplusmod:deepslate_ruby_ore"
+    "weaponsplusmod:deepslate_ruby_ore",
+    "weaponsplusmod:electrum_block",
+    "weaponsplusmod:electrum_ore",
+    "weaponsplusmod:deepslate_electrum_ore"
   ]
 }

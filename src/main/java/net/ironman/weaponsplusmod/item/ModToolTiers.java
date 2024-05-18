@@ -45,6 +45,11 @@ public class ModToolTiers {
                     ModTags.Blocks.NEEDS_RUBY_TOOL, () -> Ingredient.of(ModItems.RUBY.get())),
             new ResourceLocation(WeaponsPlusMod.MOD_ID, "ruby"), List.of(Tiers.NETHERITE), List.of());
 
+    public static final Tier ELECTRUM = TierSortingRegistry.registerTier(
+            new ForgeTier(4, 999, 8.5f, 3f, 44,
+                    ModTags.Blocks.NEEDS_ELECTRUM_TOOL, () -> Ingredient.of(ModItems.ELECTRUM_INGOT.get())),
+            new ResourceLocation(WeaponsPlusMod.MOD_ID, "electrum"), List.of(Tiers.NETHERITE), List.of());
+
     public static final Tier EMERALD = TierSortingRegistry.registerTier(
             new ForgeTier(3, 1234, 8.5f, 3f, 19,
                     Tags.Blocks.NEEDS_NETHERITE_TOOL, () -> Ingredient.of(Items.EMERALD)),

@@ -31,7 +31,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERITE_INGOT.get());
                         output.accept(ModItems.AMBER_CRYSTAL.get());
                         output.accept(ModItems.RUBY.get());
-                        output.accept(ItemStack.EMPTY);
+                        output.accept(ModItems.ELECTRUM_INGOT.get());
+                        output.accept(ModItems.RAW_ELECTRUM.get());
 
                         // output.accept(ModItems.IRON_ROD.get());
 
@@ -40,12 +41,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AQUA_BLOCK.get());
                         output.accept(ModBlocks.AQUA_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_AQUA_ORE.get());
+                        output.accept(ModBlocks.ENDERIUM_ORE.get());
+                        output.accept(ModBlocks.ENDERIUM_BLOCK.get());
                         output.accept(ModBlocks.ANCIENT_ENDERITE.get());
                         output.accept(ModBlocks.ENDERITE_BLOCK.get());
                         output.accept(ModBlocks.AMBER_BLOCK.get());
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RUBY_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+                        output.accept(ModBlocks.ELECTRUM_BLOCK.get());
+                        output.accept(ModBlocks.ELECTRUM_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get());
 
                     }).build());
 
@@ -167,6 +173,25 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY_CHESTPLATE.get());
                         output.accept(ModItems.RUBY_LEGGINGS.get());
                         output.accept(ModItems.RUBY_BOOTS.get());
+
+                        output.accept(ModItems.ELECTRUM_SWORD.get());
+                        output.accept(ModItems.ELECTRUM_AXE.get());
+                        output.accept(ModItems.ELECTRUM_PICKAXE.get());
+                        output.accept(ModItems.ELECTRUM_SHOVEL.get());
+                        output.accept(ModItems.ELECTRUM_HOE.get());
+                        output.accept(ModItems.ELECTRUM_RAPIER.get());
+                        output.accept(ModItems.ELECTRUM_CUTLASS.get());
+                        output.accept(ModItems.ELECTRUM_KATANA.get());
+                        output.accept(ModItems.ELECTRUM_LONGSWORD.get());
+                        output.accept(ModItems.ELECTRUM_DAGGER.get());
+                        output.accept(ModItems.ELECTRUM_BATTLE_AXE.get());
+                        output.accept(ModItems.ELECTRUM_DOUBLE_AXE.get());
+                        output.accept(ModItems.ELECTRUM_MULTITOOL.get());
+
+                        output.accept(ModItems.ELECTRUM_HELMET.get());
+                        output.accept(ModItems.ELECTRUM_CHESTPLATE.get());
+                        output.accept(ModItems.ELECTRUM_LEGGINGS.get());
+                        output.accept(ModItems.ELECTRUM_BOOTS.get());
 
 
                         output.accept(ModItems.HAMMER.get());

@@ -55,6 +55,11 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_ELECTRUM = ITEMS.register("raw_electrum",
+            () -> new Item(new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
+            () -> new Item(new Item.Properties().fireResistant()));
+
     public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer",
             () -> new HammerItem(Tiers.IRON, 2, -3.4f, new Item.Properties().durability(256)));
 
@@ -425,6 +430,59 @@ public class ModItems {
             () -> new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
             () -> new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    /* Standart Hell Weapons and Tools */
+    public static final RegistryObject<Item> ELECTRUM_SWORD = ITEMS.register("electrum_sword",
+            () -> new SwordItem(ModToolTiers.ELECTRUM, 4,-2.4f,
+                    new SwordItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_AXE = ITEMS.register("electrum_axe",
+            () -> new AxeItem(ModToolTiers.ELECTRUM, 6,-3f,
+                    new AxeItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_PICKAXE = ITEMS.register("electrum_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ELECTRUM, 2,-2.8f,
+                    new PickaxeItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_SHOVEL = ITEMS.register("electrum_shovel",
+            () -> new ShovelItem(ModToolTiers.ELECTRUM, 3,-3f,
+                    new ShovelItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_HOE = ITEMS.register("electrum_hoe",
+            () -> new HoeItem(ModToolTiers.ELECTRUM, -3,0,
+                    new HoeItem.Properties().durability(256).fireResistant()));
+
+    /* Special Hell Weapons and Tools */
+    public static final RegistryObject<Item> ELECTRUM_BATTLE_AXE = ITEMS.register("electrum_battle_axe",
+            () -> new AxeItem(ModToolTiers.ELECTRUM, 7,-3.2f,
+                    new AxeItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_DOUBLE_AXE = ITEMS.register("electrum_double_axe",
+            () -> new AxeItem(ModToolTiers.ELECTRUM, 9,-3.4f,
+                    new AxeItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_RAPIER = ITEMS.register("electrum_rapier",
+            () -> new SwordItem(ModToolTiers.ELECTRUM, 3,-1.4f,
+                    new SwordItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_CUTLASS = ITEMS.register("electrum_cutlass",
+            () -> new SwordItem(ModToolTiers.ELECTRUM, 6,-2.8f,
+                    new SwordItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_DAGGER = ITEMS.register("electrum_dagger",
+            () -> new SwordItem(ModToolTiers.ELECTRUM,2,-0.2f,
+                    new SwordItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_KATANA = ITEMS.register("electrum_katana",
+            () -> new SwordItem(ModToolTiers.ELECTRUM, 5,-2.0f,
+                    new SwordItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> ELECTRUM_LONGSWORD = ITEMS.register("electrum_longsword",
+            () -> new SwordItem(ModToolTiers.ELECTRUM, 8,-3.3f,
+                    new SwordItem.Properties().durability(256).fireResistant()));
+
+    public static final RegistryObject<Item> ELECTRUM_MULTITOOL = ITEMS.register("electrum_multitool",
+            () -> new PaxelItem(ModToolTiers.ELECTRUM, 2, 3, new Item.Properties().durability(256)));
+
+    /* Hell Armor */
+    public static final RegistryObject<Item> ELECTRUM_HELMET = ITEMS.register("electrum_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.ELECTRUM, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_CHESTPLATE = ITEMS.register("electrum_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.ELECTRUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_LEGGINGS = ITEMS.register("electrum_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.ELECTRUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_BOOTS = ITEMS.register("electrum_boots",
+            () -> new ModArmorItem(ModArmorMaterials.ELECTRUM, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     /* Hattori Hanzo Katana*/
     public static final RegistryObject<Item> HATTORI_HANZO_KATANA = ITEMS.register("hattori_hanzo_katana",

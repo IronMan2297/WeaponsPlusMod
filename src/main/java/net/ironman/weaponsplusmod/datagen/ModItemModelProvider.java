@@ -30,6 +30,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ENDERIUM_INGOT);
         simpleItem(ModItems.AMBER_CRYSTAL);
         simpleItem(ModItems.RUBY);
+        simpleItem(ModItems.RAW_ELECTRUM);
+        simpleItem(ModItems.ELECTRUM_INGOT);
 
        handheldItem(ModItems.WOODEN_MULTITOOL);
        handheldItem(ModItems.STONE_MULTITOOL);
@@ -171,6 +173,26 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RUBY_CHESTPLATE);
         simpleItem(ModItems.RUBY_LEGGINGS);
         simpleItem(ModItems.RUBY_BOOTS);
+
+        handheldItem(ModItems.ELECTRUM_SWORD);
+        handheldItem(ModItems.ELECTRUM_AXE);
+        handheldItem(ModItems.ELECTRUM_PICKAXE);
+        handheldItem(ModItems.ELECTRUM_SHOVEL);
+        handheldItem(ModItems.ELECTRUM_HOE);
+
+        handheldItem(ModItems.ELECTRUM_BATTLE_AXE);
+        handheldItem(ModItems.ELECTRUM_DOUBLE_AXE);
+        handheldItem(ModItems.ELECTRUM_RAPIER);
+        handheldItem(ModItems.ELECTRUM_CUTLASS);
+        handheldItem(ModItems.ELECTRUM_DAGGER);
+        handheldItem(ModItems.ELECTRUM_KATANA);
+        handheldItem(ModItems.ELECTRUM_LONGSWORD);
+        handheldItem(ModItems.ELECTRUM_MULTITOOL);
+
+        simpleItem(ModItems.ELECTRUM_HELMET);
+        simpleItem(ModItems.ELECTRUM_CHESTPLATE);
+        simpleItem(ModItems.ELECTRUM_LEGGINGS);
+        simpleItem(ModItems.ELECTRUM_BOOTS);
 
     }
 

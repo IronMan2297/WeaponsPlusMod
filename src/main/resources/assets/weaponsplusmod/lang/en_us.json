@@ -11,6 +11,8 @@
   "item.weaponsplusmod.phoenix_feather": "Phoenix Feather",
   "item.weaponsplusmod.empowered_hell_gem": "Empowered Hell Gem",
   "item.weaponsplusmod.hell_core": "Hell Core",
+  "item.weaponsplusmod.raw_electrum": "Raw Electrum",
+  "item.weaponsplusmod.electrum_ingot": "Electrum Ingot",
   "item.weaponsplusmod.iron_rod": "Iron Rod",
   "item.weaponsplusmod.hammer": "Hammer",
 
@@ -161,6 +163,27 @@
   "item.weaponsplusmod.ruby_leggings": "Ruby Leggings",
   "item.weaponsplusmod.ruby_boots": "Ruby Boots",
 
+  "item.weaponsplusmod.electrum_sword": "Electrum Sword",
+  "item.weaponsplusmod.electrum_axe": "Electrum Axe",
+  "item.weaponsplusmod.electrum_pickaxe": "Electrum Pickaxe",
+  "item.weaponsplusmod.electrum_shovel": "Electrum Shovel",
+  "item.weaponsplusmod.electrum_hoe": "Electrum Hoe",
+
+  "item.weaponsplusmod.electrum_battle_axe": "Electrum Battle Axe",
+  "item.weaponsplusmod.electrum_double_axe": "Electrum Double Axe",
+  "item.weaponsplusmod.electrum_rapier": "Electrum Rapier",
+  "item.weaponsplusmod.electrum_cutlass": "Electrum Cutlass",
+  "item.weaponsplusmod.electrum_dagger": "Electrum Dagger",
+  "item.weaponsplusmod.electrum_katana": "Electrum Katana",
+  "item.weaponsplusmod.electrum_longsword": "Electrum Longsword",
+
+  "item.weaponsplusmod.electrum_multitool": "Electrum Multitool",
+
+  "item.weaponsplusmod.electrum_helmet": "Electrum Helmet",
+  "item.weaponsplusmod.electrum_chestplate": "Electrum Chestplate",
+  "item.weaponsplusmod.electrum_leggings": "Electrum Leggings",
+  "item.weaponsplusmod.electrum_boots": "Electrum Boots",
+
   "item.weaponsplusmod.hattori_hanzo_katana": "Hattori Hanzo Katana",
 
   "block.weaponsplusmod.hell_gem_block": "Hell Gem Block",
@@ -181,6 +204,10 @@
   "block.weaponsplusmod.ruby_block": "Ruby Block",
   "block.weaponsplusmod.ruby_ore": "Ruby Ore",
   "block.weaponsplusmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
+  "block.weaponsplusmod.electrum_block": "Electrum Block",
+  "block.weaponsplusmod.electrum_ore": "Electrum Ore",
+  "block.weaponsplusmod.deepslate_electrum_ore": "Deepslate Electrum Ore",
 
   "creativetab.items_tab": "Items",
   "creativetab.tools_tab": "Tools & Armors",

@@ -28,6 +28,7 @@ public class ModConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_AQUA_ORE_KEY = registerKey("aqua_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_RUBY_ORE_KEY = registerKey("ruby_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_ELECTRUM_ORE_KEY = registerKey("electrum_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_HELL_ORE_KEY = registerKey("nether_hell_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_ENDERITE_ORE_KEY = registerKey("end_enderite_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_ENDERIUM_ORE_KEY = registerKey("end_enderium_ore");
@@ -46,8 +47,13 @@ public class ModConfiguredFeatures {
                         ModBlocks.RUBY_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceabeles, ModBlocks.DEEPSLATE_RUBY_ORE.get().defaultBlockState()));
 
+        List<OreConfiguration.TargetBlockState> overworldElectrumOres = List.of(OreConfiguration.target(stoneReplaceabeles,
+                        ModBlocks.ELECTRUM_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceabeles, ModBlocks.DEEPSLATE_ELECTRUM_ORE.get().defaultBlockState()));
+
         register(context, OVERWORLD_AQUA_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAquaOres, 9));
         register(context, OVERWORLD_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(overworldRubyOres, 9));
+        register(context, OVERWORLD_ELECTRUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldElectrumOres, 9));
         register(context, NETHER_HELL_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceabeles,
                 ModBlocks.NETHER_HELL_ORE.get().defaultBlockState(), 9));
         register(context, END_ENDERITE_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceabeles,
