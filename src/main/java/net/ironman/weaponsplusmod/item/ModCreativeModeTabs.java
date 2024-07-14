@@ -10,8 +10,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
-import javax.security.auth.login.Configuration;
-
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WeaponsPlusMod.MOD_ID);
@@ -187,6 +185,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ELECTRUM_BATTLE_AXE.get());
                         output.accept(ModItems.ELECTRUM_DOUBLE_AXE.get());
                         output.accept(ModItems.ELECTRUM_MULTITOOL.get());
+                        output.accept(ModItems.ELECTRUM_BOW.get());
 
                         output.accept(ModItems.ELECTRUM_HELMET.get());
                         output.accept(ModItems.ELECTRUM_CHESTPLATE.get());

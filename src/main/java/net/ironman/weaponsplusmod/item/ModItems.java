@@ -471,6 +471,9 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.ELECTRUM, 8,-3.3f,
                     new SwordItem.Properties().durability(256).fireResistant()));
 
+    // public final static RegistryObject<Item> ELECTRUM_BOW = ITEMS.register("electrum_bow",
+    //         () -> new LightningBowItem(new Item.Properties().durability(500)));
+
     public static final RegistryObject<Item> ELECTRUM_MULTITOOL = ITEMS.register("electrum_multitool",
             () -> new PaxelItem(ModToolTiers.ELECTRUM, 2, 3, new Item.Properties().durability(256)));
 
