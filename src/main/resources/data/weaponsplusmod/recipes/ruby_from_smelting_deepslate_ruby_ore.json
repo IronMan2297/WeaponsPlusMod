@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "weaponsplusmod:ruby",
+  "ingredient": {
+    "item": "weaponsplusmod:deepslate_ruby_ore"
+  },
+  "result": "weaponsplusmod:ruby"
+}

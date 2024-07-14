@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "IHI",
+    "AIP",
+    "ISI"
+  ],
+  "key": {
+    "S": {
+      "item": "weaponsplusmod:ruby_sword"
+    },
+    "A": {
+      "item": "weaponsplusmod:ruby_axe"
+    },
+    "P": {
+      "item": "weaponsplusmod:ruby_pickaxe"
+    },
+    "H": {
+      "item": "weaponsplusmod:ruby_shovel"
+    },
+    "I": {
+      "item": "weaponsplusmod:ruby"
+    }
+  },
+  "result": {
+    "item": "weaponsplusmod:ruby_multitool"
+  }
+}

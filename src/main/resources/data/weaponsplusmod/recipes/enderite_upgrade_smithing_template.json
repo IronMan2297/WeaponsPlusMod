@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "C": {
+      "item": "weaponsplusmod:enderite_upgrade_smithing_template"
+    },
+    "S": {
+      "item": "minecraft:end_stone"
+    },
+    "#": {
+      "item": "weaponsplusmod:enderium_ingot"
+    }
+  },
+  "result": {
+    "item": "weaponsplusmod:enderite_upgrade_smithing_template",
+    "count": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "IHI",
+    "AIP",
+    "ISI"
+  ],
+  "key": {
+    "S": {
+      "item": "weaponsplusmod:electrum_sword"
+    },
+    "A": {
+      "item": "weaponsplusmod:electrum_axe"
+    },
+    "P": {
+      "item": "weaponsplusmod:electrum_pickaxe"
+    },
+    "H": {
+      "item": "weaponsplusmod:electrum_shovel"
+    },
+    "I": {
+      "item": "weaponsplusmod:electrum_ingot"
+    }
+  },
+  "result": {
+    "item": "weaponsplusmod:electrum_multitool"
+  }
+}

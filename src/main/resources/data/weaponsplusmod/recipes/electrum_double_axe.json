@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "weaponsplusmod:electrum_axe"
+    }
+  },
+  "pattern": [
+    "  ",
+    "AA"
+  ],
+  "result": {
+    "item": "weaponsplusmod:electrum_double_axe"
+  }
+}

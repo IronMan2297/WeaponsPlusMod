@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "weaponsplusmod:enderite_ingot"
+  },
+  "base": {
+    "item": "weaponsplusmod:enderium_double_axe"
+  },
+  "result": {
+    "item": "weaponsplusmod:enderite_double_axe"
+  },
+  "template": {
+    "item": "weaponsplusmod:enderite_upgrade_smithing_template"
+  }
+}

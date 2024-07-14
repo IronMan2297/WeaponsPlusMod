@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HHH",
+    "HHH",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "weaponsplusmod:enderite_ingot"
+    }
+  },
+  "result": {
+    "item": "weaponsplusmod:enderite_block"
+  }
+}

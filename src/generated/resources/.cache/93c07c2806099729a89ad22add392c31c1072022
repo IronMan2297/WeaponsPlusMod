@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-17T23:00:28.1758577	Item Models: weaponsplusmod
+// 1.20.1	2024-07-14T23:21:25.3837037	Item Models: weaponsplusmod
 7aabd7075b47a713b1f78e63d57e61117bb185af assets/weaponsplusmod/models/item/amber_axe.json
 941ed8b8ec947f65d634fab3d5ba508897514208 assets/weaponsplusmod/models/item/amber_battle_axe.json
 1f41dd7cf28ddafef103b6ab8ffcc54d209bc2ad assets/weaponsplusmod/models/item/amber_boots.json
@@ -85,6 +85,7 @@ a18a52fcf9b95b46dc34e5e27c93a6cebc38207a assets/weaponsplusmod/models/item/ender
 46323b701ed413b65688f5e9a618a56795fd45f2 assets/weaponsplusmod/models/item/enderite_scrap.json
 c92c8f6bce686bee8c2fe3d2cf0a8c7b997c4cd0 assets/weaponsplusmod/models/item/enderite_shovel.json
 f1f366e84e4c4dc27eba6e3870fae81292e3f73e assets/weaponsplusmod/models/item/enderite_sword.json
+dd14240f835b94516f0409271654c79922e36eca assets/weaponsplusmod/models/item/enderite_upgrade_smithing_template.json
 c117d9d29f20055140083232807e2010cb0a50ea assets/weaponsplusmod/models/item/enderium_axe.json
 400fd0f8d19174b04e77d6372fcead4fb8f372d5 assets/weaponsplusmod/models/item/enderium_battle_axe.json
 ee8083876195e2f371fa63c8717ee6ba53d6588e assets/weaponsplusmod/models/item/enderium_boots.json

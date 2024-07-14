@@ -13,6 +13,7 @@
   "item.weaponsplusmod.hell_core": "Hell Core",
   "item.weaponsplusmod.raw_electrum": "Raw Electrum",
   "item.weaponsplusmod.electrum_ingot": "Electrum Ingot",
+  "item.weaponsplusmod.enderite_upgrade_smithing_template": "Enderite Upgrade Smithing Template",
   "item.weaponsplusmod.iron_rod": "Iron Rod",
   "item.weaponsplusmod.hammer": "Hammer",
 
@@ -200,7 +201,7 @@
   "block.weaponsplusmod.enderium_block": "Enderium Block",
   "block.weaponsplusmod.enderium_ore": "Enderium Ore",
 
-  "block.weaponsplusmod.enderite_block": "Enderium Block",
+  "block.weaponsplusmod.enderite_block": "Enderite Block",
   "block.weaponsplusmod.ancient_enderite": "Ancient Enderite",
 
   "block.weaponsplusmod.ruby_block": "Ruby Block",

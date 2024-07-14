@@ -42,6 +42,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createOreDrop(ModBlocks.RUBY_ORE.get(), ModItems.RUBY.get()));
         this.add(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get(),
                 block -> createOreDrop(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RUBY.get()));
+        this.add(ModBlocks.AMBER_BLOCK.get(),
+                block -> createOreDrop(ModBlocks.AMBER_BLOCK.get(), ModItems.AMBER_CRYSTAL.get()));
 
     }
 

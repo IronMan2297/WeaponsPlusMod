@@ -32,6 +32,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RUBY);
         simpleItem(ModItems.RAW_ELECTRUM);
         simpleItem(ModItems.ELECTRUM_INGOT);
+        simpleItem(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE);
 
        handheldItem(ModItems.WOODEN_MULTITOOL);
        handheldItem(ModItems.STONE_MULTITOOL);

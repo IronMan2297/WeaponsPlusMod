@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "weaponsplusmod:amber_axe"
+    }
+  },
+  "pattern": [
+    "  ",
+    "AA"
+  ],
+  "result": {
+    "item": "weaponsplusmod:amber_double_axe"
+  }
+}

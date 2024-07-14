@@ -38,7 +38,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEEPSLATE_RUBY_ORE.get(),
                         ModBlocks.ELECTRUM_BLOCK.get(),
                         ModBlocks.ELECTRUM_ORE.get(),
-                        ModBlocks.DEEPSLATE_ELECTRUM_ORE.get());
+                        ModBlocks.DEEPSLATE_ELECTRUM_ORE.get(),
+                        ModBlocks.AMBER_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.AQUA_ORE.get(),
@@ -49,7 +50,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEEPSLATE_RUBY_ORE.get(),
                         ModBlocks.ELECTRUM_BLOCK.get(),
                         ModBlocks.ELECTRUM_ORE.get(),
-                        ModBlocks.DEEPSLATE_ELECTRUM_ORE.get());
+                        ModBlocks.DEEPSLATE_ELECTRUM_ORE.get(),
+                        ModBlocks.AMBER_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.HELL_GEM_BLOCK.get(),

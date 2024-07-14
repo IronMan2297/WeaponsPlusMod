@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "weaponsplusmod:enderium_block"
+    }
+  ],
+  "result": {
+    "item": "weaponsplusmod:enderium_ingot",
+    "count": 9
+  }
+}

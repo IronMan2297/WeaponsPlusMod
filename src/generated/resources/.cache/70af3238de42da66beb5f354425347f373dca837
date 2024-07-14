@@ -1,5 +1,5 @@
-// 1.20.1	2024-05-17T23:00:28.1808676	Block Tags
-215e27f02108d8c5ae2c98005586211568d6623e data/minecraft/tags/blocks/mineable/pickaxe.json
+// 1.20.1	2024-07-14T23:21:25.4198342	Block Tags
+34edcbee195d17234936cb7c1746a1711460ead2 data/minecraft/tags/blocks/mineable/pickaxe.json
 f52129eb2336e3d6be5417d7c0244cd65f0b1a44 data/minecraft/tags/blocks/needs_diamond_tool.json
-42c7cd3a6f7d631fdf69eaf547bcefa26d1712ea data/minecraft/tags/blocks/needs_iron_tool.json
+c5fd2da03aa31574d55e029abf15af942cd474ea data/minecraft/tags/blocks/needs_iron_tool.json
 49d17afdf94fe0d01c91b77cb917743587fef3e7 data/weaponsplusmod/tags/blocks/needs_enderium_tool.json

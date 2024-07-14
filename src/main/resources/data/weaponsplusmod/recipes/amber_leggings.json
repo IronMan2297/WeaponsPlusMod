@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HHH",
+    "H H",
+    "H H"
+  ],
+  "key": {
+    "H": {
+      "item": "weaponsplusmod:amber_crystal"
+    }
+  },
+  "result": {
+    "item": "weaponsplusmod:amber_leggings"
+  }
+}

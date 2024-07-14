@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "weaponsplusmod:electrum_ingot",
+  "ingredient": {
+    "item": "weaponsplusmod:deepslate_electrum_ore"
+  },
+  "result": "weaponsplusmod:electrum_ingot"
+}

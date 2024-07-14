@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "weaponsplusmod:ruby_axe"
+    }
+  },
+  "pattern": [
+    "  ",
+    "AA"
+  ],
+  "result": {
+    "item": "weaponsplusmod:ruby_double_axe"
+  }
+}

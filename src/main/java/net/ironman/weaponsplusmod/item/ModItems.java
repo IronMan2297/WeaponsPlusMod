@@ -3,11 +3,14 @@ package net.ironman.weaponsplusmod.item;
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
 import net.ironman.weaponsplusmod.item.custom.*;
 import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import static com.ibm.icu.impl.ValidIdentifiers.Datatype.x;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -56,9 +59,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RAW_ELECTRUM = ITEMS.register("raw_electrum",
-            () -> new Item(new Item.Properties().fireResistant()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
-            () -> new Item(new Item.Properties().fireResistant()));
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ENDERITE_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("enderite_upgrade_smithing_template",
+            () -> new EnderiteUpgradeItem(new Item.Properties()));
 
     public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer",
             () -> new HammerItem(Tiers.IRON, 2, -3.4f, new Item.Properties().durability(256)));

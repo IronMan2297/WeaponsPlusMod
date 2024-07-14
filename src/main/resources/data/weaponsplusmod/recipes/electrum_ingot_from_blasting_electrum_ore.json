@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "weaponsplusmod:ruby",
+  "ingredient": {
+    "item": "weaponsplusmod:ruby_ore"
+  },
+  "result": "weaponsplusmod:ruby"
+}
