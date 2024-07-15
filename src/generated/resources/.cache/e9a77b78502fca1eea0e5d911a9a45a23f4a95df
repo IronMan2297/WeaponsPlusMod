@@ -1,5 +1,6 @@
-// 1.20.1	2024-04-28T21:23:11.104439	Global Loot Modifiers : weaponsplusmod
-c4c7358047632e8e1fc2c0257151beef7799be4b data/forge/loot_modifiers/global_loot_modifiers.json
+// 1.20.1	2024-07-14T23:36:32.9397839	Global Loot Modifiers : weaponsplusmod
+89b5a67ce0f19ad5b02eaa25363924d1fff43a94 data/forge/loot_modifiers/global_loot_modifiers.json
+0929cc430f8ca04b5c71c41c1ad9b08cb40d5f7b data/weaponsplusmod/loot_modifiers/enderite_upgrade_smithing_template_from_end_city_treasure.json
 cb3a4e269c36d3a797992139f6d95c4f3c0214e7 data/weaponsplusmod/loot_modifiers/phoenix_feather_from_suspicious_sand.json
 e89d7b253f1ae489df1a5684d1df3e16bf72f567 data/weaponsplusmod/loot_modifiers/shard_of_the_ocean_from_buried_treasure.json
 6c03830808f9b912ecc9b0da99b8564b27f7a50f data/weaponsplusmod/loot_modifiers/shard_of_the_ocean_from_shipwreck_treasure.json

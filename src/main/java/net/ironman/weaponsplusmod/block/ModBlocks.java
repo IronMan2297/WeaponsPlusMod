@@ -22,7 +22,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, WeaponsPlusMod.MOD_ID);
 
 
-    public static final RegistryObject<Block> HELL_GEM_BLOCK = registerBlock("hell_gem_block",
+    public static final RegistryObject<Block> HELL_GEM_BLOCK = registerFireResistantBlock("hell_gem_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops()
                     .mapColor(MapColor.COLOR_ORANGE)));
 
@@ -92,6 +92,16 @@ public class ModBlocks {
         registerBlockItem(name, toReturn);
         return toReturn;
     }
+    private static <T extends Block> RegistryObject<T> registerFireResistantBlock(String name, Supplier<T> block) {
+        RegistryObject<T> toReturn = BLOCKS.register(name,block);
+        registerFireResistantBlockItem(name, toReturn);
+        return toReturn;
+    }
+
+    private static <T extends Block> RegistryObject<Item> registerFireResistantBlockItem(String name, RegistryObject<T> block) {
+        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().fireResistant()));
+    }
+
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));

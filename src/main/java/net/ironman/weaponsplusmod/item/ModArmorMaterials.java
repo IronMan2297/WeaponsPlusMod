@@ -19,56 +19,56 @@ public enum ModArmorMaterials implements ArmorMaterial {
         p_266655_.put(ArmorItem.Type.BOOTS, 4);
         p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
-        p_266655_.put(ArmorItem.Type.HELMET, 5);
+        p_266655_.put(ArmorItem.Type.HELMET, 4);
     }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(ModItems.HELL_GEM.get())),
 
     AQUA("aqua", 19, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
-        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.BOOTS, 3);
         p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
-        p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
-        p_266655_.put(ArmorItem.Type.HELMET, 5);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 6);
+        p_266655_.put(ArmorItem.Type.HELMET, 4);
     }), 15, SoundEvents.ARMOR_EQUIP_TURTLE, 2.5F, 0.0F, () -> Ingredient.of(ModItems.AQUA_PEARL.get())),
 
     EMERALD("emerald", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_123456_) -> {
-        p_123456_.put(ArmorItem.Type.BOOTS, 3);
+        p_123456_.put(ArmorItem.Type.BOOTS, 2);
         p_123456_.put(ArmorItem.Type.LEGGINGS, 5);
         p_123456_.put(ArmorItem.Type.CHESTPLATE, 6);
-        p_123456_.put(ArmorItem.Type.HELMET, 3);
-    }), 12, SoundEvents.ARMOR_EQUIP_GENERIC, 2F, 0.0F, () -> Ingredient.of(Items.EMERALD)),
+        p_123456_.put(ArmorItem.Type.HELMET, 2);
+    }), 12, SoundEvents.ARMOR_EQUIP_GENERIC, 1F, 0.0F, () -> Ingredient.of(Items.EMERALD)),
 
     ENDERITE("enderite", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_123456_) -> {
-        p_123456_.put(ArmorItem.Type.BOOTS, 3);
-        p_123456_.put(ArmorItem.Type.LEGGINGS, 5);
-        p_123456_.put(ArmorItem.Type.CHESTPLATE, 6);
-        p_123456_.put(ArmorItem.Type.HELMET, 3);
-    }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 2F, 0.0F, () -> Ingredient.of(ModItems.ENDERITE_INGOT.get())),
+        p_123456_.put(ArmorItem.Type.BOOTS, 4);
+        p_123456_.put(ArmorItem.Type.LEGGINGS, 7);
+        p_123456_.put(ArmorItem.Type.CHESTPLATE, 9);
+        p_123456_.put(ArmorItem.Type.HELMET, 4);
+    }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.5F, 0.2F, () -> Ingredient.of(ModItems.ENDERITE_INGOT.get())),
 
     ENDERIUM("enderium", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_123456_) -> {
-        p_123456_.put(ArmorItem.Type.BOOTS, 3);
-        p_123456_.put(ArmorItem.Type.LEGGINGS, 5);
-        p_123456_.put(ArmorItem.Type.CHESTPLATE, 6);
-        p_123456_.put(ArmorItem.Type.HELMET, 3);
-    }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 2F, 0.0F, () -> Ingredient.of(ModItems.ENDERITE_INGOT.get())),
+        p_123456_.put(ArmorItem.Type.BOOTS, 4);
+        p_123456_.put(ArmorItem.Type.LEGGINGS, 9);
+        p_123456_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_123456_.put(ArmorItem.Type.HELMET, 4);
+    }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 2F, 0.1F, () -> Ingredient.of(ModItems.ENDERITE_INGOT.get())),
 
     AMBER("amber", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_123456_) -> {
-        p_123456_.put(ArmorItem.Type.BOOTS, 3);
-        p_123456_.put(ArmorItem.Type.LEGGINGS, 5);
-        p_123456_.put(ArmorItem.Type.CHESTPLATE, 6);
-        p_123456_.put(ArmorItem.Type.HELMET, 3);
-    }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 1F, 0.0F, () -> Ingredient.of(ModItems.AMBER_CRYSTAL.get())),
+        p_123456_.put(ArmorItem.Type.BOOTS, 2);
+        p_123456_.put(ArmorItem.Type.LEGGINGS, 4);
+        p_123456_.put(ArmorItem.Type.CHESTPLATE, 5);
+        p_123456_.put(ArmorItem.Type.HELMET, 2);
+    }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 0F, 0.0F, () -> Ingredient.of(ModItems.AMBER_CRYSTAL.get())),
 
     RUBY("ruby", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_123456_) -> {
-        p_123456_.put(ArmorItem.Type.BOOTS, 3);
+        p_123456_.put(ArmorItem.Type.BOOTS, 2);
         p_123456_.put(ArmorItem.Type.LEGGINGS, 5);
         p_123456_.put(ArmorItem.Type.CHESTPLATE, 6);
-        p_123456_.put(ArmorItem.Type.HELMET, 3);
-    }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 1F, 0.0F, () -> Ingredient.of(ModItems.RUBY.get())),
+        p_123456_.put(ArmorItem.Type.HELMET, 2);
+    }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 1.5F, 0.1F, () -> Ingredient.of(ModItems.RUBY.get())),
 
     ELECTRUM("electrum", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_123456_) -> {
         p_123456_.put(ArmorItem.Type.BOOTS, 3);
         p_123456_.put(ArmorItem.Type.LEGGINGS, 5);
-        p_123456_.put(ArmorItem.Type.CHESTPLATE, 6);
-        p_123456_.put(ArmorItem.Type.HELMET, 3);
+        p_123456_.put(ArmorItem.Type.CHESTPLATE, 7);
+        p_123456_.put(ArmorItem.Type.HELMET, 4);
     }), 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 1F, 0.0F, () -> Ingredient.of(ModItems.ELECTRUM_INGOT.get())); // replace ';' with ',' for more MAterials!
 
 

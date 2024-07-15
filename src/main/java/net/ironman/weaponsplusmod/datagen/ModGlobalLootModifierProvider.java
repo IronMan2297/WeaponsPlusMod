@@ -34,5 +34,9 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_treasure")).build() },
                 ModItems.SHARD_OF_THE_OCEAN.get()));
 
+        add("enderite_upgrade_smithing_template_from_end_city_treasure", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build() },
+                ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get()));
+
     }
 }
