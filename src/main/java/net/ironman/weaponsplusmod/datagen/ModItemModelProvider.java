@@ -195,6 +195,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ELECTRUM_LEGGINGS);
         simpleItem(ModItems.ELECTRUM_BOOTS);
 
+        simpleItem(ModItems.HELL_APPLE);
+        simpleItem(ModItems.AQUA_APPLE);
+        simpleItem(ModItems.ENDERIUM_APPLE);
+        simpleItem(ModItems.AMBER_APPLE);
+        simpleItem(ModItems.ELECTRUM_APPLE);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

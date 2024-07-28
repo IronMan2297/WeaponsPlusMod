@@ -35,6 +35,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ELECTRUM_INGOT.get());
                         output.accept(ModItems.RAW_ELECTRUM.get());
 
+                        output.accept(ModItems.HELL_APPLE.get());
+                        output.accept(ModItems.AQUA_APPLE.get());
+                        output.accept(ModItems.ENDERIUM_APPLE.get());
+                        output.accept(ModItems.AMBER_APPLE.get());
+                        output.accept(ModItems.ELECTRUM_APPLE.get());
+
                         // output.accept(ModItems.IRON_ROD.get());
 
                         output.accept(ModBlocks.HELL_GEM_BLOCK.get());

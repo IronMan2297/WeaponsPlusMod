@@ -30,7 +30,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().fireResistant()));
 
     public static final RegistryObject<Item> HELL_CORE = ITEMS.register("hell_core",
-            () -> new Item(new Item.Properties().fireResistant().rarity(Rarity.RARE)));
+            () -> new FuelItem(new Item.Properties().fireResistant().rarity(Rarity.RARE), 200));
 
     public static final RegistryObject<Item> IRON_ROD = ITEMS.register("iron_rod",
             () -> new Item(new Item.Properties()));
@@ -492,6 +492,18 @@ public class ModItems {
             () -> new ModArmorItem(ModArmorMaterials.ELECTRUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> ELECTRUM_BOOTS = ITEMS.register("electrum_boots",
             () -> new ModArmorItem(ModArmorMaterials.ELECTRUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    /* Ore Apples */
+    public static final RegistryObject<Item> HELL_APPLE = ITEMS.register("hell_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.HELL_APPLE)));
+    public static final RegistryObject<Item> AQUA_APPLE = ITEMS.register("aqua_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.AQUA_APPLE)));
+    public static final RegistryObject<Item> ENDERIUM_APPLE = ITEMS.register("enderium_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ENDERIUM_APPLE)));
+    public static final RegistryObject<Item> AMBER_APPLE = ITEMS.register("amber_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.AMBER_APPLE)));
+    public static final RegistryObject<Item> ELECTRUM_APPLE = ITEMS.register("electrum_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ELECTRUM_APPLE)));
 
     /* Hattori Hanzo Katana*/
     public static final RegistryObject<Item> HATTORI_HANZO_KATANA = ITEMS.register("hattori_hanzo_katana",

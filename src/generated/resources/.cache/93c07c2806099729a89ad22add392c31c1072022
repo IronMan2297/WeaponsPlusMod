@@ -1,4 +1,5 @@
-// 1.20.1	2024-07-14T23:21:25.3837037	Item Models: weaponsplusmod
+// 1.20.1	2024-07-29T01:15:25.0740742	Item Models: weaponsplusmod
+a2f949572698ec49796a4443e45693ea4981ac3d assets/weaponsplusmod/models/item/amber_apple.json
 7aabd7075b47a713b1f78e63d57e61117bb185af assets/weaponsplusmod/models/item/amber_axe.json
 941ed8b8ec947f65d634fab3d5ba508897514208 assets/weaponsplusmod/models/item/amber_battle_axe.json
 1f41dd7cf28ddafef103b6ab8ffcc54d209bc2ad assets/weaponsplusmod/models/item/amber_boots.json
@@ -17,6 +18,7 @@ ffbe5fd1fcf379b2dc1405477747d29f5e70feae assets/weaponsplusmod/models/item/amber
 3a422e61736f764a1f16c3f3e445c86aaaa4bed4 assets/weaponsplusmod/models/item/amber_rapier.json
 0d9f9347b1f1da961145a9fa4765a1aaacc77623 assets/weaponsplusmod/models/item/amber_shovel.json
 4e1c5bd9fe3cf01e1ac11e0ee73f0df205430fb1 assets/weaponsplusmod/models/item/amber_sword.json
+e5f74f803fbacce007a6519444bc2aa50a08d295 assets/weaponsplusmod/models/item/aqua_apple.json
 1d957e935e6e80adea4aa909546159e112c30893 assets/weaponsplusmod/models/item/aqua_axe.json
 b7f2ee2bd6f022c7a9593037418ea40fbc12f796 assets/weaponsplusmod/models/item/aqua_battle_axe.json
 22da7785265441627e6f8805a0b8b8890cc44052 assets/weaponsplusmod/models/item/aqua_boots.json
@@ -37,6 +39,7 @@ d5cc629bbbbb0944bed9ef6e7e3c2b41b2e5ae6e assets/weaponsplusmod/models/item/aqua_
 992bb7295fb0b0b16240982480f274ed61dc2bda assets/weaponsplusmod/models/item/aqua_sword.json
 961e364bce0cbee9efd1886d9c9ad67cbf1d9dc2 assets/weaponsplusmod/models/item/burning_sword.json
 f36b770e200bfa09a43e69b58dd71ddf789c3026 assets/weaponsplusmod/models/item/diamond_multitool.json
+d7211404aeea81b9b9815fe824ce902e656bd91a assets/weaponsplusmod/models/item/electrum_apple.json
 cc6ad72c469e76d3407ee55a9839c78fb6a2d7c4 assets/weaponsplusmod/models/item/electrum_axe.json
 e85a98d38c229105321bf32b62610e215bfcaadf assets/weaponsplusmod/models/item/electrum_battle_axe.json
 f94412f5e1369844ca6bdb6e5d1042673e5f5085 assets/weaponsplusmod/models/item/electrum_boots.json
@@ -86,6 +89,7 @@ a18a52fcf9b95b46dc34e5e27c93a6cebc38207a assets/weaponsplusmod/models/item/ender
 c92c8f6bce686bee8c2fe3d2cf0a8c7b997c4cd0 assets/weaponsplusmod/models/item/enderite_shovel.json
 f1f366e84e4c4dc27eba6e3870fae81292e3f73e assets/weaponsplusmod/models/item/enderite_sword.json
 dd14240f835b94516f0409271654c79922e36eca assets/weaponsplusmod/models/item/enderite_upgrade_smithing_template.json
+72b59c38aeeb9d4c17f826f8c81649ea2a4f2d89 assets/weaponsplusmod/models/item/enderium_apple.json
 c117d9d29f20055140083232807e2010cb0a50ea assets/weaponsplusmod/models/item/enderium_axe.json
 400fd0f8d19174b04e77d6372fcead4fb8f372d5 assets/weaponsplusmod/models/item/enderium_battle_axe.json
 ee8083876195e2f371fa63c8717ee6ba53d6588e assets/weaponsplusmod/models/item/enderium_boots.json
@@ -105,6 +109,7 @@ f3d9fe163c80191f167c3cf9373899c3cc9c096d assets/weaponsplusmod/models/item/ender
 fa79bd5a301a29bea6c8bf9e8ec453e5d753915f assets/weaponsplusmod/models/item/enderium_shovel.json
 31df5e95866ffffae499f7b97eac298a8a445f8b assets/weaponsplusmod/models/item/enderium_sword.json
 c24fe98567b188521a8e5409cfa0678640ca8333 assets/weaponsplusmod/models/item/golden_multitool.json
+5b2e68938f6659f72827d8b9b056f4246b0234e6 assets/weaponsplusmod/models/item/hell_apple.json
 d25fbb9ebe29d946e8e5f62e4fa5e22ca3f1c1e8 assets/weaponsplusmod/models/item/hell_axe.json
 98d9a494ba6f0a2dce0765de3f4fd1b5c3f13484 assets/weaponsplusmod/models/item/hell_battle_axe.json
 2d8d5c8ccc21fcb9675c14d912b9b73a9508354c assets/weaponsplusmod/models/item/hell_boots.json
