@@ -75,8 +75,7 @@ public class WeaponsPlusMod {
         event.accept(ModItems.EMERALD_BOOTS);
         }
     }
-
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
+    // You can use SubscribeEvent and let the Event Bus discover methods to call somethin
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
 
