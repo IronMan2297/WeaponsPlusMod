@@ -201,6 +201,53 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.AMBER_APPLE);
         simpleItem(ModItems.ELECTRUM_APPLE);
 
+        handheldItem(ModItems.STONE_BATTLE_AXE);
+        handheldItem(ModItems.STONE_DOUBLE_AXE);
+        handheldItem(ModItems.STONE_RAPIER);
+        handheldItem(ModItems.STONE_CUTLASS);
+        handheldItem(ModItems.STONE_DAGGER);
+        handheldItem(ModItems.STONE_KATANA);
+        handheldItem(ModItems.STONE_LONGSWORD);
+
+        handheldItem(ModItems.IRON_BATTLE_AXE);
+        handheldItem(ModItems.IRON_DOUBLE_AXE);
+        handheldItem(ModItems.IRON_RAPIER);
+        handheldItem(ModItems.IRON_CUTLASS);
+        handheldItem(ModItems.IRON_DAGGER);
+        handheldItem(ModItems.IRON_KATANA);
+        handheldItem(ModItems.IRON_LONGSWORD);
+
+        handheldItem(ModItems.GOLDEN_BATTLE_AXE);
+        handheldItem(ModItems.GOLDEN_DOUBLE_AXE);
+        handheldItem(ModItems.GOLDEN_RAPIER);
+        handheldItem(ModItems.GOLDEN_CUTLASS);
+        handheldItem(ModItems.GOLDEN_DAGGER);
+        handheldItem(ModItems.GOLDEN_KATANA);
+        handheldItem(ModItems.GOLDEN_LONGSWORD);
+
+        handheldItem(ModItems.DIAMOND_BATTLE_AXE);
+        handheldItem(ModItems.DIAMOND_DOUBLE_AXE);
+        handheldItem(ModItems.DIAMOND_RAPIER);
+        handheldItem(ModItems.DIAMOND_CUTLASS);
+        handheldItem(ModItems.DIAMOND_DAGGER);
+        handheldItem(ModItems.DIAMOND_KATANA);
+        handheldItem(ModItems.DIAMOND_LONGSWORD);
+
+        handheldItem(ModItems.NETHERITE_BATTLE_AXE);
+        handheldItem(ModItems.NETHERITE_DOUBLE_AXE);
+        handheldItem(ModItems.NETHERITE_RAPIER);
+        handheldItem(ModItems.NETHERITE_CUTLASS);
+        handheldItem(ModItems.NETHERITE_DAGGER);
+        handheldItem(ModItems.NETHERITE_KATANA);
+        handheldItem(ModItems.NETHERITE_LONGSWORD);
+
+        handheldItem(ModItems.EMERALD_BATTLE_AXE);
+        handheldItem(ModItems.EMERALD_DOUBLE_AXE);
+        handheldItem(ModItems.EMERALD_RAPIER);
+        handheldItem(ModItems.EMERALD_CUTLASS);
+        handheldItem(ModItems.EMERALD_DAGGER);
+        handheldItem(ModItems.EMERALD_KATANA);
+        handheldItem(ModItems.EMERALD_LONGSWORD);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

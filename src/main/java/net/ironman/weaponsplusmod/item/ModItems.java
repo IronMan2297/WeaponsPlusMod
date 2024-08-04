@@ -437,7 +437,7 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
             () -> new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    /* Standart Hell Weapons and Tools */
+    /* Standart Electrum Weapons and Tools */
     public static final RegistryObject<Item> ELECTRUM_SWORD = ITEMS.register("electrum_sword",
             () -> new SwordItem(ModToolTiers.ELECTRUM, 4,-2.4f,
                     new SwordItem.Properties().durability(256).fireResistant()));
@@ -454,7 +454,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.ELECTRUM, -3,0,
                     new HoeItem.Properties().durability(256).fireResistant()));
 
-    /* Special Hell Weapons and Tools */
+    /* Special Electrum Weapons and Tools */
     public static final RegistryObject<Item> ELECTRUM_BATTLE_AXE = ITEMS.register("electrum_battle_axe",
             () -> new AxeItem(ModToolTiers.ELECTRUM, 7,-3.2f,
                     new AxeItem.Properties().durability(256).fireResistant()));
@@ -504,6 +504,144 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.AMBER_APPLE)));
     public static final RegistryObject<Item> ELECTRUM_APPLE = ITEMS.register("electrum_apple",
             () -> new Item(new Item.Properties().food(ModFoodProperties.ELECTRUM_APPLE)));
+
+    /* Stone Special Weapons */
+    public static final RegistryObject<Item> STONE_BATTLE_AXE = ITEMS.register("stone_battle_axe",
+            () -> new AxeItem(Tiers.STONE, 7,-3.2f,
+                    new AxeItem.Properties().durability(256)));
+    public static final RegistryObject<Item> STONE_DOUBLE_AXE = ITEMS.register("stone_double_axe",
+            () -> new AxeItem(Tiers.STONE, 9,-3.4f,
+                    new AxeItem.Properties().durability(256)));
+    public static final RegistryObject<Item> STONE_RAPIER = ITEMS.register("stone_rapier",
+            () -> new SwordItem(Tiers.STONE, 3,-1.4f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> STONE_CUTLASS = ITEMS.register("stone_cutlass",
+            () -> new SwordItem(Tiers.STONE, 6,-2.8f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> STONE_DAGGER = ITEMS.register("stone_dagger",
+            () -> new SwordItem(Tiers.STONE,2,-0.2f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> STONE_KATANA = ITEMS.register("stone_katana",
+            () -> new SwordItem(Tiers.STONE, 5,-2.0f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> STONE_LONGSWORD = ITEMS.register("stone_longsword",
+            () -> new SwordItem(Tiers.STONE, 8,-3.3f,
+                    new SwordItem.Properties().durability(256)));
+
+    /* Iron Special Weapons */
+    public static final RegistryObject<Item> IRON_BATTLE_AXE = ITEMS.register("iron_battle_axe",
+            () -> new AxeItem(Tiers.IRON, 7,-3.2f,
+                    new AxeItem.Properties().durability(256)));
+    public static final RegistryObject<Item> IRON_DOUBLE_AXE = ITEMS.register("iron_double_axe",
+            () -> new AxeItem(Tiers.IRON, 9,-3.4f,
+                    new AxeItem.Properties().durability(256)));
+    public static final RegistryObject<Item> IRON_RAPIER = ITEMS.register("iron_rapier",
+            () -> new SwordItem(Tiers.IRON, 3,-1.4f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> IRON_CUTLASS = ITEMS.register("iron_cutlass",
+            () -> new SwordItem(Tiers.IRON, 6,-2.8f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> IRON_DAGGER = ITEMS.register("iron_dagger",
+            () -> new SwordItem(Tiers.IRON,2,-0.2f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> IRON_KATANA = ITEMS.register("iron_katana",
+            () -> new SwordItem(Tiers.IRON, 5,-2.0f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> IRON_LONGSWORD = ITEMS.register("iron_longsword",
+            () -> new SwordItem(Tiers.IRON, 8,-3.3f,
+                    new SwordItem.Properties().durability(256)));
+
+    /* Gold Special Weapons */
+    public static final RegistryObject<Item> GOLDEN_BATTLE_AXE = ITEMS.register("golden_battle_axe",
+            () -> new AxeItem(Tiers.GOLD, 7,-3.2f,
+                    new AxeItem.Properties().durability(256)));
+    public static final RegistryObject<Item> GOLDEN_DOUBLE_AXE = ITEMS.register("golden_double_axe",
+            () -> new AxeItem(Tiers.GOLD, 9,-3.4f,
+                    new AxeItem.Properties().durability(256)));
+    public static final RegistryObject<Item> GOLDEN_RAPIER = ITEMS.register("golden_rapier",
+            () -> new SwordItem(Tiers.GOLD, 3,-1.4f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> GOLDEN_CUTLASS = ITEMS.register("golden_cutlass",
+            () -> new SwordItem(Tiers.GOLD, 6,-2.8f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> GOLDEN_DAGGER = ITEMS.register("golden_dagger",
+            () -> new SwordItem(Tiers.GOLD,2,-0.2f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> GOLDEN_KATANA = ITEMS.register("golden_katana",
+            () -> new SwordItem(Tiers.GOLD, 5,-2.0f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> GOLDEN_LONGSWORD = ITEMS.register("golden_longsword",
+            () -> new SwordItem(Tiers.GOLD, 8,-3.3f,
+                    new SwordItem.Properties().durability(256)));
+
+    /* Diamond Special Weapons */
+    public static final RegistryObject<Item> DIAMOND_BATTLE_AXE = ITEMS.register("diamond_battle_axe",
+            () -> new AxeItem(Tiers.DIAMOND, 7,-3.2f,
+                    new AxeItem.Properties().durability(256)));
+    public static final RegistryObject<Item> DIAMOND_DOUBLE_AXE = ITEMS.register("diamond_double_axe",
+            () -> new AxeItem(Tiers.DIAMOND, 9,-3.4f,
+                    new AxeItem.Properties().durability(256)));
+    public static final RegistryObject<Item> DIAMOND_RAPIER = ITEMS.register("diamond_rapier",
+            () -> new SwordItem(Tiers.DIAMOND, 3,-1.4f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> DIAMOND_CUTLASS = ITEMS.register("diamond_cutlass",
+            () -> new SwordItem(Tiers.DIAMOND, 6,-2.8f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> DIAMOND_DAGGER = ITEMS.register("diamond_dagger",
+            () -> new SwordItem(Tiers.DIAMOND,2,-0.2f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> DIAMOND_KATANA = ITEMS.register("diamond_katana",
+            () -> new SwordItem(Tiers.DIAMOND, 5,-2.0f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> DIAMOND_LONGSWORD = ITEMS.register("diamond_longsword",
+            () -> new SwordItem(Tiers.DIAMOND, 8,-3.3f,
+                    new SwordItem.Properties().durability(256)));
+
+    /* Netherite Special Weapons */
+    public static final RegistryObject<Item> NETHERITE_BATTLE_AXE = ITEMS.register("netherite_battle_axe",
+            () -> new AxeItem(Tiers.NETHERITE, 7,-3.2f,
+                    new AxeItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> NETHERITE_DOUBLE_AXE = ITEMS.register("netherite_double_axe",
+            () -> new AxeItem(Tiers.NETHERITE, 9,-3.4f,
+                    new AxeItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> NETHERITE_RAPIER = ITEMS.register("netherite_rapier",
+            () -> new SwordItem(Tiers.NETHERITE, 3,-1.4f,
+                    new SwordItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> NETHERITE_CUTLASS = ITEMS.register("netherite_cutlass",
+            () -> new SwordItem(Tiers.NETHERITE, 6,-2.8f,
+                    new SwordItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> NETHERITE_DAGGER = ITEMS.register("netherite_dagger",
+            () -> new SwordItem(Tiers.NETHERITE,2,-0.2f,
+                    new SwordItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> NETHERITE_KATANA = ITEMS.register("netherite_katana",
+            () -> new SwordItem(Tiers.NETHERITE, 5,-2.0f,
+                    new SwordItem.Properties().durability(256).fireResistant()));
+    public static final RegistryObject<Item> NETHERITE_LONGSWORD = ITEMS.register("netherite_longsword",
+            () -> new SwordItem(Tiers.NETHERITE, 8,-3.3f,
+                    new SwordItem.Properties().durability(256).fireResistant()));
+
+    /* Emerald Special Weapons */
+    public static final RegistryObject<Item> EMERALD_BATTLE_AXE = ITEMS.register("emerald_battle_axe",
+            () -> new AxeItem(ModToolTiers.EMERALD, 7,-3.2f,
+                    new AxeItem.Properties().durability(256)));
+    public static final RegistryObject<Item> EMERALD_DOUBLE_AXE = ITEMS.register("emerald_double_axe",
+            () -> new AxeItem(ModToolTiers.EMERALD, 9,-3.4f,
+                    new AxeItem.Properties().durability(256)));
+    public static final RegistryObject<Item> EMERALD_RAPIER = ITEMS.register("emerald_rapier",
+            () -> new SwordItem(ModToolTiers.EMERALD, 3,-1.4f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> EMERALD_CUTLASS = ITEMS.register("emerald_cutlass",
+            () -> new SwordItem(ModToolTiers.EMERALD, 6,-2.8f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> EMERALD_DAGGER = ITEMS.register("emerald_dagger",
+            () -> new SwordItem(ModToolTiers.EMERALD,2,-0.2f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> EMERALD_KATANA = ITEMS.register("emerald_katana",
+            () -> new SwordItem(ModToolTiers.EMERALD, 5,-2.0f,
+                    new SwordItem.Properties().durability(256)));
+    public static final RegistryObject<Item> EMERALD_LONGSWORD = ITEMS.register("emerald_longsword",
+            () -> new SwordItem(ModToolTiers.EMERALD, 8,-3.3f,
+                    new SwordItem.Properties().durability(256)));
 
     /* Hattori Hanzo Katana*/
     public static final RegistryObject<Item> HATTORI_HANZO_KATANA = ITEMS.register("hattori_hanzo_katana",

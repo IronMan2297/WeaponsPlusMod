@@ -200,8 +200,56 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ELECTRUM_LEGGINGS.get());
                         output.accept(ModItems.ELECTRUM_BOOTS.get());
 
+                        output.accept(ModItems.STONE_RAPIER.get());
+                        output.accept(ModItems.STONE_CUTLASS.get());
+                        output.accept(ModItems.STONE_KATANA.get());
+                        output.accept(ModItems.STONE_LONGSWORD.get());
+                        output.accept(ModItems.STONE_DAGGER.get());
+                        output.accept(ModItems.STONE_BATTLE_AXE.get());
+                        output.accept(ModItems.STONE_DOUBLE_AXE.get());
 
-                        output.accept(ModItems.HAMMER.get());
+                        output.accept(ModItems.IRON_RAPIER.get());
+                        output.accept(ModItems.IRON_CUTLASS.get());
+                        output.accept(ModItems.IRON_KATANA.get());
+                        output.accept(ModItems.IRON_LONGSWORD.get());
+                        output.accept(ModItems.IRON_DAGGER.get());
+                        output.accept(ModItems.IRON_BATTLE_AXE.get());
+                        output.accept(ModItems.IRON_DOUBLE_AXE.get());
+
+                        output.accept(ModItems.GOLDEN_RAPIER.get());
+                        output.accept(ModItems.GOLDEN_CUTLASS.get());
+                        output.accept(ModItems.GOLDEN_KATANA.get());
+                        output.accept(ModItems.GOLDEN_LONGSWORD.get());
+                        output.accept(ModItems.GOLDEN_DAGGER.get());
+                        output.accept(ModItems.GOLDEN_BATTLE_AXE.get());
+                        output.accept(ModItems.GOLDEN_DOUBLE_AXE.get());
+
+                        output.accept(ModItems.DIAMOND_RAPIER.get());
+                        output.accept(ModItems.DIAMOND_CUTLASS.get());
+                        output.accept(ModItems.DIAMOND_KATANA.get());
+                        output.accept(ModItems.DIAMOND_LONGSWORD.get());
+                        output.accept(ModItems.DIAMOND_DAGGER.get());
+                        output.accept(ModItems.DIAMOND_BATTLE_AXE.get());
+                        output.accept(ModItems.DIAMOND_DOUBLE_AXE.get());
+
+                        output.accept(ModItems.NETHERITE_RAPIER.get());
+                        output.accept(ModItems.NETHERITE_CUTLASS.get());
+                        output.accept(ModItems.NETHERITE_KATANA.get());
+                        output.accept(ModItems.NETHERITE_LONGSWORD.get());
+                        output.accept(ModItems.NETHERITE_DAGGER.get());
+                        output.accept(ModItems.NETHERITE_BATTLE_AXE.get());
+                        output.accept(ModItems.NETHERITE_DOUBLE_AXE.get());
+
+                        output.accept(ModItems.EMERALD_RAPIER.get());
+                        output.accept(ModItems.EMERALD_CUTLASS.get());
+                        output.accept(ModItems.EMERALD_KATANA.get());
+                        output.accept(ModItems.EMERALD_LONGSWORD.get());
+                        output.accept(ModItems.EMERALD_DAGGER.get());
+                        output.accept(ModItems.EMERALD_BATTLE_AXE.get());
+                        output.accept(ModItems.EMERALD_DOUBLE_AXE.get());
+
+
+                        //output.accept(ModItems.HAMMER.get());
                         //output.accept(ModItems.HATTORI_HANZO_KATANA.get());
 
                     }).build());
