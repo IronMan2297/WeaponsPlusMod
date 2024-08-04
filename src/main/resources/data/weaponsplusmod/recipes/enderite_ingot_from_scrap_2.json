@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HHH",
+    "HAA",
+    "AA "
+  ],
+  "key": {
+    "H": {
+      "item": "weaponsplusmod:enderium_ingot"
+    },
+    "A": {
+      "item": "weaponsplusmod:enderite_scrap"
+    }
+  },
+  "result": {
+    "item": "weaponsplusmod:enderite_ingot"
+  }
+}

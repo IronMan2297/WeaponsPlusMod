@@ -30,7 +30,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().fireResistant()));
 
     public static final RegistryObject<Item> HELL_CORE = ITEMS.register("hell_core",
-            () -> new FuelItem(new Item.Properties().fireResistant().rarity(Rarity.RARE), 200));
+            () -> new FuelItem(new Item.Properties().fireResistant().rarity(Rarity.RARE), 2000));
 
     public static final RegistryObject<Item> IRON_ROD = ITEMS.register("iron_rod",
             () -> new Item(new Item.Properties()));
