@@ -643,10 +643,14 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.EMERALD, 8,-3.3f,
                     new SwordItem.Properties().durability(256)));
 
-    /* Hattori Hanzo Katana*/
+    /* EX Weapons*/
     public static final RegistryObject<Item> HATTORI_HANZO_KATANA = ITEMS.register("hattori_hanzo_katana",
             () -> new HattoriHanzoKatanaItem(Tiers.NETHERITE, 6,-2.0f,
                     new Item.Properties().durability(256).fireResistant()));
+
+    public static final RegistryObject<Item> MASTER_SWORD = ITEMS.register("master_sword",
+            () -> new SwordItem(Tiers.NETHERITE, 6, -2.0f,
+                    new Item.Properties().fireResistant()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

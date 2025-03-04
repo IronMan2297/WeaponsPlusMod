@@ -2,6 +2,7 @@ package net.ironman.weaponsplusmod.item;
 
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
 import net.ironman.weaponsplusmod.block.ModBlocks;
+import net.ironman.weaponsplusmod.worldgen.ModOrePlacement;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -251,6 +252,7 @@ public class ModCreativeModeTabs {
 
                         //output.accept(ModItems.HAMMER.get());
                         //output.accept(ModItems.HATTORI_HANZO_KATANA.get());
+                        //output.accept(ModItems.MASTER_SWORD.get());
 
                     }).build());
 

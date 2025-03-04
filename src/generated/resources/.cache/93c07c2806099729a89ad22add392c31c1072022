@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-31T03:02:06.9086124	Item Models: weaponsplusmod
+// 1.20.1	2024-08-21T23:51:06.547728	Item Models: weaponsplusmod
 a2f949572698ec49796a4443e45693ea4981ac3d assets/weaponsplusmod/models/item/amber_apple.json
 7aabd7075b47a713b1f78e63d57e61117bb185af assets/weaponsplusmod/models/item/amber_axe.json
 941ed8b8ec947f65d634fab3d5ba508897514208 assets/weaponsplusmod/models/item/amber_battle_axe.json
@@ -189,6 +189,7 @@ ad6ef9248d7f0ead65eaab8fc43d21cac1657a49 assets/weaponsplusmod/models/item/ruby_
 0fc54911344f49622f5597957e9cdf4347571c48 assets/weaponsplusmod/models/item/ruby_shovel.json
 c31bc38bb4b37a61c4578132ccc24047a23edec6 assets/weaponsplusmod/models/item/ruby_sword.json
 aea94983d0539c9a834d7710e8fb973574669bef assets/weaponsplusmod/models/item/shard_of_the_ocean.json
+8bfac08b05cbfad6e21e98a5e027f30369cad6ac assets/weaponsplusmod/models/item/shuriken.json
 e24e2bc627dd8874e96051f8195b0c34bba24792 assets/weaponsplusmod/models/item/stone_battle_axe.json
 a94c948725b8708aff04080d2e7349d4f81fdf98 assets/weaponsplusmod/models/item/stone_cutlass.json
 2444eeca53b7ed3f45beea85f30aba75c729bca5 assets/weaponsplusmod/models/item/stone_dagger.json
