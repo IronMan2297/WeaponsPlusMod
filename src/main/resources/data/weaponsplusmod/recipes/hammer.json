@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hammer",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_block"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "# ",
+    "/#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "weaponsplusmod:hammer"
+  },
+  "show_notification": true
+}

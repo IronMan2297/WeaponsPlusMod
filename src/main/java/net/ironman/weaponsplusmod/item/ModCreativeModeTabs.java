@@ -250,7 +250,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EMERALD_DOUBLE_AXE.get());
 
 
-                        //output.accept(ModItems.HAMMER.get());
+                        output.accept(ModItems.HAMMER.get());
                         //output.accept(ModItems.HATTORI_HANZO_KATANA.get());
                         //output.accept(ModItems.MASTER_SWORD.get());
 
