@@ -59,6 +59,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.ENDERIUM_ORE.get(),
                         ModBlocks.ENDERIUM_BLOCK.get());
 
+        this.tag(ModTags.Blocks.PAXEL_MINEABLE)
+                .addTag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .addTag(BlockTags.MINEABLE_WITH_AXE)
+                .addTag(BlockTags.MINEABLE_WITH_SHOVEL);
+
         this.tag(ModTags.Blocks.NEEDS_ENDERIUM_TOOL)
                 .add(ModBlocks.ANCIENT_ENDERITE.get(),
                         ModBlocks.ENDERITE_BLOCK.get());
