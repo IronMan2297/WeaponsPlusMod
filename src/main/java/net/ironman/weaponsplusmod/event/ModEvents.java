@@ -4,14 +4,17 @@ import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
 import net.ironman.weaponsplusmod.item.ModItems;
 import net.ironman.weaponsplusmod.item.custom.HammerItem;
+import net.ironman.weaponsplusmod.item.custom.ModBowItem;
 import net.ironman.weaponsplusmod.villager.ModVillagers;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.MerchantOffer;
+import net.minecraftforge.client.event.ComputeFovModifierEvent;
 import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.event.village.WandererTradesEvent;
@@ -88,5 +91,21 @@ public class ModEvents {
                     new ItemStack(Items.EMERALD, 15),
                     new ItemStack(ModItems.PHOENIX_FEATHER.get(),1), 2, 4, 0.02f
             ));
+    }
+
+    @SubscribeEvent
+    public static void onComputeFovModifierEvent(ComputeFovModifierEvent event) {
+        if (event.getPlayer().isUsingItem() && event.getPlayer().getUseItem().getItem() instanceof ModBowItem) {
+            float fovModifier = 1f;
+            int ticksUsingItem = event.getPlayer().getTicksUsingItem();
+            float deltaTicks = (float) ticksUsingItem / 20.0F;
+            if (deltaTicks > 1.0F) {
+                deltaTicks = 1.0F;
+            } else {
+                deltaTicks *= deltaTicks;
+            }
+            fovModifier *= 1.0F - deltaTicks * 0.15F;
+            event.setNewFovModifier(fovModifier);
+        }
     }
 }

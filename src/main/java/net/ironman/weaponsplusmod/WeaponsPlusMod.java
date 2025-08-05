@@ -3,6 +3,7 @@ package net.ironman.weaponsplusmod;
 import com.mojang.logging.LogUtils;
 import net.ironman.weaponsplusmod.block.ModBlocks;
 import net.ironman.weaponsplusmod.item.ModCreativeModeTabs;
+import net.ironman.weaponsplusmod.item.ModItemProperties;
 import net.ironman.weaponsplusmod.item.ModItems;
 import net.ironman.weaponsplusmod.loot.ModLootModifiers;
 import net.ironman.weaponsplusmod.villager.ModVillagers;
@@ -86,7 +87,10 @@ public class WeaponsPlusMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            event.enqueueWork(() -> {
+                ModItemProperties.addCustomItemProperties();
 
+            });
         }
     }
 }

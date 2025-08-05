@@ -1,6 +1,0 @@
-{
-    "parent": "weaponsplusmod:item/electrum_bow",
-    "textures": {
-        "layer0": "weaponsplusmod:item/electrum_bow_pulling_0"
-    }
-}

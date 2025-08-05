@@ -477,8 +477,6 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.ELECTRUM, 8,-3.3f,
                     new SwordItem.Properties().durability(256).fireResistant()));
 
-    // public final static RegistryObject<Item> ELECTRUM_BOW = ITEMS.register("electrum_bow",
-    //         () -> new LightningBowItem(new Item.Properties().durability(500)));
 
     public static final RegistryObject<Item> ELECTRUM_MULTITOOL = ITEMS.register("electrum_multitool",
             () -> new PaxelItem(ModToolTiers.ELECTRUM, 2, 3, new Item.Properties().durability(256)));
@@ -504,6 +502,11 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.AMBER_APPLE)));
     public static final RegistryObject<Item> ELECTRUM_APPLE = ITEMS.register("electrum_apple",
             () -> new Item(new Item.Properties().food(ModFoodProperties.ELECTRUM_APPLE)));
+
+    /* Bows */
+    public static final RegistryObject<Item> HELL_BOW = ITEMS.register("hell_bow",
+            () -> new ModBowItem(new Item.Properties().durability(512)));
+
 
     /* Stone Special Weapons */
     public static final RegistryObject<Item> STONE_BATTLE_AXE = ITEMS.register("stone_battle_axe",

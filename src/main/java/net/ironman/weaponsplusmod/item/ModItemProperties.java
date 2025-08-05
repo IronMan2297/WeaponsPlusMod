@@ -6,15 +6,15 @@ import net.minecraft.world.item.Item;
 
 public class ModItemProperties {
     public static void addCustomItemProperties() {
-    //    makeBow(ModItems.ELECTRUM_BOW.get());
+        makeBow(ModItems.HELL_BOW.get());
     }
 
     private static void makeBow(Item item) {
-        ItemProperties.register(item, new ResourceLocation("pull"), (itemStack, p_174636_, p_174637_, p_174638_) -> {
-            if (p_174637_ == null) {
+        ItemProperties.register(item, new ResourceLocation("pull"), (itemStack, level, livingEntity, i) -> {
+            if (livingEntity == null) {
                 return 0.0F;
             } else {
-                return p_174637_.getUseItem() != itemStack ? 0.0F : (float)(itemStack.getUseDuration() - p_174637_.getUseItemRemainingTicks()) / 20.0F;
+                return livingEntity.getUseItem() != itemStack ? 0.0F : (float)(itemStack.getUseDuration() - livingEntity.getUseItemRemainingTicks()) / 20.0F;
             }
         });
         ItemProperties.register(item, new ResourceLocation("pulling"), (itemStack, level, livingEntity, i) -> {
