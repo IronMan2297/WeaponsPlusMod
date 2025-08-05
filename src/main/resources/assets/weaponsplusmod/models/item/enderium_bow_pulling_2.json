@@ -1,0 +1,6 @@
+{
+    "parent": "weaponsplusmod:item/enderium_bow",
+    "textures": {
+        "layer0": "weaponsplusmod:item/enderium_bow_pulling_2"
+    }
+}

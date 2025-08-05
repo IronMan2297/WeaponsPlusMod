@@ -38,8 +38,6 @@
   "item.weaponsplusmod.hell_katana": "Hell Katana",
   "item.weaponsplusmod.hell_longsword": "Hell Longsword",
 
-  "item.weaponsplusmod.hell_bow": "Hell Bow",
-
   "item.weaponsplusmod.burning_sword": "Burning Sword",
   "item.weaponsplusmod.hell_multitool": "Hell Multitool",
 
@@ -180,8 +178,6 @@
   "item.weaponsplusmod.electrum_katana": "Electrum Katana",
   "item.weaponsplusmod.electrum_longsword": "Electrum Longsword",
 
-  "item.weaponsplusmod.electrum_bow": "Electrum Bow",
-
   "item.weaponsplusmod.electrum_multitool": "Electrum Multitool",
 
   "item.weaponsplusmod.electrum_helmet": "Electrum Helmet",
@@ -194,6 +190,14 @@
   "item.weaponsplusmod.enderium_apple": "Enderium Apple",
   "item.weaponsplusmod.amber_apple": "Amber Apple",
   "item.weaponsplusmod.electrum_apple": "Electrum Apple",
+
+  "item.weaponsplusmod.hell_bow": "Hell Bow",
+  "item.weaponsplusmod.aqua_bow": "Aqua Bow",
+  "item.weaponsplusmod.enderium_bow": "Enderium Bow",
+  "item.weaponsplusmod.enderite_bow": "Enderite Bow",
+  "item.weaponsplusmod.amber_bow": "Amber Bow",
+  "item.weaponsplusmod.ruby_bow": "Ruby Bow",
+  "item.weaponsplusmod.electrum_bow": "Electrum Bow",
 
   "item.weaponsplusmod.stone_battle_axe": "Stone Battle Axe",
   "item.weaponsplusmod.stone_double_axe": "Stone Double Axe",

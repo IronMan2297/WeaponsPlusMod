@@ -1,0 +1,6 @@
+{
+    "parent": "weaponsplusmod:item/ruby_bow",
+    "textures": {
+        "layer0": "weaponsplusmod:item/ruby_bow_pulling_1"
+    }
+}

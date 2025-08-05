@@ -481,7 +481,7 @@ public class ModItems {
     public static final RegistryObject<Item> ELECTRUM_MULTITOOL = ITEMS.register("electrum_multitool",
             () -> new PaxelItem(ModToolTiers.ELECTRUM, 2, 3, new Item.Properties().durability(256)));
 
-    /* Hell Armor */
+    /* Electrum Armor */
     public static final RegistryObject<Item> ELECTRUM_HELMET = ITEMS.register("electrum_helmet",
             () -> new ModArmorItem(ModArmorMaterials.ELECTRUM, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> ELECTRUM_CHESTPLATE = ITEMS.register("electrum_chestplate",
@@ -505,6 +505,24 @@ public class ModItems {
 
     /* Bows */
     public static final RegistryObject<Item> HELL_BOW = ITEMS.register("hell_bow",
+            () -> new ModBowItem(new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> AQUA_BOW = ITEMS.register("aqua_bow",
+            () -> new ModBowItem(new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> ENDERIUM_BOW = ITEMS.register("enderium_bow",
+            () -> new ModBowItem(new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> ENDERITE_BOW = ITEMS.register("enderite_bow",
+            () -> new ModBowItem(new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> AMBER_BOW = ITEMS.register("amber_bow",
+            () -> new ModBowItem(new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> RUBY_BOW = ITEMS.register("ruby_bow",
+            () -> new ModBowItem(new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> ELECTRUM_BOW = ITEMS.register("electrum_bow",
             () -> new ModBowItem(new Item.Properties().durability(512)));
 
 

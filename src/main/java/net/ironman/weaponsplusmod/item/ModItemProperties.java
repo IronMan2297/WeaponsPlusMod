@@ -7,6 +7,12 @@ import net.minecraft.world.item.Item;
 public class ModItemProperties {
     public static void addCustomItemProperties() {
         makeBow(ModItems.HELL_BOW.get());
+        makeBow(ModItems.AQUA_BOW.get());
+        makeBow(ModItems.ENDERIUM_BOW.get());
+        makeBow(ModItems.ENDERITE_BOW.get());
+        makeBow(ModItems.AMBER_BOW.get());
+        makeBow(ModItems.RUBY_BOW.get());
+        makeBow(ModItems.ELECTRUM_BOW.get());
     }
 
     private static void makeBow(Item item) {

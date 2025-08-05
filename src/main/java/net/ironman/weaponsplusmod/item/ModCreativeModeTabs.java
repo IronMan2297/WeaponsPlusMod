@@ -101,6 +101,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AQUA_BATTLE_AXE.get());
                         output.accept(ModItems.AQUA_DOUBLE_AXE.get());
                         output.accept(ModItems.AQUA_MULTITOOL.get());
+                        output.accept(ModItems.AQUA_BOW.get());
 
                         output.accept(ModItems.AQUA_HELMET.get());
                         output.accept(ModItems.AQUA_CHESTPLATE.get());
@@ -120,6 +121,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERIUM_BATTLE_AXE.get());
                         output.accept(ModItems.ENDERIUM_DOUBLE_AXE.get());
                         output.accept(ModItems.ENDERIUM_MULTITOOL.get());
+                        output.accept(ModItems.ENDERIUM_BOW.get());
 
                         output.accept(ModItems.ENDERIUM_HELMET.get());
                         output.accept(ModItems.ENDERIUM_CHESTPLATE.get());
@@ -139,6 +141,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERITE_BATTLE_AXE.get());
                         output.accept(ModItems.ENDERITE_DOUBLE_AXE.get());
                         output.accept(ModItems.ENDERITE_MULTITOOL.get());
+                        output.accept(ModItems.ENDERITE_BOW.get());
 
                         output.accept(ModItems.ENDERITE_HELMET.get());
                         output.accept(ModItems.ENDERITE_CHESTPLATE.get());
@@ -158,6 +161,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AMBER_BATTLE_AXE.get());
                         output.accept(ModItems.AMBER_DOUBLE_AXE.get());
                         output.accept(ModItems.AMBER_MULTITOOL.get());
+                        output.accept(ModItems.AMBER_BOW.get());
 
                         output.accept(ModItems.AMBER_HELMET.get());
                         output.accept(ModItems.AMBER_CHESTPLATE.get());
@@ -177,6 +181,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY_BATTLE_AXE.get());
                         output.accept(ModItems.RUBY_DOUBLE_AXE.get());
                         output.accept(ModItems.RUBY_MULTITOOL.get());
+                        output.accept(ModItems.RUBY_BOW.get());
 
                         output.accept(ModItems.RUBY_HELMET.get());
                         output.accept(ModItems.RUBY_CHESTPLATE.get());
@@ -196,6 +201,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ELECTRUM_BATTLE_AXE.get());
                         output.accept(ModItems.ELECTRUM_DOUBLE_AXE.get());
                         output.accept(ModItems.ELECTRUM_MULTITOOL.get());
+                        output.accept(ModItems.ELECTRUM_BOW.get());
 
                         output.accept(ModItems.ELECTRUM_HELMET.get());
                         output.accept(ModItems.ELECTRUM_CHESTPLATE.get());

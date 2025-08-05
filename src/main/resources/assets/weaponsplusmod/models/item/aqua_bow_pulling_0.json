@@ -1,0 +1,6 @@
+{
+    "parent": "weaponsplusmod:item/aqua_bow",
+    "textures": {
+        "layer0": "weaponsplusmod:item/aqua_bow_pulling_0"
+    }
+}
