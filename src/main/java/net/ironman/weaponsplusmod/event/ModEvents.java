@@ -80,6 +80,10 @@ public class ModEvents {
                     new ItemStack(ModItems.SHARD_OF_THE_OCEAN.get(), 3),
                     new ItemStack(Items.DIAMOND), 2, 4, 0.04f
             ));
+            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(ModItems.RUBY.get(), 7),
+                    new ItemStack(Items.CHAINMAIL_CHESTPLATE), 2, 4, 0.04f
+            ));
         }
     }
     @SubscribeEvent
@@ -90,6 +94,10 @@ public class ModEvents {
             genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemStack(Items.EMERALD, 15),
                     new ItemStack(ModItems.PHOENIX_FEATHER.get(),1), 2, 4, 0.02f
+            ));
+            genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 17),
+                    new ItemStack(ModItems.SHARD_OF_THE_OCEAN.get(), 1), 3, 5, 0.03f
             ));
     }
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "M": {
+      "item": "weaponsplusmod:aqua_pearl"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MAM",
+    "MMM"
+  ],
+  "result": {
+    "item": "weaponsplusmod:aqua_apple"
+  },
+  "show_notification": true
+}
