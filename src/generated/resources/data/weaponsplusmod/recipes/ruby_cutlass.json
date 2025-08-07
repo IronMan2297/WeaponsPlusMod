@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "weaponsplusmod:ruby"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  M",
+    " MM",
+    " S "
+  ],
+  "result": {
+    "item": "weaponsplusmod:ruby_cutlass"
+  },
+  "show_notification": true
+}

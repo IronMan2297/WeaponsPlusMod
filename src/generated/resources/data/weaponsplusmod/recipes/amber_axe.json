@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "weaponsplusmod:amber_crystal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "result": {
+    "item": "weaponsplusmod:amber_axe"
+  },
+  "show_notification": true
+}

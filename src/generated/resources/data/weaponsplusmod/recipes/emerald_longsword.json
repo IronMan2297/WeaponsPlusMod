@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "minecraft:emerald"
+    },
+    "S": {
+      "item": "weaponsplusmod:emerald_sword"
+    }
+  },
+  "pattern": [
+    " M ",
+    " M ",
+    "MSM"
+  ],
+  "result": {
+    "item": "weaponsplusmod:emerald_longsword"
+  },
+  "show_notification": true
+}

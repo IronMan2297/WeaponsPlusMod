@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "weaponsplusmod:hell_gem"
+    },
+    "S": {
+      "item": "weaponsplusmod:hell_sword"
+    }
+  },
+  "pattern": [
+    " M ",
+    " M ",
+    "MSM"
+  ],
+  "result": {
+    "item": "weaponsplusmod:hell_longsword"
+  },
+  "show_notification": true
+}

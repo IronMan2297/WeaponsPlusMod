@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "weaponsplusmod:electrum_ingot"
+    },
+    "S": {
+      "item": "weaponsplusmod:electrum_sword"
+    }
+  },
+  "pattern": [
+    " M ",
+    " M ",
+    "MSM"
+  ],
+  "result": {
+    "item": "weaponsplusmod:electrum_longsword"
+  },
+  "show_notification": true
+}

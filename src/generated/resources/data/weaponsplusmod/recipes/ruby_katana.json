@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "weaponsplusmod:ruby"
+    },
+    "S": {
+      "item": "weaponsplusmod:ruby_sword"
+    }
+  },
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "result": {
+    "item": "weaponsplusmod:ruby_katana"
+  },
+  "show_notification": true
+}

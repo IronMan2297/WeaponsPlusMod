@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "weaponsplusmod:aqua_pearl"
+    },
+    "S": {
+      "item": "weaponsplusmod:aqua_sword"
+    }
+  },
+  "pattern": [
+    " M ",
+    " M ",
+    "MSM"
+  ],
+  "result": {
+    "item": "weaponsplusmod:aqua_longsword"
+  },
+  "show_notification": true
+}

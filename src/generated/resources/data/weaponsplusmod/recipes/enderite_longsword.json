@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "weaponsplusmod:enderite_ingot"
+    },
+    "S": {
+      "item": "weaponsplusmod:enderite_sword"
+    }
+  },
+  "pattern": [
+    " M ",
+    " M ",
+    "MSM"
+  ],
+  "result": {
+    "item": "weaponsplusmod:enderite_longsword"
+  },
+  "show_notification": true
+}

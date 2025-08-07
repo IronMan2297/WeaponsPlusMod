@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "M": {
+      "item": "weaponsplusmod:hell_gem"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " M ",
+    " G ",
+    " S "
+  ],
+  "result": {
+    "item": "weaponsplusmod:hell_dagger"
+  },
+  "show_notification": true
+}

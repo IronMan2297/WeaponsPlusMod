@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "M": {
+      "item": "minecraft:emerald"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " M ",
+    " G ",
+    " S "
+  ],
+  "result": {
+    "item": "weaponsplusmod:emerald_dagger"
+  },
+  "show_notification": true
+}

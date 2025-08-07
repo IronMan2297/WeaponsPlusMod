@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "weaponsplusmod:aqua_pearl"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MS ",
+    " S "
+  ],
+  "result": {
+    "item": "weaponsplusmod:aqua_battle_axe"
+  },
+  "show_notification": true
+}

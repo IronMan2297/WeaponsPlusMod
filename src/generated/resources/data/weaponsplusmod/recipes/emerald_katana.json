@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "minecraft:emerald"
+    },
+    "S": {
+      "item": "weaponsplusmod:emerald_sword"
+    }
+  },
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "result": {
+    "item": "weaponsplusmod:emerald_katana"
+  },
+  "show_notification": true
+}

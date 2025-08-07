@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "weaponsplusmod:electrum_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MS ",
+    " S "
+  ],
+  "result": {
+    "item": "weaponsplusmod:electrum_battle_axe"
+  },
+  "show_notification": true
+}
