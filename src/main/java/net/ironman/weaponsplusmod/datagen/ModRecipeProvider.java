@@ -29,7 +29,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeBow(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_BOW.get());
         makeBow(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_BOW.get());
         makeBow(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_BOW.get());
-        makeBow(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_BOW.get());
         makeBow(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_BOW.get());
         makeBow(pWriter, ModItems.RUBY.get(), ModItems.RUBY_BOW.get());
         makeBow(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_BOW.get());
@@ -45,7 +44,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeAxe(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_AXE.get());
         makeAxe(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_AXE.get());
         makeAxe(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_AXE.get());
-        makeAxe(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_AXE.get());
         makeAxe(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_AXE.get());
         makeAxe(pWriter, ModItems.RUBY.get(), ModItems.RUBY_AXE.get());
         makeAxe(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_AXE.get());
@@ -55,7 +53,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeBattleAxe(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_BATTLE_AXE.get());
         makeBattleAxe(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_BATTLE_AXE.get());
         makeBattleAxe(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_BATTLE_AXE.get());
-        makeBattleAxe(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_BATTLE_AXE.get());
         makeBattleAxe(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_BATTLE_AXE.get());
         makeBattleAxe(pWriter, ModItems.RUBY.get(), ModItems.RUBY_BATTLE_AXE.get());
         makeBattleAxe(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_BATTLE_AXE.get());
@@ -65,7 +62,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeCutlass(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_CUTLASS.get());
         makeCutlass(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_CUTLASS.get());
         makeCutlass(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_CUTLASS.get());
-        makeCutlass(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_CUTLASS.get());
         makeCutlass(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_CUTLASS.get());
         makeCutlass(pWriter, ModItems.RUBY.get(), ModItems.RUBY_CUTLASS.get());
         makeCutlass(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_CUTLASS.get());
@@ -75,7 +71,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeDagger(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_DAGGER.get());
         makeDagger(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_DAGGER.get());
         makeDagger(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_DAGGER.get());
-        makeDagger(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_DAGGER.get());
         makeDagger(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_DAGGER.get());
         makeDagger(pWriter, ModItems.RUBY.get(), ModItems.RUBY_DAGGER.get());
         makeDagger(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_DAGGER.get());
@@ -85,7 +80,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeHoe(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_HOE.get());
         makeHoe(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_HOE.get());
         makeHoe(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_HOE.get());
-        makeHoe(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_HOE.get());
         makeHoe(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_HOE.get());
         makeHoe(pWriter, ModItems.RUBY.get(), ModItems.RUBY_HOE.get());
         makeHoe(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_HOE.get());
@@ -95,7 +89,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeKatana(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_SWORD.get(), ModItems.HELL_KATANA.get());
         makeKatana(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_SWORD.get(), ModItems.AQUA_KATANA.get());
         makeKatana(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_SWORD.get(), ModItems.ENDERIUM_KATANA.get());
-        makeKatana(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_SWORD.get(), ModItems.ENDERITE_KATANA.get());
         makeKatana(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_SWORD.get(), ModItems.AMBER_KATANA.get());
         makeKatana(pWriter, ModItems.RUBY.get(), ModItems.RUBY_SWORD.get(), ModItems.RUBY_KATANA.get());
         makeKatana(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_SWORD.get(), ModItems.ELECTRUM_KATANA.get());
@@ -105,7 +98,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeLongsword(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_SWORD.get(), ModItems.HELL_LONGSWORD.get());
         makeLongsword(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_SWORD.get(), ModItems.AQUA_LONGSWORD.get());
         makeLongsword(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_SWORD.get(), ModItems.ENDERIUM_LONGSWORD.get());
-        makeLongsword(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_SWORD.get(), ModItems.ENDERITE_LONGSWORD.get());
         makeLongsword(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_SWORD.get(), ModItems.AMBER_LONGSWORD.get());
         makeLongsword(pWriter, ModItems.RUBY.get(), ModItems.RUBY_SWORD.get(), ModItems.RUBY_LONGSWORD.get());
         makeLongsword(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_SWORD.get(), ModItems.ELECTRUM_LONGSWORD.get());
@@ -115,7 +107,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makePickaxe(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_PICKAXE.get());
         makePickaxe(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_PICKAXE.get());
         makePickaxe(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_PICKAXE.get());
-        makePickaxe(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_PICKAXE.get());
         makePickaxe(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_PICKAXE.get());
         makePickaxe(pWriter, ModItems.RUBY.get(), ModItems.RUBY_PICKAXE.get());
         makePickaxe(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_PICKAXE.get());
@@ -125,7 +116,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeRapier(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_RAPIER.get());
         makeRapier(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_RAPIER.get());
         makeRapier(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_RAPIER.get());
-        makeRapier(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_RAPIER.get());
         makeRapier(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_RAPIER.get());
         makeRapier(pWriter, ModItems.RUBY.get(), ModItems.RUBY_RAPIER.get());
         makeRapier(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_RAPIER.get());
@@ -135,7 +125,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeShovel(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_SHOVEL.get());
         makeShovel(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_SHOVEL.get());
         makeShovel(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_SHOVEL.get());
-        makeShovel(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_SHOVEL.get());
         makeShovel(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_SHOVEL.get());
         makeShovel(pWriter, ModItems.RUBY.get(), ModItems.RUBY_SHOVEL.get());
         makeShovel(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_SHOVEL.get());
@@ -145,7 +134,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         makeSword(pWriter, ModItems.HELL_GEM.get(), ModItems.HELL_SWORD.get());
         makeSword(pWriter, ModItems.AQUA_PEARL.get(), ModItems.AQUA_SWORD.get());
         makeSword(pWriter, ModItems.ENDERIUM_INGOT.get(), ModItems.ENDERIUM_SWORD.get());
-        makeSword(pWriter, ModItems.ENDERITE_INGOT.get(), ModItems.ENDERITE_SWORD.get());
         makeSword(pWriter, ModItems.AMBER_CRYSTAL.get(), ModItems.AMBER_SWORD.get());
         makeSword(pWriter, ModItems.RUBY.get(), ModItems.RUBY_SWORD.get());
         makeSword(pWriter, ModItems.ELECTRUM_INGOT.get(), ModItems.ELECTRUM_SWORD.get());
