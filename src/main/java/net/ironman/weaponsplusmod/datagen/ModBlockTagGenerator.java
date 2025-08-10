@@ -41,7 +41,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEEPSLATE_ELECTRUM_ORE.get(),
                         ModBlocks.AMBER_BLOCK.get());
 
-        this.tag(BlockTags.NEEDS_IRON_TOOL)
+        this.tag(BlockTags.NEEDS_IRON_TOOL);
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.HELL_BLOCK.get(),
