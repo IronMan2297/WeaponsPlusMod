@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "weaponsplusmod:hell_gem_block"
+          "name": "weaponsplusmod:raw_hell_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "weaponsplusmod:blocks/hell_gem_block"
+  "random_sequence": "weaponsplusmod:blocks/raw_hell_block"
 }

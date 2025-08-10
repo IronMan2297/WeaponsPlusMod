@@ -1,6 +1,7 @@
 {
   "values": [
-    "weaponsplusmod:hell_gem_block",
+    "weaponsplusmod:hell_block",
+    "weaponsplusmod:raw_hell_block",
     "weaponsplusmod:nether_hell_ore",
     "weaponsplusmod:enderium_ore",
     "weaponsplusmod:enderium_block"

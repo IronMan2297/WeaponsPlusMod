@@ -22,8 +22,11 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, WeaponsPlusMod.MOD_ID);
 
 
-    public static final RegistryObject<Block> HELL_GEM_BLOCK = registerFireResistantBlock("hell_gem_block",
+    public static final RegistryObject<Block> HELL_BLOCK = registerFireResistantBlock("hell_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops()
+                    .mapColor(MapColor.COLOR_ORANGE)));
+    public static final RegistryObject<Block> RAW_HELL_BLOCK = registerFireResistantBlock("raw_hell_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).requiresCorrectToolForDrops()
                     .mapColor(MapColor.COLOR_ORANGE)));
 
     public static final RegistryObject<Block> NETHER_HELL_ORE = registerBlock("nether_hell_ore",
@@ -42,6 +45,15 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
+    public static final RegistryObject<Block> ENDERIUM_BLOCK = registerBlock("enderium_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops()
+                    .mapColor(MapColor.COLOR_PURPLE)));
+
+    public static final RegistryObject<Block> ENDERIUM_ORE = registerBlock("enderium_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
+
     public static final RegistryObject<Block> ENDERITE_BLOCK = registerBlock("enderite_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops()
                     .mapColor(MapColor.COLOR_PURPLE)));
@@ -53,14 +65,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> AMBER_BLOCK = registerBlock("amber_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)
                     .strength(5f).requiresCorrectToolForDrops().mapColor(MapColor.COLOR_ORANGE)));
-
-    public static final RegistryObject<Block> ENDERIUM_BLOCK = registerBlock("enderium_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops()
-                    .mapColor(MapColor.COLOR_PURPLE)));
-
-    public static final RegistryObject<Block> ENDERIUM_ORE = registerBlock("enderium_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
-                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).requiresCorrectToolForDrops()

@@ -16,7 +16,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(ModBlocks.HELL_GEM_BLOCK.get());
+        this.dropSelf(ModBlocks.HELL_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_HELL_BLOCK.get());
         this.dropSelf(ModBlocks.AQUA_BLOCK.get());
         this.dropSelf(ModBlocks.ENDERITE_BLOCK.get());
         this.dropSelf(ModBlocks.ENDERIUM_BLOCK.get());

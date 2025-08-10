@@ -2,11 +2,9 @@ package net.ironman.weaponsplusmod.item;
 
 import net.ironman.weaponsplusmod.WeaponsPlusMod;
 import net.ironman.weaponsplusmod.block.ModBlocks;
-import net.ironman.weaponsplusmod.worldgen.ModOrePlacement;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -44,7 +42,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AMBER_APPLE.get());
                         output.accept(ModItems.ELECTRUM_APPLE.get());
 
-                        output.accept(ModBlocks.HELL_GEM_BLOCK.get());
+                        output.accept(ModBlocks.HELL_BLOCK.get());
+                        output.accept(ModBlocks.RAW_HELL_BLOCK.get());
                         output.accept(ModBlocks.NETHER_HELL_ORE.get());
                         output.accept(ModBlocks.AQUA_BLOCK.get());
                         output.accept(ModBlocks.AQUA_ORE.get());

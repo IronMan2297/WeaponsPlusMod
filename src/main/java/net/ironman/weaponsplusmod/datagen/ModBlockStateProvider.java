@@ -16,7 +16,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.NETHER_HELL_ORE);
-        blockWithItem(ModBlocks.HELL_GEM_BLOCK);
+        blockWithItem(ModBlocks.HELL_BLOCK);
+        blockWithItem(ModBlocks.RAW_HELL_BLOCK);
 
         blockWithItem(ModBlocks.AQUA_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_AQUA_ORE);

@@ -6,7 +6,6 @@ import net.ironman.weaponsplusmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -24,7 +23,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.HELL_GEM_BLOCK.get(),
+                .add(ModBlocks.HELL_BLOCK.get(),
+                        ModBlocks.RAW_HELL_BLOCK.get(),
                         ModBlocks.NETHER_HELL_ORE.get(),
                         ModBlocks.AQUA_BLOCK.get(),
                         ModBlocks.AQUA_ORE.get(),
@@ -42,19 +42,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.AMBER_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.AQUA_ORE.get(),
-                        ModBlocks.AQUA_BLOCK.get(),
-                        ModBlocks.DEEPSLATE_AQUA_ORE.get(),
-                        ModBlocks.RUBY_BLOCK.get(),
-                        ModBlocks.RUBY_ORE.get(),
-                        ModBlocks.DEEPSLATE_RUBY_ORE.get(),
-                        ModBlocks.ELECTRUM_BLOCK.get(),
-                        ModBlocks.ELECTRUM_ORE.get(),
-                        ModBlocks.DEEPSLATE_ELECTRUM_ORE.get(),
-                        ModBlocks.AMBER_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.HELL_GEM_BLOCK.get(),
+                .add(ModBlocks.HELL_BLOCK.get(),
+                        ModBlocks.RAW_HELL_BLOCK.get(),
                         ModBlocks.NETHER_HELL_ORE.get(),
                         ModBlocks.ENDERIUM_ORE.get(),
                         ModBlocks.ENDERIUM_BLOCK.get());
